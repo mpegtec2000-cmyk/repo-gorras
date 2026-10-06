@@ -1,0 +1,166 @@
+"use client";
+
+import React, { useState, useMemo } from "react";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { Search, Plus, Filter, Download, Edit, Trash2 } from "lucide-react";
+import { Product, formatCLP, displayImages } from "@/lib/products";
+import styles from "./Products.module.css";
+
+export default function ProductsClient({ initialProducts }: { initialProducts: Product[] }) {
+  const router = useRouter();
+  const [query, setQuery] = useState("");
+  const [statusFilter, setStatusFilter] = useState("all");
+  const [productsList, setProductsList] = useState(initialProducts);
+
+  const filteredProducts = useMemo(() => {
+    return productsList.filter((p) => {
+      const matchQuery = (p.name + " " + p.brand + " " + p.slug).toLowerCase().includes(query.toLowerCase());
+      const matchStatus = 
+        statusFilter === "all" ? true :
+        statusFilter === "active" ? p.isActive :
+        statusFilter === "inactive" ? !p.isActive :
+        statusFilter === "low_stock" ? (p.stock > 0 && p.stock <= 2) :
+        statusFilter === "out_of_stock" ? p.stock === 0 : true;
+      
+      return matchQuery && matchStatus;
+    });
+  }, [productsList, query, statusFilter]);
+
+  const handleExport = () => {
+    const csvContent = "data:text/csv;charset=utf-8," 
+      + "ID,Marca,Modelo,Precio,Stock,Vendidos,Estado\n"
+      + filteredProducts.map(p => 
+          `${p.id},"${p.brand}","${p.name}",${p.price},${p.stock},${p.sold},${p.isActive ? 'Activo' : 'Inactivo'}`
+        ).join("\n");
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement("a");
+    link.setAttribute("href", encodedUri);
+    link.setAttribute("download", "spm_productos.csv");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const handleEdit = (id: string) => {
+    router.push(`/admin/productos/${id}`);
+  };
+
+  const handleDelete = (id: string) => {
+    if (confirm("¿Seguro que deseas eliminar este producto?")) {
+      setProductsList(prev => prev.filter(p => p.id !== id));
+      alert("Producto eliminado de la lista local (Falta persistencia en API)");
+    }
+  };
+
+  const handleNew = () => {
+    router.push(`/admin/productos/nuevo`);
+  };
+
+  return (
+    <div className={styles.container}>
+      <div className={styles.header}>
+        <h2 className={styles.title}>Catálogo de Productos ({filteredProducts.length})</h2>
+        <div className={styles.actions}>
+          <button className={styles.exportBtn} onClick={handleExport}>
+            <Download size={16} /> Exportar CSV
+          </button>
+          <button className={styles.addBtn} onClick={handleNew}>
+            <Plus size={16} /> Nuevo Producto
+          </button>
+        </div>
+      </div>
+
+      <div className={styles.filtersBar}>
+        <div className={styles.searchBox}>
+          <Search size={18} className={styles.searchIcon} />
+          <input
+            type="text"
+            placeholder="Buscar producto por nombre, marca o ID..."
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className={styles.searchInput}
+          />
+        </div>
+        <div className={styles.filterBox}>
+          <Filter size={18} className={styles.filterIcon} />
+          <select 
+            value={statusFilter} 
+            onChange={(e) => setStatusFilter(e.target.value)}
+            className={styles.filterSelect}
+          >
+            <option value="all">Todos los estados</option>
+            <option value="active">Activos en tienda</option>
+            <option value="inactive">Ocultos</option>
+            <option value="low_stock">Stock bajo (1-2)</option>
+            <option value="out_of_stock">Agotados (0)</option>
+          </select>
+        </div>
+      </div>
+
+      <div className={styles.tableWrapper}>
+        <table className={styles.table}>
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Marca</th>
+              <th>Precio</th>
+              <th>Inventario</th>
+              <th>Estado</th>
+              <th className={styles.textRight}>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filteredProducts.length === 0 ? (
+              <tr>
+                <td colSpan={6} className={styles.emptyState}>No se encontraron productos.</td>
+              </tr>
+            ) : (
+              filteredProducts.map((p) => {
+                const img = displayImages(p)[0];
+                return (
+                  <tr key={p.id}>
+                    <td>
+                      <div className={styles.productCell}>
+                        <Image src={img.src} alt={img.alt} width={40} height={40} className={styles.productImg} />
+                        <div>
+                          <p className={styles.productName}>{p.name}</p>
+                          <p className={styles.productId}>{p.id}</p>
+                        </div>
+                      </div>
+                    </td>
+                    <td>{p.brand}</td>
+                    <td>{formatCLP(p.price)}</td>
+                    <td>
+                      <div className={styles.stockInfo}>
+                        <span className={`${styles.stockBadge} ${p.stock === 0 ? styles.stockNone : p.stock <= 2 ? styles.stockLow : styles.stockOk}`}>
+                          {p.stock} un.
+                        </span>
+                        <span className={styles.soldText}>{p.sold} vendidos</span>
+                      </div>
+                    </td>
+                    <td>
+                      <span className={`${styles.statusBadge} ${p.isActive ? styles.statusActive : styles.statusInactive}`}>
+                        {p.isActive ? "Activo" : "Oculto"}
+                      </span>
+                    </td>
+                    <td>
+                      <div className={styles.actionButtons}>
+                        <button className={styles.iconBtn} title="Editar" onClick={() => handleEdit(p.id)}>
+                          <Edit size={16} />
+                        </button>
+                        <button className={`${styles.iconBtn} ${styles.dangerBtn}`} title="Eliminar" onClick={() => handleDelete(p.id)}>
+                          <Trash2 size={16} />
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                );
+              })
+            )}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}

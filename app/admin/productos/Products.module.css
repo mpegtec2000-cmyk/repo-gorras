@@ -1,0 +1,285 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.exportBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  color: #374151;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.exportBtn:hover {
+  background-color: #f3f4f6;
+}
+
+.addBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #111827;
+  border: 1px solid #111827;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.addBtn:hover {
+  background-color: #374151;
+}
+
+.filtersBar {
+  display: flex;
+  gap: 1rem;
+  background-color: #ffffff;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.searchBox {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 0.75rem;
+  color: #9ca3af;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.6rem 1rem 0.6rem 2.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.searchInput:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.filterBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+}
+
+.filterIcon {
+  position: absolute;
+  left: 0.75rem;
+  color: #9ca3af;
+  pointer-events: none;
+}
+
+.filterSelect {
+  width: 100%;
+  padding: 0.6rem 1rem 0.6rem 2.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.filterSelect:focus {
+  border-color: #3b82f6;
+}
+
+.tableWrapper {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f9fafb;
+  padding: 0.75rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  vertical-align: middle;
+  font-size: 0.85rem;
+  color: #374151;
+}
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+
+.table tr:hover td {
+  background-color: #f9fafb;
+}
+
+.productCell {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.productImg {
+  border-radius: 6px;
+  object-fit: cover;
+  background-color: #f3f4f6;
+}
+
+.productName {
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+  color: #111827;
+}
+
+.productId {
+  margin: 0;
+  font-size: 0.7rem;
+  color: #9ca3af;
+}
+
+.stockInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.stockBadge {
+  display: inline-flex;
+  width: fit-content;
+  padding: 0.15rem 0.5rem;
+  border-radius: 99px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.stockOk {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.stockLow {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.stockNone {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.soldText {
+  font-size: 0.7rem;
+  color: #6b7280;
+}
+
+.statusBadge {
+  display: inline-flex;
+  padding: 0.15rem 0.5rem;
+  border-radius: 99px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.statusActive {
+  background-color: #e0e7ff;
+  color: #3730a3;
+}
+
+.statusInactive {
+  background-color: #f3f4f6;
+  color: #4b5563;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.iconBtn {
+  padding: 0.4rem;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  border-radius: 6px;
+  color: #6b7280;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconBtn:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.dangerBtn:hover {
+  background-color: #fef2f2;
+  color: #ef4444;
+  border-color: #fca5a5;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 3rem !important;
+  color: #6b7280;
+  font-style: italic;
+}

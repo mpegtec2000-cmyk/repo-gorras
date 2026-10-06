@@ -1,0 +1,267 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.backBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  color: #374151;
+  transition: all 0.2s;
+}
+
+.backBtn:hover {
+  background-color: #f3f4f6;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.saveBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  background-color: #10b981;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.saveBtn:hover {
+  opacity: 0.9;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 1.5rem;
+}
+
+.mainCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sideCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 1.25rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.formGroup:last-child {
+  margin-bottom: 0;
+}
+
+.formGroup label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.formGroup input, .formGroup textarea, .formGroup select {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  font-family: inherit;
+}
+
+.formGroup input:focus, .formGroup textarea:focus, .formGroup select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.seoHint {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin: -0.5rem 0 1.25rem 0;
+}
+
+.googlePreview {
+  background-color: #f9fafb;
+  border: 1px dashed #d1d5db;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.googleUrl {
+  font-size: 0.8rem;
+  color: #4b5563;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.googleTitle {
+  font-size: 1.1rem;
+  color: #1a0dab;
+  margin: 0 0 0.25rem 0;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.googleDesc {
+  font-size: 0.85rem;
+  color: #4d5156;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.imageUploadArea {
+  margin-top: 1rem;
+}
+
+.uploadEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 3rem;
+  border: 2px dashed #d1d5db;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.uploadEmpty:hover {
+  background-color: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+.uploadIcon {
+  color: #9ca3af;
+}
+
+.uploadEmpty p {
+  margin: 0;
+  font-weight: 600;
+  color: #374151;
+}
+
+.uploadEmpty span {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.imagesGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+
+.uploadedImg {
+  object-fit: cover;
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.webpBadge {
+  background-color: #10b981;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+}
+
+.uploadMoreBtn {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #d1d5db;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  color: #9ca3af;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.uploadMoreBtn:hover {
+  background-color: #f3f4f6;
+  color: #6b7280;
+}

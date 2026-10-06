@@ -1,7 +1,7 @@
 import React from "react";
 import { getBrands } from "@/lib/products";
 import { getProducts as getAllProducts } from "@/lib/catalog";
-import styles from "../productos/Products.module.css"; // Reuse table styles
+import styles from "../ventas/Ventas.module.css"; // Reuse table styles
 
 export const metadata = {
   title: "Marcas y Colecciones | SaaS Admin",

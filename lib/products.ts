@@ -50,7 +50,7 @@ export interface Brand {
   sold: number;
 }
 
-export const PLACEHOLDER_IMAGE = "/products/placeholder-cap.webp";
+export const PLACEHOLDER_IMAGE = "/products/placeholder-cap.png";
 export const DEFAULT_SIZES = ["Única · Ajustable"];
 export const SEO_TITLE_MAX = 60;
 export const SEO_DESCRIPTION_MAX = 160;

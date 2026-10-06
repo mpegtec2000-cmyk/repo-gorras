@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import styles from "./HeroSlider.module.css";
 
 const SLIDES = [
@@ -65,30 +65,22 @@ const SLIDES = [
 
 export default function HeroSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
 
   const nextSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % SLIDES.length);
   }, []);
 
-  const prevSlide = useCallback(() => {
-    setCurrentIndex((prev) => (prev - 1 + SLIDES.length) % SLIDES.length);
-  }, []);
-
-  // Bucle automático cada 2 segundos (2000ms)
+  // Bucle automático continuo cada 3 segundos
   useEffect(() => {
-    if (isPaused) return;
     const interval = setInterval(() => {
       nextSlide();
-    }, 2000);
+    }, 3000);
     return () => clearInterval(interval);
-  }, [nextSlide, isPaused]);
+  }, [nextSlide]);
 
   return (
     <section
       className={styles.hero}
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
       aria-label="Hero Carousel SPM"
     >
       {SLIDES.map((slide, index) => {
@@ -131,39 +123,8 @@ export default function HeroSlider() {
         );
       })}
 
-      {/* Nav Controls */}
-      <button
-        onClick={prevSlide}
-        className={`${styles.navBtn} ${styles.prevBtn}`}
-        aria-label="Anterior fondo"
-      >
-        <ChevronLeft size={24} />
-      </button>
+      {/* Nav Controls Removed */}
 
-      <button
-        onClick={nextSlide}
-        className={`${styles.navBtn} ${styles.nextBtn}`}
-        aria-label="Siguiente fondo"
-      >
-        <ChevronRight size={24} />
-      </button>
-
-      {/* Progress Indicators / Dots */}
-      <div className={styles.indicators}>
-        {SLIDES.map((_, idx) => (
-          <button
-            key={idx}
-            onClick={() => setCurrentIndex(idx)}
-            className={`${styles.dot} ${idx === currentIndex ? styles.activeDot : ""}`}
-            aria-label={`Ir a diapositiva ${idx + 1}`}
-          >
-            <span
-              key={idx === currentIndex ? `active-${idx}` : `idle-${idx}`}
-              className={styles.progressBar}
-            />
-          </button>
-        ))}
-      </div>
     </section>
   );
 }

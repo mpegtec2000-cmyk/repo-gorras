@@ -2,12 +2,13 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Flame, Shield, Sparkles } from "lucide-react";
-import HeroSlider from "./components/HeroSlider";
-import Marquee from "./components/Marquee";
-import ProductCard from "./components/ProductCard";
-import CategoryGrid from "./components/CategoryGrid";
+import HeroSlider from "../components/HeroSlider";
+import Marquee from "../components/Marquee";
+import ProductCard from "../components/ProductCard";
+import CategoryGrid from "../components/CategoryGrid";
+import ScrollReveal from "../components/ScrollReveal";
 import { getNewArrivals, getFeatured } from "@/lib/products";
-import { getAllProducts } from "@/lib/catalog";
+import { getProducts } from "@/lib/catalog";
 import { site } from "@/lib/site";
 import styles from "./page.module.css";
 
@@ -32,7 +33,7 @@ function InstagramIcon({ size = 24, className }: { size?: number | string; class
 }
 
 export default async function Home() {
-  const allProducts = await getAllProducts();
+  const allProducts = await getProducts();
   const newDrops = getNewArrivals(allProducts, 4);
   const featured = getFeatured(allProducts, 8);
 
@@ -41,11 +42,11 @@ export default async function Home() {
       {/* Hero Slider with 2s loop & desktop/mobile picture fallback */}
       <HeroSlider />
 
-      {/* Marquee Banner */}
-      <Marquee />
+      {/* Marquee Banner Removed */}
 
       {/* New Drops Section */}
-      <section className={styles.section}>
+      <ScrollReveal>
+        <section className={styles.dropsSection}>
         <div className="container">
           <div className={styles.sectionHeader}>
             <div>
@@ -66,17 +67,21 @@ export default async function Home() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* Category Grid Section */}
-      <CategoryGrid />
+      <ScrollReveal>
+        <CategoryGrid />
+      </ScrollReveal>
 
       {/* Editorial Lookbook Banner */}
-      <section className={styles.editorialSection}>
+      <ScrollReveal>
+        <section className={styles.editorialSection}>
         <div className={styles.editorialBgContainer}>
           <picture>
-            <source media="(min-width: 768px)" srcSet="/hero/desktop/fondo-4-1920.webp" />
+            <source media="(min-width: 768px)" srcSet="/backgrounds/fondo-2.jpg" />
             <img
-              src="/hero/mobile/fondo-4-1080.webp"
+              src="/backgrounds/fondo-2.jpg"
               alt="SPM Streetwear Lookbook"
               className={styles.editorialBg}
             />
@@ -89,7 +94,10 @@ export default async function Home() {
             <span className={styles.editorialTag}>EDICIÓN LIMITADA</span>
             <h2 className={styles.editorialTitle}>NO RULES. JUST STREETWEAR.</h2>
             <p className={styles.editorialDesc}>
-              Inspirados en la arquitectura urbana y la cultura subterránea. Cada gorra SPM es diseñada con materiales pesados, bordados 3D de máxima definición y acabados que resisten el uso diario.
+              Inspiración urbana y subterránea convertida en un estilo único para gente única. Cada gorra SPM cuenta con materiales pesados, bordados 3D de máxima definición y acabados diseñados para el uso diario.
+              <br />
+              <br />
+              Descubre más de las colecciones de SPM.
             </p>
             <Link href="/tienda" className={styles.editorialBtn}>
               DESCUBRIR COLECCIÓN
@@ -97,9 +105,11 @@ export default async function Home() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
       {/* Best Sellers Section */}
-      <section className={styles.section}>
+      <ScrollReveal>
+        <section className={styles.section}>
         <div className="container">
           <div className={styles.sectionHeader}>
             <div>
@@ -120,12 +130,13 @@ export default async function Home() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
 
-      {/* Reverse Marquee */}
-      <Marquee reverse />
+      {/* Reverse Marquee Removed */}
 
       {/* Instagram Community Banner */}
-      <section className={styles.instagramSection}>
+      <ScrollReveal>
+        <section className={styles.instagramSection}>
         <div className="container">
           <div className={styles.instaBox}>
             <InstagramIcon size={48} className={styles.instaIcon} />
@@ -144,6 +155,7 @@ export default async function Home() {
           </div>
         </div>
       </section>
+      </ScrollReveal>
     </>
   );
 }

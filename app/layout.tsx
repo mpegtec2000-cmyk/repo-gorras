@@ -2,11 +2,8 @@ import type { Metadata, Viewport } from "next";
 import { Archivo, Inter } from "next/font/google";
 import "./globals.css";
 import { site } from "@/lib/site";
-import { CartProvider } from "./components/CartContext";
-import Navbar from "./components/Navbar";
-import CartDrawer from "./components/CartDrawer";
-import Footer from "./components/Footer";
 import { OrganizationJsonLd } from "./components/JsonLd";
+import CookieConsent from "./components/CookieConsent";
 
 const archivo = Archivo({
   subsets: ["latin"],
@@ -83,13 +80,9 @@ export default function RootLayout({
   return (
     <html lang={site.lang} className={`${archivo.variable} ${inter.variable}`}>
       <body>
-        <CartProvider>
-          <OrganizationJsonLd />
-          <Navbar />
-          <main style={{ minHeight: "calc(100vh - 400px)" }}>{children}</main>
-          <CartDrawer />
-          <Footer />
-        </CartProvider>
+        <OrganizationJsonLd />
+        {children}
+        <CookieConsent />
       </body>
     </html>
   );

@@ -11,7 +11,7 @@ const BRAND_LIST = Object.entries(BRAND_NAMES).map(([slug, name]) => ({
   slug,
   name,
   desc: `Colección exclusiva ${name} de edición limitada.`,
-  image: "/products/placeholder-cap.webp",
+  image: `/brands/${slug}.png`,
 }));
 
 export default function CategoryGrid() {

@@ -1,0 +1,1937 @@
+[
+  {
+    "id": "prod_1",
+    "slug": "cash-only-negro-flores-azul",
+    "name": "negro flores azul",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only negro flores azul",
+    "seoDescription": "Jockey Cash Only negro flores azul. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 4,
+    "sold": 0,
+    "stock": 4,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Cash Only modelo negro flores azul. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "negro flores azul"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_2",
+    "slug": "cash-only-celeste-desgast",
+    "name": "celeste desgast",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only celeste desgast",
+    "seoDescription": "Jockey Cash Only celeste desgast. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 1,
+    "stock": 0,
+    "isNew": false,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Cash Only modelo celeste desgast. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "celeste desgast"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_3",
+    "slug": "cash-only-ny-azul-marino-con-perrlas-blancas",
+    "name": "NY azul marino con perrlas blancas",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only NY azul marino con perrlas blancas",
+    "seoDescription": "Jockey Cash Only ny azul marino con perrlas blancas. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 2,
+    "stock": 0,
+    "isNew": false,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Cash Only modelo NY azul marino con perrlas blancas. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY azul marino con perrlas blancas"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_4",
+    "slug": "cash-only-negro-cruces-3",
+    "name": "negro cruces 3",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only negro cruces 3",
+    "seoDescription": "Jockey Cash Only negro cruces 3. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Cash Only modelo negro cruces 3. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "negro cruces 3"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_5",
+    "slug": "cash-only-negro-cruces-plateada-3",
+    "name": "negro cruces  plateada 3",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only negro cruces plateada 3",
+    "seoDescription": "Jockey Cash Only negro cruces plateada 3. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Cash Only modelo negro cruces  plateada 3. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "negro cruces  plateada 3"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_6",
+    "slug": "cash-only-nyc-azul-marino",
+    "name": "NYC azul marino",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only NYC azul marino",
+    "seoDescription": "Jockey Cash Only nyc azul marino. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 0,
+    "stock": 2,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Cash Only modelo NYC azul marino. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "NYC azul marino"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_7",
+    "slug": "cash-only-negro-rockstar",
+    "name": "Negro rockstar",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only Negro rockstar",
+    "seoDescription": "Jockey Cash Only negro rockstar. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Cash Only modelo Negro rockstar. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negro rockstar"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_8",
+    "slug": "dreamer-hats-verde-militar-letras-japo",
+    "name": "Verde militar letras japo",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats Verde militar letras japo",
+    "seoDescription": "Jockey Dreamer Hats verde militar letras japo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 1,
+    "stock": 1,
+    "isNew": false,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Jockey Dreamer Hats modelo Verde militar letras japo. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Verde militar letras japo"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_9",
+    "slug": "dreamer-hats-negro-letras-japo",
+    "name": "Negro letras japo",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats Negro letras japo",
+    "seoDescription": "Jockey Dreamer Hats negro letras japo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 1,
+    "stock": 1,
+    "isNew": false,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Jockey Dreamer Hats modelo Negro letras japo. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negro letras japo"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_10",
+    "slug": "dreamer-hats-negro-conbrillos-y-letras-japo",
+    "name": "negro conbrillos y letras japo",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats negro conbrillos y letras japo",
+    "seoDescription": "Jockey Dreamer Hats negro conbrillos y letras japo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Dreamer Hats modelo negro conbrillos y letras japo. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "negro conbrillos y letras japo"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_11",
+    "slug": "icon-hats-negro-co-brillos-yankes",
+    "name": "negro co brillos yankes",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Jockey Icon Hats negro co brillos yankes",
+    "seoDescription": "Jockey Icon Hats negro co brillos yankes. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 1,
+    "stock": 1,
+    "isNew": false,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Jockey Icon Hats modelo negro co brillos yankes. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Icon Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "negro co brillos yankes"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_12",
+    "slug": "rebel-hats-rosada",
+    "name": "rosada",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats rosada",
+    "seoDescription": "Jockey Rebel Hats rosada. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 1,
+    "stock": 1,
+    "isNew": false,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Jockey Rebel Hats modelo rosada. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "rosada"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_13",
+    "slug": "rebel-hats-cafe",
+    "name": "cafe",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats cafe",
+    "seoDescription": "Jockey Rebel Hats cafe. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 0,
+    "stock": 2,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Rebel Hats modelo cafe. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "cafe"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_14",
+    "slug": "rebel-hats-ngra-r",
+    "name": "NGRA R",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats NGRA R",
+    "seoDescription": "Jockey Rebel Hats ngra r. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 4,
+    "sold": 1,
+    "stock": 3,
+    "isNew": false,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Jockey Rebel Hats modelo NGRA R. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "NGRA R"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_15",
+    "slug": "rebel-hats-efecto-spray-demonio",
+    "name": "Efecto spray demonio",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Efecto spray demonio",
+    "seoDescription": "Jockey Rebel Hats efecto spray demonio. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 0,
+    "stock": 2,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Rebel Hats modelo Efecto spray demonio. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Efecto spray demonio"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_16",
+    "slug": "rebel-hats-total-black-angel-bordado",
+    "name": "Total black angel bordado",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Total black angel bordado",
+    "seoDescription": "Jockey Rebel Hats total black angel bordado. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 1,
+    "stock": 1,
+    "isNew": false,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Jockey Rebel Hats modelo Total black angel bordado. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Total black angel bordado"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_17",
+    "slug": "inedit-negro-gris-bordado-blanco-grafiti-gris",
+    "name": "Negro/gris bordado blanco, grafiti gris",
+    "brand": "Inédit",
+    "brandSlug": "inedit",
+    "seoTitle": "Jockey Inédit Negro/gris bordado blanco, grafiti gris",
+    "seoDescription": "Jockey Inédit negro/gris bordado blanco, grafiti gris. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 0,
+    "stock": 2,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Inédit modelo Negro/gris bordado blanco, grafiti gris. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Inédit"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negro/gris bordado blanco, grafiti gris"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_18",
+    "slug": "inedit-lovers-club-azul-marino-con-coraz-n-rojo",
+    "name": "Lovers Club azul marino con coraz├│n rojo",
+    "brand": "Inédit",
+    "brandSlug": "inedit",
+    "seoTitle": "Jockey Inédit Lovers Club azul marino con coraz├│n rojo",
+    "seoDescription": "Jockey Inédit lovers club azul marino con coraz├│n rojo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 2,
+    "stock": 0,
+    "isNew": false,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Inédit modelo Lovers Club azul marino con coraz├│n rojo. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Inédit"
+      },
+      {
+        "label": "Modelo",
+        "value": "Lovers Club azul marino con coraz├│n rojo"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_19",
+    "slug": "inedit-negra-letras-beige-efecto-spray-blanco-y-negro-y-visera-desgastada",
+    "name": "Negra, letras beige, efecto spray blanco y negro y visera desgastada",
+    "brand": "Inédit",
+    "brandSlug": "inedit",
+    "seoTitle": "Jockey Inédit Negra, letras beige, efecto spray blanco y",
+    "seoDescription": "Jockey Inédit negra, letras beige, efecto spray blanco y negro y visera desgastada. Gorra streetwear original de edición limitada. Compra en SPM Store con",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Inédit modelo Negra, letras beige, efecto spray blanco y negro y visera desgastada. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Inédit"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra, letras beige, efecto spray blanco y negro y visera desgastada"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_20",
+    "slug": "fame-club-estrella-s-celeste-con-brillos",
+    "name": "Estrella S celeste con brillos",
+    "brand": "Fame Club",
+    "brandSlug": "fame-club",
+    "seoTitle": "Jockey Fame Club Estrella S celeste con brillos",
+    "seoDescription": "Jockey Fame Club estrella s celeste con brillos. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Fame Club modelo Estrella S celeste con brillos. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Fame Club"
+      },
+      {
+        "label": "Modelo",
+        "value": "Estrella S celeste con brillos"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_21",
+    "slug": "fame-club-estrella-s-rosa-con-brillos",
+    "name": "Estrella S ROSA con brillos",
+    "brand": "Fame Club",
+    "brandSlug": "fame-club",
+    "seoTitle": "Jockey Fame Club Estrella S ROSA con brillos",
+    "seoDescription": "Jockey Fame Club estrella s rosa con brillos. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Fame Club modelo Estrella S ROSA con brillos. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Fame Club"
+      },
+      {
+        "label": "Modelo",
+        "value": "Estrella S ROSA con brillos"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_22",
+    "slug": "thirty-one-verde-petroleo-bordado-multicolo",
+    "name": "Verde petroleo bordado multicolo",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Verde petroleo bordado multicolo",
+    "seoDescription": "Jockey Thirty One verde petroleo bordado multicolo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 0,
+    "stock": 2,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Verde petroleo bordado multicolo. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Verde petroleo bordado multicolo"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_23",
+    "slug": "thirty-one-negra-letras-blancas-boyz",
+    "name": "Negra letras blancas boyz",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra letras blancas boyz",
+    "seoDescription": "Jockey Thirty One negra letras blancas boyz. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra letras blancas boyz. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra letras blancas boyz"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_24",
+    "slug": "thirty-one-negra-bb-blanco-rojo",
+    "name": "Negra BB blanco/rojo",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra BB blanco/rojo",
+    "seoDescription": "Jockey Thirty One negra bb blanco/rojo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 0,
+    "stock": 2,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra BB blanco/rojo. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra BB blanco/rojo"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_25",
+    "slug": "thirty-one-negra-con-m-y-piedras-negras",
+    "name": "Negra con M y piedras negras",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra con M y piedras negras",
+    "seoDescription": "Jockey Thirty One negra con m y piedras negras. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 1,
+    "stock": 1,
+    "isNew": false,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra con M y piedras negras. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra con M y piedras negras"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_26",
+    "slug": "thirty-one-negra-con-ny-piedras-plateadascorazones-rosa",
+    "name": "Negra con NY piedras plateadascorazones rosa",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra con NY piedras plateadascorazones",
+    "seoDescription": "Jockey Thirty One negra con ny piedras plateadascorazones rosa. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 3,
+    "sold": 0,
+    "stock": 3,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra con NY piedras plateadascorazones rosa. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra con NY piedras plateadascorazones rosa"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_27",
+    "slug": "thirty-one-negra-ny-plateado-con-gris-y-brillos",
+    "name": "negra NY plateado con gris y brillos",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One negra NY plateado con gris y brillos",
+    "seoDescription": "Jockey Thirty One negra ny plateado con gris y brillos. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo negra NY plateado con gris y brillos. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "negra NY plateado con gris y brillos"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_28",
+    "slug": "thirty-one-negra-la-rosada-con-coraz-n-rojo-efecto-spray-rosado-bordado-lateral-y-visera-n",
+    "name": "Negra LA rosada con coraz├│n rojo, efecto spray rosado, bordado lateral y visera negra",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra LA rosada con coraz├│n rojo, efecto",
+    "seoDescription": "Jockey Thirty One negra la rosada con coraz├│n rojo, efecto spray rosado, bordado lateral y visera negra. Gorra streetwear original de edición limitada. Compra",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 3,
+    "sold": 0,
+    "stock": 3,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra LA rosada con coraz├│n rojo, efecto spray rosado, bordado lateral y visera negra. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra LA rosada con coraz├│n rojo, efecto spray rosado, bordado lateral y visera negra"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_29",
+    "slug": "thirty-one-negra-la-gris-tachas-plateadas",
+    "name": "Negra LA gris tachas plateadas",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra LA gris tachas plateadas",
+    "seoDescription": "Jockey Thirty One negra la gris tachas plateadas. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra LA gris tachas plateadas. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra LA gris tachas plateadas"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_30",
+    "slug": "thirty-one-negra-con-b-grande-piedras-negras-y-detalles-grises",
+    "name": "negra con B grande piedras negras y detalles grises",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One negra con B grande piedras negras y",
+    "seoDescription": "Jockey Thirty One negra con b grande piedras negras y detalles grises. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo negra con B grande piedras negras y detalles grises. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "negra con B grande piedras negras y detalles grises"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_31",
+    "slug": "thirty-one-negra-con-parches-rojos-blancos-y-negros-y-chapa",
+    "name": "Negra con parches rojos blancos y negros y chapa",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra con parches rojos blancos y negros y",
+    "seoDescription": "Jockey Thirty One negra con parches rojos blancos y negros y chapa. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra con parches rojos blancos y negros y chapa. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra con parches rojos blancos y negros y chapa"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_32",
+    "slug": "thirty-one-negra-la-plateado-con-piedras-d-colores",
+    "name": "Negra LA plateado con piedras d colores",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra LA plateado con piedras d colores",
+    "seoDescription": "Jockey Thirty One negra la plateado con piedras d colores. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra LA plateado con piedras d colores. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra LA plateado con piedras d colores"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_33",
+    "slug": "thirty-one-negra-thirty-verde-con-piedras-plateadas",
+    "name": "negra thirty verde con piedras plateadas",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One negra thirty verde con piedras plateadas",
+    "seoDescription": "Jockey Thirty One negra thirty verde con piedras plateadas. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo negra thirty verde con piedras plateadas. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "negra thirty verde con piedras plateadas"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_34",
+    "slug": "thirty-one-azulmarino-la-piedras-de-colores",
+    "name": "azulmarino LA piedras de colores",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One azulmarino LA piedras de colores",
+    "seoDescription": "Jockey Thirty One azulmarino la piedras de colores. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo azulmarino LA piedras de colores. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "azulmarino LA piedras de colores"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_35",
+    "slug": "thirty-one-negra-la-piedras-blancas",
+    "name": "Negra LA piedras blancas",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra LA piedras blancas",
+    "seoDescription": "Jockey Thirty One negra la piedras blancas. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra LA piedras blancas. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra LA piedras blancas"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_36",
+    "slug": "thirty-one-negra-thirty-con-cruces-plateadas-a-la-orilla",
+    "name": "Negra THIRTY con cruces plateadas a la orilla",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra THIRTY con cruces plateadas a la",
+    "seoDescription": "Jockey Thirty One negra thirty con cruces plateadas a la orilla. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra THIRTY con cruces plateadas a la orilla. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra THIRTY con cruces plateadas a la orilla"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_37",
+    "slug": "thirty-one-negra-con-b-plateada-letras-negras-y-b-brillante",
+    "name": "negra con b plateada letras negras y B brillante",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One negra con b plateada letras negras y B",
+    "seoDescription": "Jockey Thirty One negra con b plateada letras negras y b brillante. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo negra con b plateada letras negras y B brillante. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "negra con b plateada letras negras y B brillante"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_38",
+    "slug": "thirty-one-negra-con-b-y-corona-piedras-negras-malla-lateral",
+    "name": "Negra con B y corona piedras negras malla lateral",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra con B y corona piedras negras malla",
+    "seoDescription": "Jockey Thirty One negra con b y corona piedras negras malla lateral. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra con B y corona piedras negras malla lateral. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra con B y corona piedras negras malla lateral"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_39",
+    "slug": "thirty-one-roja-y-negra-back-pack-boyz-bordados-blancos-y-negros",
+    "name": "roja y negra back pack boyz bordados blancos y negros",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One roja y negra back pack boyz bordados",
+    "seoDescription": "Jockey Thirty One roja y negra back pack boyz bordados blancos y negros. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo roja y negra back pack boyz bordados blancos y negros. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "roja y negra back pack boyz bordados blancos y negros"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_40",
+    "slug": "thirty-one-negra-con-ny-blanco-y-piedras-tipo-perlas-en-todo-el-gorro",
+    "name": "Negra con NY blanco y piedras tipo perlas en todo el gorro",
+    "brand": "Thirty One",
+    "brandSlug": "thirty-one",
+    "seoTitle": "Jockey Thirty One Negra con NY blanco y piedras tipo perlas",
+    "seoDescription": "Jockey Thirty One negra con ny blanco y piedras tipo perlas en todo el gorro. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Thirty One modelo Negra con NY blanco y piedras tipo perlas en todo el gorro. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Thirty One"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra con NY blanco y piedras tipo perlas en todo el gorro"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_41",
+    "slug": "anymore-negra-con-letras-plateadas-y-brillos-angeles-grises",
+    "name": "Negra  con letras plateadas y brillos, angeles grises",
+    "brand": "Anymore",
+    "brandSlug": "anymore",
+    "seoTitle": "Jockey Anymore Negra con letras plateadas y brillos, angeles",
+    "seoDescription": "Jockey Anymore negra con letras plateadas y brillos, angeles grises. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 2,
+    "sold": 1,
+    "stock": 1,
+    "isNew": false,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Jockey Anymore modelo Negra  con letras plateadas y brillos, angeles grises. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Anymore"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra  con letras plateadas y brillos, angeles grises"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_42",
+    "slug": "barbas-hats-cafe-con-b-rosa",
+    "name": "cafe con B ROSA",
+    "brand": "Barbas Hats",
+    "brandSlug": "barbas-hats",
+    "seoTitle": "Jockey Barbas Hats cafe con B ROSA",
+    "seoDescription": "Jockey Barbas Hats cafe con b rosa. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Barbas Hats modelo cafe con B ROSA. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Barbas Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "cafe con B ROSA"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_43",
+    "slug": "barbas-hats-negra-barbas-connun-gato",
+    "name": "negra barbas connun gato",
+    "brand": "Barbas Hats",
+    "brandSlug": "barbas-hats",
+    "seoTitle": "Jockey Barbas Hats negra barbas connun gato",
+    "seoDescription": "Jockey Barbas Hats negra barbas connun gato. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Barbas Hats modelo negra barbas connun gato. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Barbas Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "negra barbas connun gato"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_44",
+    "slug": "barbas-hats-negra-letras-rojas-n-mero-27-tumbados-corridos",
+    "name": "Negra letras rojas n├║mero 27 tumbados corridos",
+    "brand": "Barbas Hats",
+    "brandSlug": "barbas-hats",
+    "seoTitle": "Jockey Barbas Hats Negra letras rojas n├║mero 27 tumbados",
+    "seoDescription": "Jockey Barbas Hats negra letras rojas n├║mero 27 tumbados corridos. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Barbas Hats modelo Negra letras rojas n├║mero 27 tumbados corridos. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Barbas Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra letras rojas n├║mero 27 tumbados corridos"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  },
+  {
+    "id": "prod_45",
+    "slug": "barbas-hats-negra-con-estrlla-y6-piedra-negras",
+    "name": "Negra con estrlla y6 piedra negras",
+    "brand": "Barbas Hats",
+    "brandSlug": "barbas-hats",
+    "seoTitle": "Jockey Barbas Hats Negra con estrlla y6 piedra negras",
+    "seoDescription": "Jockey Barbas Hats negra con estrlla y6 piedra negras. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Referencia imagen",
+      "hex": "#000000"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "",
+        "alt": ""
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Jockey Barbas Hats modelo Negra con estrlla y6 piedra negras. 100% original.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Barbas Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Negra con estrlla y6 piedra negras"
+      }
+    ],
+    "createdAt": "2026-10-06T04:25:04.637Z",
+    "updatedAt": "2026-10-06T04:25:04.637Z"
+  }
+]

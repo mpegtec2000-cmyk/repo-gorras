@@ -1,7 +1,7 @@
 import React from "react";
 import { notFound } from "next/navigation";
 import ProductDetailClient from "./ProductDetailClient";
-import { getProductBySlugServer, getAllProducts } from "@/lib/catalog";
+import { getProduct, getProducts } from "@/lib/catalog";
 import { getRelated, displayImages } from "@/lib/products";
 import { ProductJsonLd } from "@/app/components/JsonLd";
 import { site } from "@/lib/site";
@@ -14,7 +14,7 @@ interface PageProps {
 
 export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;
-  const product = await getProductBySlugServer(slug);
+  const product = await getProduct(slug);
 
   if (!product) {
     return { title: "Producto no encontrado" };
@@ -42,13 +42,13 @@ export async function generateMetadata({ params }: PageProps) {
 
 export default async function ProductPage({ params }: PageProps) {
   const { slug } = await params;
-  const product = await getProductBySlugServer(slug);
+  const product = await getProduct(slug);
 
   if (!product) {
     notFound();
   }
 
-  const allProducts = await getAllProducts();
+  const allProducts = await getProducts();
   const related = getRelated(allProducts, product, 4);
 
   return (

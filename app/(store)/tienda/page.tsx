@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 import Metadata from "next";
 import ShopClient from "./ShopClient";
-import { getAllProducts } from "@/lib/catalog";
+import { getProducts } from "@/lib/catalog";
 
 export const metadata = {
   title: "Tienda Oficial & Catálogo de Gorras Streetwear",
@@ -10,7 +10,7 @@ export const metadata = {
 };
 
 export default async function ShopPage() {
-  const products = await getAllProducts();
+  const products = await getProducts();
 
   return (
     <Suspense fallback={<div style={{ padding: "8rem 2rem", textAlign: "center", color: "#fff" }}>Cargando tienda...</div>}>

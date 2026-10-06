@@ -193,3 +193,41 @@
   color: var(--text-muted);
   text-decoration: line-through;
 }
+
+/* Mobile 2-Column Responsive Adjustments */
+@media (max-width: 640px) {
+  .info {
+    padding: 0.75rem 0.65rem;
+  }
+  .title {
+    font-size: 0.85rem;
+    margin-bottom: 0.35rem;
+  }
+  .price {
+    font-size: 0.95rem;
+  }
+  .category {
+    font-size: 0.625rem;
+  }
+  .badges {
+    top: 0.4rem;
+    left: 0.4rem;
+  }
+  .badge {
+    font-size: 0.575rem;
+    padding: 0.2rem 0.4rem;
+  }
+  .imgContainer {
+    padding: 0.4rem;
+  }
+  .overlayActions {
+    position: static;
+    transform: translateY(0);
+    background: transparent;
+    padding: 0.4rem 0.6rem 0.65rem;
+  }
+  .actionBtn {
+    padding: 0.5rem 0.4rem;
+    font-size: 0.675rem;
+  }
+}

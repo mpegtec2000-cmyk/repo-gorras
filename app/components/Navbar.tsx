@@ -4,13 +4,14 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { ShoppingBag, Menu, X, Search, ChevronRight, User } from "lucide-react";
+import { ShoppingBag, Menu, X, Search, ChevronRight, User, Truck, Zap } from "lucide-react";
 import { useCart } from "./CartContext";
 import { navLinks, site } from "@/lib/site";
 import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [isScrolling, setIsScrolling] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const { totalItems, toggleCart } = useCart();
   const pathname = usePathname();
@@ -21,15 +22,28 @@ export default function Navbar() {
   }
 
   useEffect(() => {
+    let scrollTimer: NodeJS.Timeout;
+    
     const handleScroll = () => {
+      setIsScrolling(true);
+      
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(() => {
+        setIsScrolling(false);
+      }, 150);
+
       if (window.scrollY > 30) {
         setScrolled(true);
       } else {
         setScrolled(false);
       }
     };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(scrollTimer);
+    };
   }, []);
 
   // Lock body scroll when mobile menu is open
@@ -45,12 +59,17 @@ export default function Navbar() {
     <>
       {/* Top Shipping Bar */}
       <div className={styles.topBar}>
-        <p>
-          ⚡ ENVÍOS GRATIS EN COMPRAS SOBRE <strong>$50.000</strong> A TODO CHILE ⚡
-        </p>
+        <div className={styles.topBarContent}>
+          <Zap size={14} className={styles.topBarIcon} />
+          <p>
+            ENVÍOS GRATIS EN COMPRAS SOBRE <strong>$50.000</strong> A TODO CHILE
+          </p>
+          <Truck size={15} className={styles.topBarIcon} />
+        </div>
       </div>
 
-      <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
+
+      <header className={`${styles.header} ${scrolled ? styles.scrolled : ""} ${isScrolling ? styles.isScrolling : ""}`}>
         <div className={styles.container}>
           {/* Mobile Menu Toggle */}
           <button
@@ -95,8 +114,11 @@ export default function Navbar() {
               <Search size={20} />
             </Link>
 
-            <Link href="/login" className={styles.iconBtn} title="Acceso Clientes / Equipo SaaS" aria-label="Iniciar sesión o panel">
-              <User size={20} />
+            <Link href="/login?type=customer" className={styles.navAuthBtn}>
+              MI CUENTA
+            </Link>
+            <Link href="/login?type=admin" className={styles.navAuthBtn}>
+              COLABORADOR
             </Link>
 
             <button
@@ -144,6 +166,36 @@ export default function Navbar() {
               </Link>
             ))}
           </nav>
+
+          <div style={{ marginTop: "1.5rem" }}>
+            <p className={styles.socialTitle}>MARCAS POPULARES</p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginTop: "0.5rem" }}>
+              {[
+                { name: "Thirty One", slug: "thirty-one" },
+                { name: "Cash Only", slug: "cash-only" },
+                { name: "Rebel Hats", slug: "rebel-hats" },
+                { name: "Barbas Hats", slug: "barbas-hats" },
+                { name: "Dreamer Hats", slug: "dreamer-hats" },
+                { name: "Inédit", slug: "inedit" },
+              ].map((b) => (
+                <Link
+                  key={b.slug}
+                  href={`/tienda?marca=${b.slug}`}
+                  onClick={() => setMenuOpen(false)}
+                  style={{
+                    fontSize: "0.75rem",
+                    fontWeight: 700,
+                    padding: "0.4rem 0.75rem",
+                    borderRadius: "14px",
+                    background: "rgba(255,255,255,0.08)",
+                    color: "#ffffff",
+                  }}
+                >
+                  {b.name}
+                </Link>
+              ))}
+            </div>
+          </div>
 
           <div className={styles.drawerFooter}>
             <p className={styles.socialTitle}>SIGUENOS EN INSTAGRAM</p>

@@ -1,0 +1,31 @@
+﻿N_Orden,Fecha,Cliente,RUT,Email,Estado,Total
+"#SPM-1001","06-10-2026","María González","18.345.678-9","maría@gmail.com","Preparando Pedido",140000
+"#SPM-1002","06-10-2026","Carlos Soto","20.456.789-0","carlos@gmail.com","Preparando Pedido",210000
+"#SPM-1003","06-10-2026","Ana Rojas","15.567.890-1","ana@gmail.com","Preparando Pedido",140000
+"#SPM-1014","06-10-2026","Diego Castillo","16.890.123-4","diego@gmail.com","Pedido Entregado",70000
+"#SPM-1004","05-10-2026","Pedro Silva","17.678.901-2","pedro@gmail.com","Preparando Pedido",140000
+"#SPM-1027","05-10-2026","Ana Rojas","15.567.890-1","ana@gmail.com","Pedido Entregado",140000
+"#SPM-1029","05-10-2026","Camila Morales","21.789.012-3","camila@gmail.com","Pedido Entregado",140000
+"#SPM-1005","04-10-2026","Camila Morales","21.789.012-3","camila@gmail.com","Pagado",210000
+"#SPM-1025","04-10-2026","María González","18.345.678-9","maría@gmail.com","Pedido Entregado",140000
+"#SPM-1016","03-10-2026","Juan Pérez","19.234.567-8","juan@gmail.com","Pedido Entregado",70000
+"#SPM-1006","01-10-2026","Diego Castillo","16.890.123-4","diego@gmail.com","Pedido Entregado",210000
+"#SPM-1010","30-09-2026","Carlos Soto","20.456.789-0","carlos@gmail.com","Pedido Entregado",70000
+"#SPM-1018","29-09-2026","Carlos Soto","20.456.789-0","carlos@gmail.com","Pedido Entregado",140000
+"#SPM-1028","28-09-2026","Pedro Silva","17.678.901-2","pedro@gmail.com","Pedido Entregado",140000
+"#SPM-1030","28-09-2026","Diego Castillo","16.890.123-4","diego@gmail.com","Pedido Entregado",140000
+"#SPM-1012","27-09-2026","Pedro Silva","17.678.901-2","pedro@gmail.com","Pedido Entregado",140000
+"#SPM-1026","27-09-2026","Carlos Soto","20.456.789-0","carlos@gmail.com","Pedido Entregado",140000
+"#SPM-1008","23-09-2026","Juan Pérez","19.234.567-8","juan@gmail.com","Pedido Entregado",140000
+"#SPM-1015","22-09-2026","Valentina Torres","19.901.234-5","valentina@gmail.com","Pedido Entregado",140000
+"#SPM-1019","21-09-2026","Ana Rojas","15.567.890-1","ana@gmail.com","Pedido Entregado",140000
+"#SPM-1009","20-09-2026","María González","18.345.678-9","maría@gmail.com","Pedido Entregado",140000
+"#SPM-1022","20-09-2026","Diego Castillo","16.890.123-4","diego@gmail.com","Pedido Entregado",210000
+"#SPM-1007","17-09-2026","Valentina Torres","19.901.234-5","valentina@gmail.com","Pedido Entregado",70000
+"#SPM-1011","17-09-2026","Ana Rojas","15.567.890-1","ana@gmail.com","Pedido Entregado",70000
+"#SPM-1017","16-09-2026","María González","18.345.678-9","maría@gmail.com","Pedido Entregado",210000
+"#SPM-1024","15-09-2026","Juan Pérez","19.234.567-8","juan@gmail.com","Pedido Entregado",70000
+"#SPM-1013","14-09-2026","Camila Morales","21.789.012-3","camila@gmail.com","Pedido Entregado",210000
+"#SPM-1023","14-09-2026","Valentina Torres","19.901.234-5","valentina@gmail.com","Pedido Entregado",70000
+"#SPM-1021","13-09-2026","Camila Morales","21.789.012-3","camila@gmail.com","Pedido Entregado",70000
+"#SPM-1020","07-09-2026","Pedro Silva","17.678.901-2","pedro@gmail.com","Pedido Entregado",210000

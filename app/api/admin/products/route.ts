@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getAllProducts, saveProduct, deleteProduct } from "@/lib/catalog";
+import { getProducts, saveProduct, deleteProduct } from "@/lib/catalog";
 import { Product } from "@/lib/products";
 
 export async function GET() {
-  const products = await getAllProducts();
+  const products = await getProducts();
   return NextResponse.json({ success: true, count: products.length, products });
 }
 

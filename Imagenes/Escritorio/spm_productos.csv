@@ -1,0 +1,46 @@
+ID,Marca,Modelo,Precio,Stock,Vendidos,Estado
+prod_1,"Cash Only","negro flores azul",70000,4,0,Activo
+prod_2,"Cash Only","celeste desgast",70000,0,1,Activo
+prod_3,"Cash Only","NY azul marino con perrlas blancas",70000,0,2,Activo
+prod_4,"Cash Only","negro cruces 3",70000,1,0,Activo
+prod_5,"Cash Only","negro cruces  plateada 3",70000,1,0,Activo
+prod_6,"Cash Only","NYC azul marino",70000,2,0,Activo
+prod_7,"Cash Only","Negro rockstar",70000,1,0,Activo
+prod_8,"Dreamer Hats","Verde militar letras japo",70000,1,1,Activo
+prod_9,"Dreamer Hats","Negro letras japo",70000,1,1,Activo
+prod_10,"Dreamer Hats","negro conbrillos y letras japo",70000,1,0,Activo
+prod_11,"Icon Hats","negro co brillos yankes",70000,1,1,Activo
+prod_12,"Rebel Hats","rosada",70000,1,1,Activo
+prod_13,"Rebel Hats","cafe",70000,2,0,Activo
+prod_14,"Rebel Hats","NGRA R",70000,3,1,Activo
+prod_15,"Rebel Hats","Efecto spray demonio",70000,2,0,Activo
+prod_16,"Rebel Hats","Total black angel bordado",70000,1,1,Activo
+prod_17,"Inédit","Negro/gris bordado blanco, grafiti gris",70000,2,0,Activo
+prod_18,"Inédit","Lovers Club azul marino con coraz├│n rojo",70000,0,2,Activo
+prod_19,"Inédit","Negra, letras beige, efecto spray blanco y negro y visera desgastada",70000,1,0,Activo
+prod_20,"Fame Club","Estrella S celeste con brillos",70000,1,0,Activo
+prod_21,"Fame Club","Estrella S ROSA con brillos",70000,1,0,Activo
+prod_22,"Thirty One","Verde petroleo bordado multicolo",70000,2,0,Activo
+prod_23,"Thirty One","Negra letras blancas boyz",70000,1,0,Activo
+prod_24,"Thirty One","Negra BB blanco/rojo",70000,2,0,Activo
+prod_25,"Thirty One","Negra con M y piedras negras",70000,1,1,Activo
+prod_26,"Thirty One","Negra con NY piedras plateadascorazones rosa",70000,3,0,Activo
+prod_27,"Thirty One","negra NY plateado con gris y brillos",70000,1,0,Activo
+prod_28,"Thirty One","Negra LA rosada con coraz├│n rojo, efecto spray rosado, bordado lateral y visera negra",70000,3,0,Activo
+prod_29,"Thirty One","Negra LA gris tachas plateadas",70000,1,0,Activo
+prod_30,"Thirty One","negra con B grande piedras negras y detalles grises",70000,1,0,Activo
+prod_31,"Thirty One","Negra con parches rojos blancos y negros y chapa",70000,1,0,Activo
+prod_32,"Thirty One","Negra LA plateado con piedras d colores",70000,1,0,Activo
+prod_33,"Thirty One","negra thirty verde con piedras plateadas",70000,1,0,Activo
+prod_34,"Thirty One","azulmarino LA piedras de colores",70000,1,0,Activo
+prod_35,"Thirty One","Negra LA piedras blancas",70000,1,0,Activo
+prod_36,"Thirty One","Negra THIRTY con cruces plateadas a la orilla",70000,1,0,Activo
+prod_37,"Thirty One","negra con b plateada letras negras y B brillante",70000,1,0,Activo
+prod_38,"Thirty One","Negra con B y corona piedras negras malla lateral",70000,1,0,Activo
+prod_39,"Thirty One","roja y negra back pack boyz bordados blancos y negros",70000,1,0,Activo
+prod_40,"Thirty One","Negra con NY blanco y piedras tipo perlas en todo el gorro",70000,1,0,Activo
+prod_41,"Anymore","Negra  con letras plateadas y brillos, angeles grises",70000,1,1,Activo
+prod_42,"Barbas Hats","cafe con B ROSA",70000,1,0,Activo
+prod_43,"Barbas Hats","negra barbas connun gato",70000,1,0,Activo
+prod_44,"Barbas Hats","Negra letras rojas n├║mero 27 tumbados corridos",70000,1,0,Activo
+prod_45,"Barbas Hats","Negra con estrlla y6 piedra negras",70000,1,0,Activo

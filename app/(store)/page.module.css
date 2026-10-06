@@ -3,6 +3,14 @@
   background: var(--bg-primary);
 }
 
+.dropsSection {
+  padding: 6rem 0;
+  position: relative;
+  background: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
+    url('/backgrounds/fondo-main.jpg') center/cover no-repeat fixed;
+}
+
 .sectionHeader {
   display: flex;
   align-items: flex-end;
@@ -53,13 +61,14 @@
 
 .productGrid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
 }
 
 @media (min-width: 640px) {
   .productGrid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
   }
 }
 
@@ -98,11 +107,16 @@
 .editorialOverlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0.5) 100%);
+  background: rgba(0, 0, 0, 0.35); /* Reduced dark filter */
 }
 
 .editorialContent {
-  max-width: 650px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .editorialTag {

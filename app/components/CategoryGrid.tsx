@@ -4,8 +4,15 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
-import { categories } from "@/lib/products";
+import { BRAND_NAMES } from "@/lib/seed-products";
 import styles from "./CategoryGrid.module.css";
+
+const BRAND_LIST = Object.entries(BRAND_NAMES).map(([slug, name]) => ({
+  slug,
+  name,
+  desc: `Colección exclusiva ${name} de edición limitada.`,
+  image: "/products/placeholder-cap.webp",
+}));
 
 export default function CategoryGrid() {
   return (
@@ -13,8 +20,8 @@ export default function CategoryGrid() {
       <div className="container">
         <div className={styles.header}>
           <div>
-            <span className={styles.tag}>CATEGORÍAS & MODELOS</span>
-            <h2 className={styles.title}>EXPLORA NUESTRO CATÁLOGO</h2>
+            <span className={styles.tag}>MARCAS & COLECCIONES</span>
+            <h2 className={styles.title}>EXPLORA POR MARCA</h2>
           </div>
           <Link href="/tienda" className={styles.viewAllBtn}>
             VER TODO EL CATÁLOGO <ArrowUpRight size={18} />
@@ -22,16 +29,16 @@ export default function CategoryGrid() {
         </div>
 
         <div className={styles.grid}>
-          {categories.map((cat) => (
+          {BRAND_LIST.map((brand) => (
             <Link
-              key={cat.slug}
-              href={`/tienda?categoria=${cat.slug}`}
+              key={brand.slug}
+              href={`/tienda?marca=${brand.slug}`}
               className={styles.card}
             >
               <div className={styles.imageContainer}>
                 <Image
-                  src={cat.image}
-                  alt={`Gorras modelo ${cat.name} SPM Streetwear`}
+                  src={brand.image}
+                  alt={`Gorras marca ${brand.name} SPM Streetwear`}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className={styles.img}
@@ -41,12 +48,12 @@ export default function CategoryGrid() {
 
               <div className={styles.content}>
                 <div className={styles.topRow}>
-                  <h3 className={styles.catName}>{cat.name}</h3>
+                  <h3 className={styles.catName}>{brand.name}</h3>
                   <span className={styles.arrowIcon}>
                     <ArrowUpRight size={20} />
                   </span>
                 </div>
-                <p className={styles.description}>{cat.description}</p>
+                <p className={styles.description}>{brand.desc}</p>
               </div>
             </Link>
           ))}

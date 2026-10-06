@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { ShoppingBag, Menu, X, Search, ChevronRight } from "lucide-react";
+import { ShoppingBag, Menu, X, Search, ChevronRight, User } from "lucide-react";
 import { useCart } from "./CartContext";
 import { navLinks, site } from "@/lib/site";
 import styles from "./Navbar.module.css";
@@ -14,6 +14,11 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const { totalItems, toggleCart } = useCart();
   const pathname = usePathname();
+
+  // Hide store navbar on SaaS Admin and Login portal
+  if (pathname.startsWith("/admin") || pathname.startsWith("/login")) {
+    return null;
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -88,6 +93,10 @@ export default function Navbar() {
           <div className={styles.actions}>
             <Link href="/tienda" className={styles.iconBtn} aria-label="Buscar productos">
               <Search size={20} />
+            </Link>
+
+            <Link href="/login" className={styles.iconBtn} title="Acceso Clientes / Equipo SaaS" aria-label="Iniciar sesión o panel">
+              <User size={20} />
             </Link>
 
             <button

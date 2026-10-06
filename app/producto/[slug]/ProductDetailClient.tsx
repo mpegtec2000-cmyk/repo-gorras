@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ShoppingBag, Truck, ShieldCheck, RotateCcw, Minus, Plus, ChevronRight } from "lucide-react";
-import { Product, formatCLP } from "@/lib/products";
+import { Product, formatCLP, displayImages } from "@/lib/products";
 import { useCart } from "@/app/components/CartContext";
 import ProductCard from "@/app/components/ProductCard";
 import styles from "./ProductDetailClient.module.css";
@@ -19,8 +19,9 @@ export default function ProductDetailClient({ product, related }: ProductDetailC
   const [quantity, setQuantity] = useState(1);
   const { addItem } = useCart();
 
+  const images = displayImages(product);
   const isSoldOut = product.stock <= 0;
-  const currentImage = product.images[selectedImgIndex] || product.images[0];
+  const currentImage = images[selectedImgIndex] || images[0];
 
   const handleAddToCart = () => {
     if (!isSoldOut) {
@@ -80,7 +81,7 @@ export default function ProductDetailClient({ product, related }: ProductDetailC
           {/* Info & Buy Form */}
           <div className={styles.infoSection}>
             <div className={styles.headerMeta}>
-              <span className={styles.categoryBadge}>{product.category}</span>
+              <span className={styles.categoryBadge}>{product.brand}</span>
               {product.isNew && <span className={styles.tagNew}>NUEVO DROP</span>}
             </div>
 

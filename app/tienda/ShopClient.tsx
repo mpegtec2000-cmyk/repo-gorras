@@ -2,45 +2,49 @@
 
 import React, { useState, useMemo } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { Search, SlidersHorizontal, X, Filter } from "lucide-react";
+import { Search, X, Filter } from "lucide-react";
 import ProductCard from "@/app/components/ProductCard";
 import {
-  products as allProducts,
-  categories,
+  Product,
   filterProducts,
+  getBrands,
   SortKey,
-  CategorySlug,
 } from "@/lib/products";
 import styles from "./ShopClient.module.css";
 
-export default function ShopClient() {
+interface ShopClientProps {
+  initialProducts: Product[];
+}
+
+export default function ShopClient({ initialProducts }: ShopClientProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const selectedCategory = searchParams.get("categoria") || "";
+  const selectedBrand = searchParams.get("marca") || "";
   const initialQuery = searchParams.get("q") || "";
   const initialSort = (searchParams.get("orden") as SortKey) || "destacados";
 
   const [query, setQuery] = useState(initialQuery);
   const [sort, setSort] = useState<SortKey>(initialSort);
   const [onlyInStock, setOnlyInStock] = useState(false);
-  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+
+  const brands = useMemo(() => getBrands(initialProducts), [initialProducts]);
 
   const filteredProducts = useMemo(() => {
-    return filterProducts(allProducts, {
-      categoria: selectedCategory,
+    return filterProducts(initialProducts, {
+      marca: selectedBrand,
       q: query,
       orden: sort,
       stock: onlyInStock,
     });
-  }, [selectedCategory, query, sort, onlyInStock]);
+  }, [initialProducts, selectedBrand, query, sort, onlyInStock]);
 
-  const handleCategorySelect = (catSlug: string) => {
+  const handleBrandSelect = (brandSlug: string) => {
     const params = new URLSearchParams(searchParams.toString());
-    if (catSlug) {
-      params.set("categoria", catSlug);
+    if (brandSlug) {
+      params.set("marca", brandSlug);
     } else {
-      params.delete("categoria");
+      params.delete("marca");
     }
     router.push(`/tienda?${params.toString()}`);
   };
@@ -67,7 +71,7 @@ export default function ShopClient() {
           <span className={styles.breadcrumb}>INICIO / TIENDA</span>
           <h1 className={styles.title}>CATÁLOGO SPM STREETWEAR</h1>
           <p className={styles.subtitle}>
-            Gorras estructuradas, telas pesadas y detalles metálicos. Envíos a todo Chile.
+            Gorras estructuradas, bordados 3D y marcas originales. Envíos a todo Chile.
           </p>
         </div>
       </div>
@@ -80,7 +84,7 @@ export default function ShopClient() {
             <Search size={18} className={styles.searchIcon} />
             <input
               type="text"
-              placeholder="Buscar gorra, modelo o color..."
+              placeholder="Buscar por marca, modelo o color..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               className={styles.searchInput}
@@ -107,44 +111,34 @@ export default function ShopClient() {
               <option value="precio-desc">Precio: Mayor a Menor</option>
             </select>
           </div>
-
-          {/* Mobile Filter Button */}
-          <button
-            onClick={() => setMobileFiltersOpen(true)}
-            className={styles.mobileFilterToggle}
-          >
-            <Filter size={18} />
-            <span>FILTROS</span>
-          </button>
         </div>
 
         {/* Main Content Layout */}
         <div className={styles.shopLayout}>
-          {/* Sidebar Filters (Desktop) */}
+          {/* Sidebar Filters */}
           <aside className={styles.sidebar}>
             <div className={styles.filterGroup}>
-              <h3 className={styles.filterTitle}>CATEGORÍAS</h3>
+              <h3 className={styles.filterTitle}>MARCAS</h3>
               <ul className={styles.categoryList}>
                 <li>
                   <button
-                    onClick={() => handleCategorySelect("")}
-                    className={`${styles.categoryBtn} ${!selectedCategory ? styles.activeCat : ""}`}
+                    onClick={() => handleBrandSelect("")}
+                    className={`${styles.categoryBtn} ${!selectedBrand ? styles.activeCat : ""}`}
                   >
-                    <span>Todas las Gorras</span>
-                    <span className={styles.catCount}>{allProducts.length}</span>
+                    <span>Todas las Marcas</span>
+                    <span className={styles.catCount}>{initialProducts.length}</span>
                   </button>
                 </li>
-                {categories.map((cat) => {
-                  const count = allProducts.filter((p) => p.category === cat.slug).length;
-                  const isActive = selectedCategory === cat.slug;
+                {brands.map((b) => {
+                  const isActive = selectedBrand === b.slug;
                   return (
-                    <li key={cat.slug}>
+                    <li key={b.slug}>
                       <button
-                        onClick={() => handleCategorySelect(cat.slug)}
+                        onClick={() => handleBrandSelect(b.slug)}
                         className={`${styles.categoryBtn} ${isActive ? styles.activeCat : ""}`}
                       >
-                        <span>{cat.name}</span>
-                        <span className={styles.catCount}>{count}</span>
+                        <span>{b.name}</span>
+                        <span className={styles.catCount}>{b.count}</span>
                       </button>
                     </li>
                   );
@@ -165,7 +159,7 @@ export default function ShopClient() {
               </label>
             </div>
 
-            {(selectedCategory || query || onlyInStock) && (
+            {(selectedBrand || query || onlyInStock) && (
               <button onClick={clearAllFilters} className={styles.clearAllBtn}>
                 LIMPIAR FILTROS
               </button>

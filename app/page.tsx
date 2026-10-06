@@ -6,7 +6,8 @@ import HeroSlider from "./components/HeroSlider";
 import Marquee from "./components/Marquee";
 import ProductCard from "./components/ProductCard";
 import CategoryGrid from "./components/CategoryGrid";
-import { getNewArrivals, getFeatured, products } from "@/lib/products";
+import { getNewArrivals, getFeatured } from "@/lib/products";
+import { getAllProducts } from "@/lib/catalog";
 import { site } from "@/lib/site";
 import styles from "./page.module.css";
 
@@ -30,9 +31,10 @@ function InstagramIcon({ size = 24, className }: { size?: number | string; class
   );
 }
 
-export default function Home() {
-  const newDrops = getNewArrivals(4);
-  const featured = getFeatured();
+export default async function Home() {
+  const allProducts = await getAllProducts();
+  const newDrops = getNewArrivals(allProducts, 4);
+  const featured = getFeatured(allProducts, 8);
 
   return (
     <>

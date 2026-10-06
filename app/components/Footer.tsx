@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight, ShieldCheck, Truck, RotateCcw } from "lucide-react";
+import { usePathname } from "next/navigation";
 import { site, navLinks } from "@/lib/site";
 import styles from "./Footer.module.css";
 
@@ -28,6 +29,11 @@ function InstagramIcon({ size = 24, className }: { size?: number | string; class
 }
 
 export default function Footer() {
+  const pathname = usePathname();
+
+  if (pathname.startsWith("/admin") || pathname.startsWith("/login")) {
+    return null;
+  }
   return (
     <footer className={styles.footer} id="nosotros">
       {/* Guarantees Ribbon */}

@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ShoppingBag, Eye } from "lucide-react";
-import { Product, formatCLP } from "@/lib/products";
+import { Product, formatCLP, displayImages } from "@/lib/products";
 import { useCart } from "./CartContext";
 import styles from "./ProductCard.module.css";
 
@@ -17,8 +17,9 @@ export default function ProductCard({ product }: ProductCardProps) {
   const { addItem } = useCart();
 
   const isSoldOut = product.stock <= 0;
-  const hasSecondImage = product.images.length > 1;
-  const displayImage = isHovered && hasSecondImage ? product.images[1] : product.images[0];
+  const imgs = displayImages(product);
+  const hasSecondImage = imgs.length > 1;
+  const displayImage = isHovered && hasSecondImage ? imgs[1] : imgs[0];
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -78,7 +79,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       {/* Info Section */}
       <div className={styles.info}>
         <div className={styles.meta}>
-          <span className={styles.category}>{product.category}</span>
+          <span className={styles.category}>{product.brand}</span>
           <span className={styles.colorDot} style={{ backgroundColor: product.color.hex }} />
         </div>
 

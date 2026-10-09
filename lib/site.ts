@@ -9,7 +9,7 @@ export const site = {
   tagline: "Streetwear / Accessories / More",
   description:
     "SPM® Streetwear: gorras y jockeys streetwear en Chile. Snapbacks, truckers, dad hats, fitted y gorros con bordados exclusivos. Drops limitados y envíos a todo Chile.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://spmstore.cl",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://spm-store.cl",
   locale: "es_CL",
   lang: "es-CL",
   currency: "CLP",
@@ -17,7 +17,7 @@ export const site = {
   instagram: "https://www.instagram.com/spm_store.cl/",
   instagramHandle: "@spm_store.cl",
   // TODO: completar cuando estén disponibles
-  email: "contacto@spmstore.cl",
+  email: "contacto@spm-store.cl",
   whatsapp: "",
   freeShippingFrom: 50000,
   keywords: [

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getProducts, saveProduct, deleteProduct } from "@/lib/catalog";
+import { getProducts, saveProduct, updateProductPartial, deleteProduct } from "@/lib/catalog";
 import { Product } from "@/lib/products";
 
 export async function GET() {
@@ -10,16 +10,18 @@ export async function GET() {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    if (!body.name || !body.brand || !body.brandSlug) {
+    if (!body.name || !body.brand) {
       return NextResponse.json({ success: false, error: "Faltan campos requeridos (nombre, marca)" }, { status: 400 });
     }
+
+    const brandSlug = body.brandSlug || body.brand.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
     const newProduct: Product = {
       id: body.id || `spm-${Date.now().toString(36)}`,
       slug: body.slug || body.name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
       name: body.name,
       brand: body.brand,
-      brandSlug: body.brandSlug,
+      brandSlug: brandSlug,
       seoTitle: body.seoTitle || `Jockey ${body.brand} ${body.name}`,
       seoDescription: body.seoDescription || `Jockey ${body.brand} ${body.name}. Gorra streetwear original en SPM.`,
       price: Number(body.price) || 70000,
@@ -48,13 +50,33 @@ export async function POST(req: NextRequest) {
   }
 }
 
+export async function PATCH(req: NextRequest) {
+  try {
+    const body = await req.json();
+    const { id, ...updates } = body;
+
+    if (!id) {
+      return NextResponse.json({ success: false, error: "Falta el ID del producto" }, { status: 400 });
+    }
+
+    const updated = await updateProductPartial(id, updates);
+    if (!updated) {
+      return NextResponse.json({ success: false, error: "Producto no encontrado" }, { status: 404 });
+    }
+
+    return NextResponse.json({ success: true, product: updated });
+  } catch (e: any) {
+    return NextResponse.json({ success: false, error: e.message }, { status: 500 });
+  }
+}
+
 export async function DELETE(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
     const id = searchParams.get("id");
     if (!id) return NextResponse.json({ success: false, error: "Missing product ID" }, { status: 400 });
-    await deleteProduct(id);
-    return NextResponse.json({ success: true });
+    const deleted = await deleteProduct(id);
+    return NextResponse.json({ success: deleted });
   } catch (e: any) {
     return NextResponse.json({ success: false, error: e.message }, { status: 500 });
   }

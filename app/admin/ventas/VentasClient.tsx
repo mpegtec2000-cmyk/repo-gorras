@@ -37,9 +37,17 @@ export default function VentasClient({ initialOrders, products }: { initialOrder
   
   const pendingCount = filteredOrders.filter(o => o.status === "Pagado" || o.status === "Preparando Pedido").length;
 
-  const handleStatusChange = (orderId: string, newStatus: OrderStatus) => {
+  const handleStatusChange = async (orderId: string, newStatus: OrderStatus) => {
     setOrders(prev => prev.map(o => o.id === orderId ? { ...o, status: newStatus } : o));
-    // En producción, aquí harías un fetch para actualizar en Supabase
+    try {
+      await fetch("/api/admin/orders", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ orderId, status: newStatus }),
+      });
+    } catch (e) {
+      console.error("Error updating order status:", e);
+    }
   };
 
   const getProductInfo = (productId: string) => {

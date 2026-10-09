@@ -3,25 +3,37 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { X, Trash2, Plus, Minus, ShoppingBag, ArrowRight, ShieldCheck } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { 
+  X, 
+  Trash2, 
+  Plus, 
+  Minus, 
+  ShoppingBag, 
+  ArrowRight, 
+  ShieldCheck, 
+  Truck, 
+  CheckCircle2
+} from "lucide-react";
 import { useCart } from "./CartContext";
 import { formatCLP } from "@/lib/products";
 import { site } from "@/lib/site";
 import styles from "./CartDrawer.module.css";
 
 export default function CartDrawer() {
+  const router = useRouter();
   const { items, isOpen, closeCart, removeItem, updateQuantity, subtotal, totalItems } = useCart();
-  const [checkoutMessage, setCheckoutMessage] = useState(false);
 
   if (!isOpen) return null;
 
   const freeShippingThreshold = site.freeShippingFrom;
   const progressPercent = Math.min(100, (subtotal / freeShippingThreshold) * 100);
   const remainingForFreeShipping = Math.max(0, freeShippingThreshold - subtotal);
+  const hasFreeShipping = remainingForFreeShipping === 0;
 
-  const handleCheckoutMock = () => {
-    setCheckoutMessage(true);
-    setTimeout(() => setCheckoutMessage(false), 5000);
+  const handleProceedToCheckout = () => {
+    closeCart();
+    router.push("/checkout");
   };
 
   return (
@@ -32,28 +44,37 @@ export default function CartDrawer() {
         {/* Header */}
         <div className={styles.header}>
           <div className={styles.titleRow}>
-            <ShoppingBag size={22} />
+            <ShoppingBag size={20} className={styles.bagIcon} />
             <h2 className={styles.title}>TU BOLSA DE COMPRAS</h2>
             <span className={styles.count}>({totalItems})</span>
           </div>
           <button onClick={closeCart} className={styles.closeBtn} aria-label="Cerrar bolsa">
-            <X size={22} />
+            <X size={20} />
           </button>
         </div>
 
-        {/* Free Shipping Progress */}
+        {/* Free Shipping Progress (Professional, zero emojis) */}
         <div className={styles.shippingBar}>
-          <p className={styles.shippingText}>
-            {remainingForFreeShipping > 0 ? (
+          <div className={styles.shippingText}>
+            {hasFreeShipping ? (
               <>
-                Te faltan <strong>{formatCLP(remainingForFreeShipping)}</strong> para <strong>ENVÍO GRATIS</strong>
+                <CheckCircle2 size={14} className={styles.checkIcon} />
+                <span>Tienes <strong>ENVÍO GRATIS</strong> en este pedido</span>
               </>
             ) : (
-              <>🎉 ¡Felicidades! Tienes <strong>ENVÍO GRATIS</strong> en tu pedido</>
+              <>
+                <Truck size={14} className={styles.truckIcon} />
+                <span>
+                  Faltan <strong>{formatCLP(remainingForFreeShipping)}</strong> para <strong>ENVÍO GRATIS</strong>
+                </span>
+              </>
             )}
-          </p>
+          </div>
           <div className={styles.progressTrack}>
-            <div className={styles.progressBar} style={{ width: `${progressPercent}%` }} />
+            <div 
+              className={`${styles.progressBar} ${hasFreeShipping ? styles.progressComplete : ""}`} 
+              style={{ width: `${progressPercent}%` }} 
+            />
           </div>
         </div>
 
@@ -61,9 +82,9 @@ export default function CartDrawer() {
         <div className={styles.itemList}>
           {items.length === 0 ? (
             <div className={styles.emptyCart}>
-              <ShoppingBag size={56} className={styles.emptyIcon} />
+              <ShoppingBag size={48} className={styles.emptyIcon} />
               <p className={styles.emptyTitle}>TU BOLSA ESTÁ VACÍA</p>
-              <p className={styles.emptyDesc}>Encuentra las mejores gorras y accesorios streetwear.</p>
+              <p className={styles.emptyDesc}>Explora los últimos drops de gorras y accesorios originales.</p>
               <Link href="/tienda" onClick={closeCart} className={styles.shopNowBtn}>
                 EXPLORAR CATÁLOGO
               </Link>
@@ -75,21 +96,25 @@ export default function CartDrawer() {
                   <Image
                     src={item.product.images[0].src}
                     alt={item.product.name}
-                    width={90}
-                    height={90}
+                    width={80}
+                    height={80}
                     className={styles.itemImg}
                   />
                 </div>
 
                 <div className={styles.itemInfo}>
                   <div className={styles.itemTop}>
-                    <h3 className={styles.itemName}>{item.product.name}</h3>
+                    <div className={styles.itemNames}>
+                      <span className={styles.itemBrand}>{item.product.brand}</span>
+                      <h3 className={styles.itemName}>{item.product.name}</h3>
+                    </div>
                     <button
                       onClick={() => removeItem(item.product.id, item.size)}
                       className={styles.removeBtn}
                       aria-label="Eliminar producto"
+                      title="Eliminar de la bolsa"
                     >
-                      <Trash2 size={16} />
+                      <Trash2 size={15} />
                     </button>
                   </div>
 
@@ -102,7 +127,7 @@ export default function CartDrawer() {
                         className={styles.qtyBtn}
                         aria-label="Reducir cantidad"
                       >
-                        <Minus size={14} />
+                        <Minus size={13} />
                       </button>
                       <span className={styles.qtyValue}>{item.quantity}</span>
                       <button
@@ -110,7 +135,7 @@ export default function CartDrawer() {
                         className={styles.qtyBtn}
                         aria-label="Aumentar cantidad"
                       >
-                        <Plus size={14} />
+                        <Plus size={13} />
                       </button>
                     </div>
 
@@ -127,27 +152,28 @@ export default function CartDrawer() {
         {/* Footer / Subtotal */}
         {items.length > 0 && (
           <div className={styles.footer}>
-            {checkoutMessage && (
-              <div className={styles.noticeBox}>
-                ℹ️ <strong>Maqueta Visual Completada:</strong> La pasarela de pago real (Flow/Webpay + Supabase) se conectará en la Fase 2.
-              </div>
-            )}
-
             <div className={styles.subtotalRow}>
-              <span>SUBTOTAL</span>
+              <span className={styles.subtotalLabel}>SUBTOTAL</span>
               <span className={styles.subtotalValue}>{formatCLP(subtotal)}</span>
             </div>
 
-            <p className={styles.taxNotice}>Impuestos e internación incluidos. Envíos calculados al pagar.</p>
+            <p className={styles.taxNotice}>
+              Impuestos e internación incluidos. Envíos calculados al finalizar compra.
+            </p>
 
-            <button onClick={handleCheckoutMock} className={styles.checkoutBtn}>
-              PROCEDER AL PAGO <ArrowRight size={18} />
+            <button onClick={handleProceedToCheckout} className={styles.checkoutBtn}>
+              <span>PROCEDER AL PAGO</span>
+              <ArrowRight size={16} />
             </button>
 
             <div className={styles.trustBadges}>
-              <span><ShieldCheck size={14} /> Pago 100% Seguro</span>
-              <span>•</span>
-              <span>Despacho Rápido</span>
+              <span className={styles.trustBadgeItem}>
+                <ShieldCheck size={14} /> Pago 100% Seguro
+              </span>
+              <span className={styles.trustBullet}>•</span>
+              <span className={styles.trustBadgeItem}>
+                <Truck size={14} /> Despacho a Todo Chile
+              </span>
             </div>
           </div>
         )}

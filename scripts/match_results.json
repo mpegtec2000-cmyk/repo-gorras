@@ -1,0 +1,593 @@
+[
+  {
+    "index": 1,
+    "brand": "cash only",
+    "model": "negro flores azul",
+    "stock_actual": 4,
+    "vendorMatchCount": 22,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 2,
+    "brand": "CAsh only",
+    "model": "celeste desgast",
+    "stock_actual": 0,
+    "vendorMatchCount": 22,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 3,
+    "brand": "CAsh only",
+    "model": "NY azul marino con perrlas blancas",
+    "stock_actual": 0,
+    "vendorMatchCount": 22,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 4,
+    "brand": "CAsh only",
+    "model": "negro cruces 3",
+    "stock_actual": 1,
+    "vendorMatchCount": 22,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 5,
+    "brand": "CAsh only",
+    "model": "negro cruces  plateada 3",
+    "stock_actual": 1,
+    "vendorMatchCount": 22,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 6,
+    "brand": "CAsh only",
+    "model": "NYC azul marino",
+    "stock_actual": 2,
+    "vendorMatchCount": 22,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 7,
+    "brand": "Cash only",
+    "model": "Negro rockstar",
+    "stock_actual": 1,
+    "vendorMatchCount": 22,
+    "bestMatch": {
+      "title": "GORRA CASH ONLY - ROCKSTAR",
+      "vendor": "DROP-SHOP",
+      "handle": "gorra-cash-only-rockstar",
+      "url": "https://drop-shop.mx/products/gorra-cash-only-rockstar",
+      "score": 50
+    },
+    "highestScore": 50
+  },
+  {
+    "index": 8,
+    "brand": "DREAMER HATS",
+    "model": "Verde militar letras japo",
+    "stock_actual": 1,
+    "vendorMatchCount": 15,
+    "bestMatch": {
+      "title": "GORRA EL DREAMER HATS JAPO LIFE V2",
+      "vendor": "DROP-SHOP",
+      "handle": "gorra-el-dreamer-hats-japo-life-v2",
+      "url": "https://drop-shop.mx/products/gorra-el-dreamer-hats-japo-life-v2",
+      "score": 25
+    },
+    "highestScore": 25
+  },
+  {
+    "index": 9,
+    "brand": "DREAMER HATS",
+    "model": "Negro letras japo",
+    "stock_actual": 1,
+    "vendorMatchCount": 15,
+    "bestMatch": {
+      "title": "GORRA EL DREAMER HATS JAPO LIFE V2",
+      "vendor": "DROP-SHOP",
+      "handle": "gorra-el-dreamer-hats-japo-life-v2",
+      "url": "https://drop-shop.mx/products/gorra-el-dreamer-hats-japo-life-v2",
+      "score": 33
+    },
+    "highestScore": 33
+  },
+  {
+    "index": 10,
+    "brand": "DREAMER HATS",
+    "model": "negro conbrillos y letras japo",
+    "stock_actual": 1,
+    "vendorMatchCount": 15,
+    "bestMatch": {
+      "title": "GORRA EL DREAMER HATS JAPO LIFE V2",
+      "vendor": "DROP-SHOP",
+      "handle": "gorra-el-dreamer-hats-japo-life-v2",
+      "url": "https://drop-shop.mx/products/gorra-el-dreamer-hats-japo-life-v2",
+      "score": 25
+    },
+    "highestScore": 25
+  },
+  {
+    "index": 11,
+    "brand": "ICON HATS",
+    "model": "negro co brillos yankes",
+    "stock_actual": 1,
+    "vendorMatchCount": 8,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 12,
+    "brand": "Rebel hats",
+    "model": "rosada",
+    "stock_actual": 1,
+    "vendorMatchCount": 5,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 13,
+    "brand": "Rebel hats",
+    "model": "cafe",
+    "stock_actual": 2,
+    "vendorMatchCount": 5,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 14,
+    "brand": "Rebel hats",
+    "model": "NGRA R",
+    "stock_actual": 3,
+    "vendorMatchCount": 5,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 15,
+    "brand": "Rebel hats",
+    "model": "Efecto spray demonio",
+    "stock_actual": 2,
+    "vendorMatchCount": 5,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 16,
+    "brand": "Rebel hats",
+    "model": "Total black angel bordado",
+    "stock_actual": 1,
+    "vendorMatchCount": 5,
+    "bestMatch": {
+      "title": "GORRA REBEL HATS “Black Dragon\"",
+      "vendor": "DROP-SHOP",
+      "handle": "gorra-rebel-hats-black-dragon",
+      "url": "https://drop-shop.mx/products/gorra-rebel-hats-black-dragon",
+      "score": 25
+    },
+    "highestScore": 25
+  },
+  {
+    "index": 17,
+    "brand": "INÉDIT",
+    "model": "Negro/gris bordado blanco, grafiti gris",
+    "stock_actual": 2,
+    "vendorMatchCount": 0,
+    "bestMatch": {
+      "title": "AMIRI Top Skel Bajo Blanco Gris Claro Negro",
+      "vendor": "DROP-SHOP",
+      "handle": "amiri-top-skel-bajo-blanco-gris-claro-negro",
+      "url": "https://drop-shop.mx/products/amiri-top-skel-bajo-blanco-gris-claro-negro",
+      "score": 67
+    },
+    "highestScore": 67
+  },
+  {
+    "index": 18,
+    "brand": "INÉDIT",
+    "model": "Lovers Club azul marino con corazón rojo",
+    "stock_actual": 0,
+    "vendorMatchCount": 0,
+    "bestMatch": {
+      "title": "Bond No. 9 Island EDP – 100ML",
+      "vendor": "DROP-SHOP",
+      "handle": "bond-no-9-island-edp-100ml",
+      "url": "https://drop-shop.mx/products/bond-no-9-island-edp-100ml",
+      "score": 57
+    },
+    "highestScore": 57
+  },
+  {
+    "index": 19,
+    "brand": "INÉDIT",
+    "model": "Negra, letras beige, efecto spray blanco y negro y visera desgastada",
+    "stock_actual": 1,
+    "vendorMatchCount": 0,
+    "bestMatch": {
+      "title": "GORRA NEW ERA ADJUSTABLE LOS ANGELES DODGERS BRED SCRIP 40TH",
+      "vendor": "DROP-SHOP",
+      "handle": "gorra-new-era-adjustable-los-angeles-dodgers-bred-scrip-40th",
+      "url": "https://drop-shop.mx/products/gorra-new-era-adjustable-los-angeles-dodgers-bred-scrip-40th",
+      "score": 33
+    },
+    "highestScore": 33
+  },
+  {
+    "index": 20,
+    "brand": "FAME CLUB",
+    "model": "Estrella S celeste con brillos",
+    "stock_actual": 1,
+    "vendorMatchCount": 9,
+    "bestMatch": {
+      "title": "Gorra Fame Club x Samantha Bundle",
+      "vendor": "FAME CLUB",
+      "handle": "gorra-fame-club-x-samantha-bundle",
+      "url": "https://drop-shop.mx/products/gorra-fame-club-x-samantha-bundle",
+      "score": 25
+    },
+    "highestScore": 25
+  },
+  {
+    "index": 21,
+    "brand": "FAME CLUB",
+    "model": "Estrella S ROSA con brillos",
+    "stock_actual": 1,
+    "vendorMatchCount": 9,
+    "bestMatch": {
+      "title": "Gorra Fame Club x Samantha Bundle",
+      "vendor": "FAME CLUB",
+      "handle": "gorra-fame-club-x-samantha-bundle",
+      "url": "https://drop-shop.mx/products/gorra-fame-club-x-samantha-bundle",
+      "score": 25
+    },
+    "highestScore": 25
+  },
+  {
+    "index": 22,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Verde petroleo bordado multicolo",
+    "stock_actual": 2,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS NY CRYSTAL WHITE",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-ny-crystal-black-white",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-ny-crystal-black-white",
+      "score": 25
+    },
+    "highestScore": 25
+  },
+  {
+    "index": 23,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra letras blancas boyz",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"BACKPACK BOYZ\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-backpack-boyz",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-backpack-boyz",
+      "score": 25
+    },
+    "highestScore": 25
+  },
+  {
+    "index": 24,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra BB blanco/rojo",
+    "stock_actual": 2,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS NY CRYSTAL WHITE",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-ny-crystal-black-white",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-ny-crystal-black-white",
+      "score": 33
+    },
+    "highestScore": 33
+  },
+  {
+    "index": 25,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra con M y piedras negras",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"PAGE 31\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-page-31",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-page-31",
+      "score": 25
+    },
+    "highestScore": 25
+  },
+  {
+    "index": 26,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra con NY piedras plateadascorazones rosa",
+    "stock_actual": 3,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"PAGE 31\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-page-31",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-page-31",
+      "score": 20
+    },
+    "highestScore": 20
+  },
+  {
+    "index": 27,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "negra NY plateado con gris y brillos",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"PAGE 31\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-page-31",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-page-31",
+      "score": 20
+    },
+    "highestScore": 20
+  },
+  {
+    "index": 28,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra LA rosada con corazón rojo, efecto spray rosado, bordado lateral y visera negra",
+    "stock_actual": 3,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS NY CRYSTAL WHITE",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-ny-crystal-black-white",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-ny-crystal-black-white",
+      "score": 8
+    },
+    "highestScore": 8
+  },
+  {
+    "index": 29,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra LA gris tachas plateadas",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 30,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "negra con B grande piedras negras y detalles grises",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"PAGE 31\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-page-31",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-page-31",
+      "score": 29
+    },
+    "highestScore": 29
+  },
+  {
+    "index": 31,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra con parches rojos blancos y negros y chapa",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"PAGE 31\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-page-31",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-page-31",
+      "score": 14
+    },
+    "highestScore": 14
+  },
+  {
+    "index": 32,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra LA plateado con piedras d colores",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"PAGE 31\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-page-31",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-page-31",
+      "score": 20
+    },
+    "highestScore": 20
+  },
+  {
+    "index": 33,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "negra thirty verde con piedras plateadas",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"WHO THE F... IS THIRTYONE?\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-who-the-f-is-thirtyone",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-who-the-f-is-thirtyone",
+      "score": 33
+    },
+    "highestScore": 33
+  },
+  {
+    "index": 34,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "azulmarino LA piedras de colores",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 35,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra LA piedras blancas",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": null,
+    "highestScore": 0
+  },
+  {
+    "index": 36,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra THIRTY con cruces plateadas a la orilla",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"WHO THE F... IS THIRTYONE?\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-who-the-f-is-thirtyone",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-who-the-f-is-thirtyone",
+      "score": 33
+    },
+    "highestScore": 33
+  },
+  {
+    "index": 37,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "negra con b plateada letras negras y B brillante",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"PAGE 31\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-page-31",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-page-31",
+      "score": 17
+    },
+    "highestScore": 17
+  },
+  {
+    "index": 38,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra con B y corona piedras negras malla lateral",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"PAGE 31\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-page-31",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-page-31",
+      "score": 14
+    },
+    "highestScore": 14
+  },
+  {
+    "index": 39,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "roja y negra back pack boyz bordados blancos y negros",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS \"BACKPACK BOYZ\"",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-backpack-boyz",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-backpack-boyz",
+      "score": 38
+    },
+    "highestScore": 38
+  },
+  {
+    "index": 40,
+    "brand": "THIRTY ONE / 31 HATS",
+    "model": "Negra con NY blanco y piedras tipo perlas en todo el gorro",
+    "stock_actual": 1,
+    "vendorMatchCount": 53,
+    "bestMatch": {
+      "title": "GORRA 31 HATS THIRTY RACING",
+      "vendor": "31 HATS",
+      "handle": "gorra-31-hats-thirty-raicing",
+      "url": "https://drop-shop.mx/products/gorra-31-hats-thirty-raicing",
+      "score": 25
+    },
+    "highestScore": 25
+  },
+  {
+    "index": 41,
+    "brand": "ANYMORE",
+    "model": "Negra  con letras plateadas y brillos, angeles grises",
+    "stock_actual": 1,
+    "vendorMatchCount": 32,
+    "bestMatch": {
+      "title": "ANYMORE JERSEY BRUCE RAICING WHITE",
+      "vendor": "DROP-SHOP",
+      "handle": "anymore-jersey-bruce-raicing-white",
+      "url": "https://drop-shop.mx/products/anymore-jersey-bruce-raicing-white",
+      "score": 14
+    },
+    "highestScore": 14
+  },
+  {
+    "index": 42,
+    "brand": "BARBAS HATS",
+    "model": "cafe con B ROSA",
+    "stock_actual": 1,
+    "vendorMatchCount": 76,
+    "bestMatch": {
+      "title": "Gorra Barbas Hats x CT \"THREE STARS\"",
+      "vendor": "BARBAS HATS",
+      "handle": "gorra-barbas-hats-x-ct-three-stars",
+      "url": "https://drop-shop.mx/products/gorra-barbas-hats-x-ct-three-stars",
+      "score": 33
+    },
+    "highestScore": 33
+  },
+  {
+    "index": 43,
+    "brand": "BARBAS HATS",
+    "model": "negra barbas connun gato",
+    "stock_actual": 1,
+    "vendorMatchCount": 76,
+    "bestMatch": {
+      "title": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\"",
+      "vendor": "BARBAS HATS",
+      "handle": "gorra-barbas-hats-x-lonche-wilito-skull-fes",
+      "url": "https://drop-shop.mx/products/gorra-barbas-hats-x-lonche-wilito-skull-fes",
+      "score": 50
+    },
+    "highestScore": 50
+  },
+  {
+    "index": 44,
+    "brand": "BARBAS HATS",
+    "model": "Negra letras rojas número 27 tumbados corridos",
+    "stock_actual": 1,
+    "vendorMatchCount": 76,
+    "bestMatch": {
+      "title": "Gorra Barbas Hats x CT \"THREE STARS\"",
+      "vendor": "BARBAS HATS",
+      "handle": "gorra-barbas-hats-x-ct-three-stars",
+      "url": "https://drop-shop.mx/products/gorra-barbas-hats-x-ct-three-stars",
+      "score": 33
+    },
+    "highestScore": 33
+  },
+  {
+    "index": 45,
+    "brand": "BARBAS HATS",
+    "model": "Negra con estrlla y6 piedra negras",
+    "stock_actual": 1,
+    "vendorMatchCount": 76,
+    "bestMatch": {
+      "title": "Gorra Barbas Hats x CT \"THREE STARS\"",
+      "vendor": "BARBAS HATS",
+      "handle": "gorra-barbas-hats-x-ct-three-stars",
+      "url": "https://drop-shop.mx/products/gorra-barbas-hats-x-ct-three-stars",
+      "score": 40
+    },
+    "highestScore": 40
+  }
+]

@@ -1,154 +1,198 @@
 [
   {
     "id": "prod_1",
-    "slug": "cash-only-negro-flores-azul",
-    "name": "negro flores azul",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only negro flores azul",
-    "seoDescription": "Jockey Cash Only negro flores azul. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "barbas-hats-gorra-barbas-hats-x-lonche-wilito-heartbreaker-preventa-copia",
+    "name": "x Lonche & Wilito Skull Fes",
+    "brand": "Barbas Hats",
+    "brandSlug": "barbas-hats",
+    "seoTitle": "Jockey Barbas Hats x Lonche & Wilito Skull Fes",
+    "seoDescription": "Gorra streetwear original Barbas Hats x Lonche & Wilito Skull Fes. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM...",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-barbas-hats-x-lonche-wilito-heartbreaker-preventa-copia-1.webp",
+        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-barbas-hats-x-lonche-wilito-heartbreaker-preventa-copia-2.webp",
+        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-barbas-hats-x-lonche-wilito-heartbreaker-preventa-copia-3.webp",
+        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 3"
       }
     ],
-    "initialStock": 4,
+    "initialStock": 1,
     "sold": 0,
-    "stock": 4,
+    "stock": 1,
     "isNew": true,
-    "isFeatured": false,
+    "isFeatured": true,
     "isActive": true,
-    "description": "Jockey Cash Only modelo negro flores azul. 100% original.",
+    "description": "Gorra streetwear 100% original Barbas Hats modelo x Lonche & Wilito Skull Fes. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Cash Only"
+        "value": "Barbas Hats"
       },
       {
         "label": "Modelo",
-        "value": "negro flores azul"
+        "value": "x Lonche & Wilito Skull Fes"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.343Z",
+    "updatedAt": "2026-10-09T10:11:37.344Z"
   },
   {
     "id": "prod_2",
-    "slug": "cash-only-celeste-desgast",
-    "name": "celeste desgast",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only celeste desgast",
-    "seoDescription": "Jockey Cash Only celeste desgast. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "barbas-hats-gorra-barbas-hats-dark-nebula-preventa",
+    "name": "DARK NEBULA",
+    "brand": "Barbas Hats",
+    "brandSlug": "barbas-hats",
+    "seoTitle": "Jockey Barbas Hats DARK NEBULA",
+    "seoDescription": "Gorra streetwear original Barbas Hats DARK NEBULA. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-barbas-hats-dark-nebula-preventa-1.webp",
+        "alt": "GORRA EL BARBAS HATS “DARK NEBULA” - Gorra original BARBAS HATS vista 1"
       }
     ],
     "initialStock": 1,
-    "sold": 1,
-    "stock": 0,
-    "isNew": false,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Cash Only modelo celeste desgast. 100% original.",
+    "description": "Gorra streetwear 100% original Barbas Hats modelo DARK NEBULA. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Cash Only"
+        "value": "Barbas Hats"
       },
       {
         "label": "Modelo",
-        "value": "celeste desgast"
+        "value": "DARK NEBULA"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.344Z",
+    "updatedAt": "2026-10-09T10:11:37.344Z"
   },
   {
     "id": "prod_3",
-    "slug": "cash-only-ny-azul-marino-con-perrlas-blancas",
-    "name": "NY azul marino con perrlas blancas",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only NY azul marino con perrlas blancas",
-    "seoDescription": "Jockey Cash Only ny azul marino con perrlas blancas. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "barbas-hats-gorra-barbas-hats-platinum-snowflake",
+    "name": "PLATINUM SNOWFLAKE",
+    "brand": "Barbas Hats",
+    "brandSlug": "barbas-hats",
+    "seoTitle": "Jockey Barbas Hats PLATINUM SNOWFLAKE",
+    "seoDescription": "Gorra streetwear original Barbas Hats PLATINUM SNOWFLAKE. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-barbas-hats-platinum-snowflake-1.webp",
+        "alt": "GORRA EL BARBAS HATS \"PLATINUM SNOWFLAKE\" - Gorra original BARBAS HATS vista 1"
       }
     ],
-    "initialStock": 2,
-    "sold": 2,
-    "stock": 0,
-    "isNew": false,
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Cash Only modelo NY azul marino con perrlas blancas. 100% original.",
+    "description": "Gorra streetwear 100% original Barbas Hats modelo PLATINUM SNOWFLAKE. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Cash Only"
+        "value": "Barbas Hats"
       },
       {
         "label": "Modelo",
-        "value": "NY azul marino con perrlas blancas"
+        "value": "PLATINUM SNOWFLAKE"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_4",
-    "slug": "cash-only-negro-cruces-3",
-    "name": "negro cruces 3",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only negro cruces 3",
-    "seoDescription": "Jockey Cash Only negro cruces 3. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "31-hats-gorra-31-hats-who-the-f-is-thirtyone",
+    "name": "WHO THE F... IS THIRTYONE?",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats WHO THE F... IS THIRTYONE?",
+    "seoDescription": "Gorra streetwear original 31 Hats WHO THE F... IS THIRTYONE?. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-31-hats-who-the-f-is-thirtyone-1.webp",
+        "alt": "GORRA 31 HATS \"WHO THE F... IS THIRTYONE?\" - Gorra original 31 HATS vista 1"
       }
     ],
     "initialStock": 1,
@@ -157,41 +201,53 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Cash Only modelo negro cruces 3. 100% original.",
+    "description": "Gorra streetwear 100% original 31 Hats modelo WHO THE F... IS THIRTYONE?. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Cash Only"
+        "value": "31 Hats"
       },
       {
         "label": "Modelo",
-        "value": "negro cruces 3"
+        "value": "WHO THE F... IS THIRTYONE?"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_5",
-    "slug": "cash-only-negro-cruces-plateada-3",
-    "name": "negro cruces  plateada 3",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only negro cruces plateada 3",
-    "seoDescription": "Jockey Cash Only negro cruces plateada 3. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "rebel-hats-gorra-rebel-desert-gods-friends-and-family",
+    "name": "Desert Gods (Friends and Family)",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Desert Gods (Friends and Family)",
+    "seoDescription": "Gorra streetwear original Rebel Hats Desert Gods (Friends and Family). Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en...",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-rebel-desert-gods-friends-and-family-1.webp",
+        "alt": "Gorra Rebel - Desert Gods (Friends and Family) - Gorra original REBEL HATS vista 1"
       }
     ],
     "initialStock": 1,
@@ -200,84 +256,124 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Cash Only modelo negro cruces  plateada 3. 100% original.",
+    "description": "Gorra streetwear 100% original Rebel Hats modelo Desert Gods (Friends and Family). Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Cash Only"
+        "value": "Rebel Hats"
       },
       {
         "label": "Modelo",
-        "value": "negro cruces  plateada 3"
+        "value": "Desert Gods (Friends and Family)"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_6",
-    "slug": "cash-only-nyc-azul-marino",
-    "name": "NYC azul marino",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only NYC azul marino",
-    "seoDescription": "Jockey Cash Only nyc azul marino. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "rebel-hats-gorra-rebel-pharaoh-crown-black-and-white",
+    "name": "Pharaoh Crown Black and White",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Pharaoh Crown Black and White",
+    "seoDescription": "Gorra streetwear original Rebel Hats Pharaoh Crown Black and White. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM...",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-rebel-pharaoh-crown-black-and-white-1.webp",
+        "alt": "Gorra Rebel - Pharaoh Crown Black and White - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-pharaoh-crown-black-and-white-2.webp",
+        "alt": "Gorra Rebel - Pharaoh Crown Black and White - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-pharaoh-crown-black-and-white-3.webp",
+        "alt": "Gorra Rebel - Pharaoh Crown Black and White - Gorra original REBEL HATS vista 3"
       }
     ],
-    "initialStock": 2,
+    "initialStock": 1,
     "sold": 0,
-    "stock": 2,
+    "stock": 1,
     "isNew": true,
-    "isFeatured": false,
+    "isFeatured": true,
     "isActive": true,
-    "description": "Jockey Cash Only modelo NYC azul marino. 100% original.",
+    "description": "Gorra streetwear 100% original Rebel Hats modelo Pharaoh Crown Black and White. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Cash Only"
+        "value": "Rebel Hats"
       },
       {
         "label": "Modelo",
-        "value": "NYC azul marino"
+        "value": "Pharaoh Crown Black and White"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_7",
-    "slug": "cash-only-negro-rockstar",
-    "name": "Negro rockstar",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only Negro rockstar",
-    "seoDescription": "Jockey Cash Only negro rockstar. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "rebel-hats-gorra-rebel-pink-nile",
+    "name": "Pink Nile",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Pink Nile",
+    "seoDescription": "Gorra streetwear original Rebel Hats Pink Nile. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-rebel-pink-nile-1.webp",
+        "alt": "Gorra Rebel - Pink Nile - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-pink-nile-2.webp",
+        "alt": "Gorra Rebel - Pink Nile - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-pink-nile-3.webp",
+        "alt": "Gorra Rebel - Pink Nile - Gorra original REBEL HATS vista 3"
       }
     ],
     "initialStock": 1,
@@ -286,7 +382,1931 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Cash Only modelo Negro rockstar. 100% original.",
+    "description": "Gorra streetwear 100% original Rebel Hats modelo Pink Nile. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Pink Nile"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_8",
+    "slug": "rebel-hats-gorra-rebel-black-mask-off",
+    "name": "Black Mask Off",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Black Mask Off",
+    "seoDescription": "Gorra streetwear original Rebel Hats Black Mask Off. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-black-mask-off-1.webp",
+        "alt": "Gorra Rebel - Black Mask Off - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-black-mask-off-2.webp",
+        "alt": "Gorra Rebel - Black Mask Off - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-black-mask-off-3.webp",
+        "alt": "Gorra Rebel - Black Mask Off - Gorra original REBEL HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo Black Mask Off. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Black Mask Off"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_9",
+    "slug": "rebel-hats-gorra-rebel-anubis-cross",
+    "name": "Anubis Cross",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Anubis Cross",
+    "seoDescription": "Gorra streetwear original Rebel Hats Anubis Cross. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-anubis-cross-1.webp",
+        "alt": "Gorra Rebel - Anubis Cross - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-anubis-cross-2.webp",
+        "alt": "Gorra Rebel - Anubis Cross - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-anubis-cross-3.webp",
+        "alt": "Gorra Rebel - Anubis Cross - Gorra original REBEL HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo Anubis Cross. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Anubis Cross"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_10",
+    "slug": "rebel-hats-gorra-rebel-r-dynasty",
+    "name": "R Dynasty",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats R Dynasty",
+    "seoDescription": "Gorra streetwear original Rebel Hats R Dynasty. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-r-dynasty-1.webp",
+        "alt": "Gorra Rebel - R Dynasty - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-r-dynasty-2.webp",
+        "alt": "Gorra Rebel - R Dynasty - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-r-dynasty-3.webp",
+        "alt": "Gorra Rebel - R Dynasty - Gorra original REBEL HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo R Dynasty. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "R Dynasty"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_11",
+    "slug": "rebel-hats-gorra-rebel-saint-of-chaos",
+    "name": "SAINT OF CHAOS",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats SAINT OF CHAOS",
+    "seoDescription": "Gorra streetwear original Rebel Hats SAINT OF CHAOS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-saint-of-chaos-1.webp",
+        "alt": "Gorra Rebel - SAINT OF CHAOS - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-saint-of-chaos-2.webp",
+        "alt": "Gorra Rebel - SAINT OF CHAOS - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-saint-of-chaos-3.webp",
+        "alt": "Gorra Rebel - SAINT OF CHAOS - Gorra original REBEL HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo SAINT OF CHAOS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "SAINT OF CHAOS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_12",
+    "slug": "rebel-hats-gorra-rebel-dark-cupid",
+    "name": "DARK CUPID",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats DARK CUPID",
+    "seoDescription": "Gorra streetwear original Rebel Hats DARK CUPID. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-dark-cupid-1.webp",
+        "alt": "Gorra Rebel - DARK CUPID - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-dark-cupid-2.webp",
+        "alt": "Gorra Rebel - DARK CUPID - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-dark-cupid-3.webp",
+        "alt": "Gorra Rebel - DARK CUPID - Gorra original REBEL HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo DARK CUPID. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "DARK CUPID"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_13",
+    "slug": "31-hats-gorra-31-hats-page-31",
+    "name": "PAGE 31",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats PAGE 31",
+    "seoDescription": "Gorra streetwear original 31 Hats PAGE 31. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-page-31-1.webp",
+        "alt": "GORRA 31 HATS \"PAGE 31\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo PAGE 31. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "PAGE 31"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_14",
+    "slug": "31-hats-gorra-31-hats-backpack-boyz",
+    "name": "BACKPACK BOYZ",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats BACKPACK BOYZ",
+    "seoDescription": "Gorra streetwear original 31 Hats BACKPACK BOYZ. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-backpack-boyz-1.webp",
+        "alt": "GORRA 31 HATS \"BACKPACK BOYZ\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo BACKPACK BOYZ. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "BACKPACK BOYZ"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_15",
+    "slug": "31-hats-gorra-31-hats-jewerly-district-preventa",
+    "name": "JEWERLY DISTRICT",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats JEWERLY DISTRICT",
+    "seoDescription": "Gorra streetwear original 31 Hats JEWERLY DISTRICT. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-jewerly-district-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"JEWERLY DISTRICT\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo JEWERLY DISTRICT. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "JEWERLY DISTRICT"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_16",
+    "slug": "31-hats-gorra-31-hats-31-vs-the-world-preventa",
+    "name": "31 VS THE WORLD",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats 31 VS THE WORLD",
+    "seoDescription": "Gorra streetwear original 31 Hats 31 VS THE WORLD. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-31-vs-the-world-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"31 VS THE WORLD\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo 31 VS THE WORLD. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "31 VS THE WORLD"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_17",
+    "slug": "31-hats-gorra-31-hats-mago-forever",
+    "name": "MAGO TOTAL BLACK",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats MAGO TOTAL BLACK",
+    "seoDescription": "Gorra streetwear original 31 Hats MAGO TOTAL BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-mago-forever-1.webp",
+        "alt": "GORRA 31 HATS \"MAGO TOTAL BLACK\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo MAGO TOTAL BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "MAGO TOTAL BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_18",
+    "slug": "31-hats-gorra-31-hats-starry-night",
+    "name": "STARRY NIGHT",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats STARRY NIGHT",
+    "seoDescription": "Gorra streetwear original 31 Hats STARRY NIGHT. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-starry-night-1.webp",
+        "alt": "GORRA 31 HATS \"STARRY NIGHT\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo STARRY NIGHT. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "STARRY NIGHT"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_19",
+    "slug": "31-hats-gorra-31-hats-la-after-dark",
+    "name": "LA AFTER DARK",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats LA AFTER DARK",
+    "seoDescription": "Gorra streetwear original 31 Hats LA AFTER DARK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-la-after-dark-1.webp",
+        "alt": "GORRA 31 HATS \"LA AFTER DARK\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo LA AFTER DARK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA AFTER DARK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_20",
+    "slug": "31-hats-gorra-31-hats-ny-sweethearts-preventa",
+    "name": "NY SWEETHEARTS",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats NY SWEETHEARTS",
+    "seoDescription": "Gorra streetwear original 31 Hats NY SWEETHEARTS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-ny-sweethearts-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"NY SWEETHEARTS\" - Gorra original 31 HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-31-hats-ny-sweethearts-preventa-2.webp",
+        "alt": "GORRA 31 HATS \"NY SWEETHEARTS\" - Gorra original 31 HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-31-hats-ny-sweethearts-preventa-3.webp",
+        "alt": "GORRA 31 HATS \"NY SWEETHEARTS\" - Gorra original 31 HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo NY SWEETHEARTS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY SWEETHEARTS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_21",
+    "slug": "31-hats-gorra-31-hats-la-sweethearts-preventa",
+    "name": "LA SWEETHEARTS",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats LA SWEETHEARTS",
+    "seoDescription": "Gorra streetwear original 31 Hats LA SWEETHEARTS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-la-sweethearts-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"LA SWEETHEARTS\" - Gorra original 31 HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-31-hats-la-sweethearts-preventa-2.webp",
+        "alt": "GORRA 31 HATS \"LA SWEETHEARTS\" - Gorra original 31 HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-31-hats-la-sweethearts-preventa-3.webp",
+        "alt": "GORRA 31 HATS \"LA SWEETHEARTS\" - Gorra original 31 HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo LA SWEETHEARTS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA SWEETHEARTS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_22",
+    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist",
+    "name": "THIS IS NOT A HEIST",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST",
+    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-1.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST\" - Gorra original 31 HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-2.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST\" - Gorra original 31 HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-3.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST\" - Gorra original 31 HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "THIS IS NOT A HEIST"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_23",
+    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist-la-smoke-preventa",
+    "name": "THIS IS NOT A HEIST LA SMOKE",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST LA SMOKE",
+    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST LA SMOKE. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-la-smoke-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST LA SMOKE\" - Gorra original 31 HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-la-smoke-preventa-2.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST LA SMOKE\" - Gorra original 31 HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-la-smoke-preventa-3.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST LA SMOKE\" - Gorra original 31 HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST LA SMOKE. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "THIS IS NOT A HEIST LA SMOKE"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_24",
+    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist-uncut-gems-preventa",
+    "name": "THIS IS NOT A HEIST UNCUT GEMS",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST UNCUT GEMS",
+    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST UNCUT GEMS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM S...",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-uncut-gems-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST UNCUT GEMS\" - Gorra original 31 HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-uncut-gems-preventa-2.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST UNCUT GEMS\" - Gorra original 31 HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-uncut-gems-preventa-3.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST UNCUT GEMS\" - Gorra original 31 HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST UNCUT GEMS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "THIS IS NOT A HEIST UNCUT GEMS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_25",
+    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist-caged-in-preventa",
+    "name": "THIS IS NOT A HEIST CAGED IN",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST CAGED IN",
+    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST CAGED IN. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST CAGED IN\" - Gorra original 31 HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-2.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST CAGED IN\" - Gorra original 31 HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-3.webp",
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST CAGED IN\" - Gorra original 31 HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST CAGED IN. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "THIS IS NOT A HEIST CAGED IN"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_26",
+    "slug": "barbas-hats-gorra-barbas-hats-x-lonche-wilito-skull-fes",
+    "name": "x Lonche & Wilito Skull Fes",
+    "brand": "Barbas Hats",
+    "brandSlug": "barbas-hats",
+    "seoTitle": "Jockey Barbas Hats x Lonche & Wilito Skull Fes",
+    "seoDescription": "Gorra streetwear original Barbas Hats x Lonche & Wilito Skull Fes. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM...",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-1.webp",
+        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-2.webp",
+        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-3.webp",
+        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Barbas Hats modelo x Lonche & Wilito Skull Fes. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Barbas Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Lonche & Wilito Skull Fes"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_27",
+    "slug": "dreamer-hats-gorra-el-dreamer-hats-japo-life-v2",
+    "name": "JAPO LIFE V2",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats JAPO LIFE V2",
+    "seoDescription": "Gorra streetwear original Dreamer Hats JAPO LIFE V2. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-el-dreamer-hats-japo-life-v2-1.webp",
+        "alt": "GORRA EL DREAMER HATS JAPO LIFE V2 - Gorra original DREAMER HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-japo-life-v2-2.webp",
+        "alt": "GORRA EL DREAMER HATS JAPO LIFE V2 - Gorra original DREAMER HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-japo-life-v2-3.webp",
+        "alt": "GORRA EL DREAMER HATS JAPO LIFE V2 - Gorra original DREAMER HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Dreamer Hats modelo JAPO LIFE V2. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "JAPO LIFE V2"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_28",
+    "slug": "dreamer-hats-gorra-el-dreamer-hats-silver-clover",
+    "name": "SILVER CLOVER",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats SILVER CLOVER",
+    "seoDescription": "Gorra streetwear original Dreamer Hats SILVER CLOVER. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-el-dreamer-hats-silver-clover-1.webp",
+        "alt": "GORRA EL DREAMER HATS “SILVER CLOVER” - Gorra original DREAMER HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Dreamer Hats modelo SILVER CLOVER. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "SILVER CLOVER"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_29",
+    "slug": "dreamer-hats-gorra-el-dreamer-hats-koi-black",
+    "name": "KOI BLACK",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats KOI BLACK",
+    "seoDescription": "Gorra streetwear original Dreamer Hats KOI BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-el-dreamer-hats-koi-black-1.webp",
+        "alt": "GORRA EL DREAMER HATS KOI BLACK - Gorra original DREAMER HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-koi-black-2.webp",
+        "alt": "GORRA EL DREAMER HATS KOI BLACK - Gorra original DREAMER HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-koi-black-3.webp",
+        "alt": "GORRA EL DREAMER HATS KOI BLACK - Gorra original DREAMER HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Dreamer Hats modelo KOI BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "KOI BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_30",
+    "slug": "dreamer-hats-gorra-el-dreamer-hats-koi-olive",
+    "name": "KOI OLIVE",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats KOI OLIVE",
+    "seoDescription": "Gorra streetwear original Dreamer Hats KOI OLIVE. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-el-dreamer-hats-koi-olive-1.webp",
+        "alt": "GORRA EL DREAMER HATS KOI OLIVE - Gorra original DREAMER HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-koi-olive-2.webp",
+        "alt": "GORRA EL DREAMER HATS KOI OLIVE - Gorra original DREAMER HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-koi-olive-3.webp",
+        "alt": "GORRA EL DREAMER HATS KOI OLIVE - Gorra original DREAMER HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Dreamer Hats modelo KOI OLIVE. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "KOI OLIVE"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_31",
+    "slug": "dreamer-hats-gorra-el-dreamer-hats-sagi-black",
+    "name": "SAGI BLACK",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats SAGI BLACK",
+    "seoDescription": "Gorra streetwear original Dreamer Hats SAGI BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-el-dreamer-hats-sagi-black-1.webp",
+        "alt": "GORRA EL DREAMER HATS SAGI BLACK - Gorra original DREAMER HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-sagi-black-2.webp",
+        "alt": "GORRA EL DREAMER HATS SAGI BLACK - Gorra original DREAMER HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-sagi-black-3.webp",
+        "alt": "GORRA EL DREAMER HATS SAGI BLACK - Gorra original DREAMER HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Dreamer Hats modelo SAGI BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "SAGI BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_32",
+    "slug": "dreamer-hats-gorra-el-dreamer-hats-ny-souls",
+    "name": "NY SOULS",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats NY SOULS",
+    "seoDescription": "Gorra streetwear original Dreamer Hats NY SOULS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-el-dreamer-hats-ny-souls-1.webp",
+        "alt": "GORRA EL DREAMER HATS “NY SOULS” - Gorra original DREAMER HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-ny-souls-2.webp",
+        "alt": "GORRA EL DREAMER HATS “NY SOULS” - Gorra original DREAMER HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-el-dreamer-hats-ny-souls-3.webp",
+        "alt": "GORRA EL DREAMER HATS “NY SOULS” - Gorra original DREAMER HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Dreamer Hats modelo NY SOULS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY SOULS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_33",
+    "slug": "rebel-hats-gorra-rebel-rebel-guys",
+    "name": "REBEL GUYS",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats REBEL GUYS",
+    "seoDescription": "Gorra streetwear original Rebel Hats REBEL GUYS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-rebel-guys-1.webp",
+        "alt": "Gorra Rebel REBEL GUYS - Gorra original REBEL HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo REBEL GUYS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "REBEL GUYS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_34",
+    "slug": "rebel-hats-gorra-rebel-hats-rebel-koi",
+    "name": "Koi",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Koi",
+    "seoDescription": "Gorra streetwear original Rebel Hats Koi. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-hats-rebel-koi-1.webp",
+        "alt": "GORRA REBEL HATS “Rebel Koi\" - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-hats-rebel-koi-2.webp",
+        "alt": "GORRA REBEL HATS “Rebel Koi\" - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-hats-rebel-koi-3.webp",
+        "alt": "GORRA REBEL HATS “Rebel Koi\" - Gorra original REBEL HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo Koi. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Koi"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_35",
+    "slug": "rebel-hats-gorra-rebel-hats-black-dragon",
+    "name": "Black Dragon",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Black Dragon",
+    "seoDescription": "Gorra streetwear original Rebel Hats Black Dragon. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-hats-black-dragon-1.webp",
+        "alt": "GORRA REBEL HATS “Black Dragon\" - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-hats-black-dragon-2.webp",
+        "alt": "GORRA REBEL HATS “Black Dragon\" - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-hats-black-dragon-3.webp",
+        "alt": "GORRA REBEL HATS “Black Dragon\" - Gorra original REBEL HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo Black Dragon. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Black Dragon"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_36",
+    "slug": "rebel-hats-gorra-rebel-hats-hannya-drift",
+    "name": "Hannya Drift",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Hannya Drift",
+    "seoDescription": "Gorra streetwear original Rebel Hats Hannya Drift. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-hats-hannya-drift-1.webp",
+        "alt": "GORRA REBEL HATS “Hannya Drift\" - Gorra original REBEL HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-rebel-hats-hannya-drift-2.webp",
+        "alt": "GORRA REBEL HATS “Hannya Drift\" - Gorra original REBEL HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-rebel-hats-hannya-drift-3.webp",
+        "alt": "GORRA REBEL HATS “Hannya Drift\" - Gorra original REBEL HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo Hannya Drift. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Hannya Drift"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_37",
+    "slug": "rebel-hats-gorra-rebel-hats-new-dogs-in-the-yard",
+    "name": "NEW DOGS IN THE YARD",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats NEW DOGS IN THE YARD",
+    "seoDescription": "Gorra streetwear original Rebel Hats NEW DOGS IN THE YARD. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-hats-new-dogs-in-the-yard-1.webp",
+        "alt": "GORRA REBEL HATS “NEW DOGS IN THE YARD” - Gorra original REBEL HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo NEW DOGS IN THE YARD. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "NEW DOGS IN THE YARD"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_38",
+    "slug": "rebel-hats-gorra-rebel-hats-new-rebel",
+    "name": "NEW",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats NEW",
+    "seoDescription": "Gorra streetwear original Rebel Hats NEW. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-rebel-hats-new-rebel-1.webp",
+        "alt": "GORRA REBEL HATS “NEW REBEL” - Gorra original REBEL HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Rebel Hats modelo NEW. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "NEW"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_39",
+    "slug": "cash-only-gorra-cash-only-cash-only-chrome-black-11-11",
+    "name": "CASH ONLY CHROME BLACK 11:11",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only CASH ONLY CHROME BLACK 11:11",
+    "seoDescription": "Gorra streetwear original Cash Only CASH ONLY CHROME BLACK 11:11. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM S...",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-cash-only-chrome-black-11-11-1.webp",
+        "alt": "GORRA CASH ONLY - CASH ONLY CHROME BLACK 11:11 - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-cash-only-chrome-black-11-11-2.webp",
+        "alt": "GORRA CASH ONLY - CASH ONLY CHROME BLACK 11:11 - Gorra original CASH ONLY vista 2"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo CASH ONLY CHROME BLACK 11:11. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
@@ -294,1409 +2314,49 @@
       },
       {
         "label": "Modelo",
-        "value": "Negro rockstar"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_8",
-    "slug": "dreamer-hats-verde-militar-letras-japo",
-    "name": "Verde militar letras japo",
-    "brand": "Dreamer Hats",
-    "brandSlug": "dreamer-hats",
-    "seoTitle": "Jockey Dreamer Hats Verde militar letras japo",
-    "seoDescription": "Jockey Dreamer Hats verde militar letras japo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 1,
-    "stock": 1,
-    "isNew": false,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Jockey Dreamer Hats modelo Verde militar letras japo. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Dreamer Hats"
+        "value": "CASH ONLY CHROME BLACK 11:11"
       },
       {
-        "label": "Modelo",
-        "value": "Verde militar letras japo"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_9",
-    "slug": "dreamer-hats-negro-letras-japo",
-    "name": "Negro letras japo",
-    "brand": "Dreamer Hats",
-    "brandSlug": "dreamer-hats",
-    "seoTitle": "Jockey Dreamer Hats Negro letras japo",
-    "seoDescription": "Jockey Dreamer Hats negro letras japo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 1,
-    "stock": 1,
-    "isNew": false,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Jockey Dreamer Hats modelo Negro letras japo. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Dreamer Hats"
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
       },
       {
-        "label": "Modelo",
-        "value": "Negro letras japo"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_10",
-    "slug": "dreamer-hats-negro-conbrillos-y-letras-japo",
-    "name": "negro conbrillos y letras japo",
-    "brand": "Dreamer Hats",
-    "brandSlug": "dreamer-hats",
-    "seoTitle": "Jockey Dreamer Hats negro conbrillos y letras japo",
-    "seoDescription": "Jockey Dreamer Hats negro conbrillos y letras japo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Dreamer Hats modelo negro conbrillos y letras japo. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Dreamer Hats"
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
       },
       {
-        "label": "Modelo",
-        "value": "negro conbrillos y letras japo"
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_11",
-    "slug": "icon-hats-negro-co-brillos-yankes",
-    "name": "negro co brillos yankes",
-    "brand": "Icon Hats",
-    "brandSlug": "icon-hats",
-    "seoTitle": "Jockey Icon Hats negro co brillos yankes",
-    "seoDescription": "Jockey Icon Hats negro co brillos yankes. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 1,
-    "stock": 1,
-    "isNew": false,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Jockey Icon Hats modelo negro co brillos yankes. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Icon Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "negro co brillos yankes"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_12",
-    "slug": "rebel-hats-rosada",
-    "name": "rosada",
-    "brand": "Rebel Hats",
-    "brandSlug": "rebel-hats",
-    "seoTitle": "Jockey Rebel Hats rosada",
-    "seoDescription": "Jockey Rebel Hats rosada. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 1,
-    "stock": 1,
-    "isNew": false,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Jockey Rebel Hats modelo rosada. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Rebel Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "rosada"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_13",
-    "slug": "rebel-hats-cafe",
-    "name": "cafe",
-    "brand": "Rebel Hats",
-    "brandSlug": "rebel-hats",
-    "seoTitle": "Jockey Rebel Hats cafe",
-    "seoDescription": "Jockey Rebel Hats cafe. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 0,
-    "stock": 2,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Rebel Hats modelo cafe. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Rebel Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "cafe"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_14",
-    "slug": "rebel-hats-ngra-r",
-    "name": "NGRA R",
-    "brand": "Rebel Hats",
-    "brandSlug": "rebel-hats",
-    "seoTitle": "Jockey Rebel Hats NGRA R",
-    "seoDescription": "Jockey Rebel Hats ngra r. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 4,
-    "sold": 1,
-    "stock": 3,
-    "isNew": false,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Jockey Rebel Hats modelo NGRA R. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Rebel Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "NGRA R"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_15",
-    "slug": "rebel-hats-efecto-spray-demonio",
-    "name": "Efecto spray demonio",
-    "brand": "Rebel Hats",
-    "brandSlug": "rebel-hats",
-    "seoTitle": "Jockey Rebel Hats Efecto spray demonio",
-    "seoDescription": "Jockey Rebel Hats efecto spray demonio. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 0,
-    "stock": 2,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Rebel Hats modelo Efecto spray demonio. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Rebel Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "Efecto spray demonio"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_16",
-    "slug": "rebel-hats-total-black-angel-bordado",
-    "name": "Total black angel bordado",
-    "brand": "Rebel Hats",
-    "brandSlug": "rebel-hats",
-    "seoTitle": "Jockey Rebel Hats Total black angel bordado",
-    "seoDescription": "Jockey Rebel Hats total black angel bordado. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 1,
-    "stock": 1,
-    "isNew": false,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Jockey Rebel Hats modelo Total black angel bordado. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Rebel Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "Total black angel bordado"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_17",
-    "slug": "inedit-negro-gris-bordado-blanco-grafiti-gris",
-    "name": "Negro/gris bordado blanco, grafiti gris",
-    "brand": "Inédit",
-    "brandSlug": "inedit",
-    "seoTitle": "Jockey Inédit Negro/gris bordado blanco, grafiti gris",
-    "seoDescription": "Jockey Inédit negro/gris bordado blanco, grafiti gris. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 0,
-    "stock": 2,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Inédit modelo Negro/gris bordado blanco, grafiti gris. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Inédit"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negro/gris bordado blanco, grafiti gris"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_18",
-    "slug": "inedit-lovers-club-azul-marino-con-coraz-n-rojo",
-    "name": "Lovers Club azul marino con coraz├│n rojo",
-    "brand": "Inédit",
-    "brandSlug": "inedit",
-    "seoTitle": "Jockey Inédit Lovers Club azul marino con coraz├│n rojo",
-    "seoDescription": "Jockey Inédit lovers club azul marino con coraz├│n rojo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 2,
-    "stock": 0,
-    "isNew": false,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Inédit modelo Lovers Club azul marino con coraz├│n rojo. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Inédit"
-      },
-      {
-        "label": "Modelo",
-        "value": "Lovers Club azul marino con coraz├│n rojo"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_19",
-    "slug": "inedit-negra-letras-beige-efecto-spray-blanco-y-negro-y-visera-desgastada",
-    "name": "Negra, letras beige, efecto spray blanco y negro y visera desgastada",
-    "brand": "Inédit",
-    "brandSlug": "inedit",
-    "seoTitle": "Jockey Inédit Negra, letras beige, efecto spray blanco y",
-    "seoDescription": "Jockey Inédit negra, letras beige, efecto spray blanco y negro y visera desgastada. Gorra streetwear original de edición limitada. Compra en SPM Store con",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Inédit modelo Negra, letras beige, efecto spray blanco y negro y visera desgastada. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Inédit"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra, letras beige, efecto spray blanco y negro y visera desgastada"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_20",
-    "slug": "fame-club-estrella-s-celeste-con-brillos",
-    "name": "Estrella S celeste con brillos",
-    "brand": "Fame Club",
-    "brandSlug": "fame-club",
-    "seoTitle": "Jockey Fame Club Estrella S celeste con brillos",
-    "seoDescription": "Jockey Fame Club estrella s celeste con brillos. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Fame Club modelo Estrella S celeste con brillos. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Fame Club"
-      },
-      {
-        "label": "Modelo",
-        "value": "Estrella S celeste con brillos"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_21",
-    "slug": "fame-club-estrella-s-rosa-con-brillos",
-    "name": "Estrella S ROSA con brillos",
-    "brand": "Fame Club",
-    "brandSlug": "fame-club",
-    "seoTitle": "Jockey Fame Club Estrella S ROSA con brillos",
-    "seoDescription": "Jockey Fame Club estrella s rosa con brillos. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Fame Club modelo Estrella S ROSA con brillos. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Fame Club"
-      },
-      {
-        "label": "Modelo",
-        "value": "Estrella S ROSA con brillos"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_22",
-    "slug": "thirty-one-verde-petroleo-bordado-multicolo",
-    "name": "Verde petroleo bordado multicolo",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Verde petroleo bordado multicolo",
-    "seoDescription": "Jockey Thirty One verde petroleo bordado multicolo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 0,
-    "stock": 2,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Verde petroleo bordado multicolo. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Verde petroleo bordado multicolo"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_23",
-    "slug": "thirty-one-negra-letras-blancas-boyz",
-    "name": "Negra letras blancas boyz",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra letras blancas boyz",
-    "seoDescription": "Jockey Thirty One negra letras blancas boyz. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra letras blancas boyz. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra letras blancas boyz"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_24",
-    "slug": "thirty-one-negra-bb-blanco-rojo",
-    "name": "Negra BB blanco/rojo",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra BB blanco/rojo",
-    "seoDescription": "Jockey Thirty One negra bb blanco/rojo. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 0,
-    "stock": 2,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra BB blanco/rojo. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra BB blanco/rojo"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_25",
-    "slug": "thirty-one-negra-con-m-y-piedras-negras",
-    "name": "Negra con M y piedras negras",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra con M y piedras negras",
-    "seoDescription": "Jockey Thirty One negra con m y piedras negras. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 2,
-    "sold": 1,
-    "stock": 1,
-    "isNew": false,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra con M y piedras negras. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra con M y piedras negras"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_26",
-    "slug": "thirty-one-negra-con-ny-piedras-plateadascorazones-rosa",
-    "name": "Negra con NY piedras plateadascorazones rosa",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra con NY piedras plateadascorazones",
-    "seoDescription": "Jockey Thirty One negra con ny piedras plateadascorazones rosa. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 3,
-    "sold": 0,
-    "stock": 3,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra con NY piedras plateadascorazones rosa. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra con NY piedras plateadascorazones rosa"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_27",
-    "slug": "thirty-one-negra-ny-plateado-con-gris-y-brillos",
-    "name": "negra NY plateado con gris y brillos",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One negra NY plateado con gris y brillos",
-    "seoDescription": "Jockey Thirty One negra ny plateado con gris y brillos. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo negra NY plateado con gris y brillos. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "negra NY plateado con gris y brillos"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_28",
-    "slug": "thirty-one-negra-la-rosada-con-coraz-n-rojo-efecto-spray-rosado-bordado-lateral-y-visera-n",
-    "name": "Negra LA rosada con coraz├│n rojo, efecto spray rosado, bordado lateral y visera negra",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra LA rosada con coraz├│n rojo, efecto",
-    "seoDescription": "Jockey Thirty One negra la rosada con coraz├│n rojo, efecto spray rosado, bordado lateral y visera negra. Gorra streetwear original de edición limitada. Compra",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 3,
-    "sold": 0,
-    "stock": 3,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra LA rosada con coraz├│n rojo, efecto spray rosado, bordado lateral y visera negra. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra LA rosada con coraz├│n rojo, efecto spray rosado, bordado lateral y visera negra"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_29",
-    "slug": "thirty-one-negra-la-gris-tachas-plateadas",
-    "name": "Negra LA gris tachas plateadas",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra LA gris tachas plateadas",
-    "seoDescription": "Jockey Thirty One negra la gris tachas plateadas. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra LA gris tachas plateadas. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra LA gris tachas plateadas"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_30",
-    "slug": "thirty-one-negra-con-b-grande-piedras-negras-y-detalles-grises",
-    "name": "negra con B grande piedras negras y detalles grises",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One negra con B grande piedras negras y",
-    "seoDescription": "Jockey Thirty One negra con b grande piedras negras y detalles grises. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo negra con B grande piedras negras y detalles grises. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "negra con B grande piedras negras y detalles grises"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_31",
-    "slug": "thirty-one-negra-con-parches-rojos-blancos-y-negros-y-chapa",
-    "name": "Negra con parches rojos blancos y negros y chapa",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra con parches rojos blancos y negros y",
-    "seoDescription": "Jockey Thirty One negra con parches rojos blancos y negros y chapa. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra con parches rojos blancos y negros y chapa. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra con parches rojos blancos y negros y chapa"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_32",
-    "slug": "thirty-one-negra-la-plateado-con-piedras-d-colores",
-    "name": "Negra LA plateado con piedras d colores",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra LA plateado con piedras d colores",
-    "seoDescription": "Jockey Thirty One negra la plateado con piedras d colores. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra LA plateado con piedras d colores. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra LA plateado con piedras d colores"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_33",
-    "slug": "thirty-one-negra-thirty-verde-con-piedras-plateadas",
-    "name": "negra thirty verde con piedras plateadas",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One negra thirty verde con piedras plateadas",
-    "seoDescription": "Jockey Thirty One negra thirty verde con piedras plateadas. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo negra thirty verde con piedras plateadas. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "negra thirty verde con piedras plateadas"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_34",
-    "slug": "thirty-one-azulmarino-la-piedras-de-colores",
-    "name": "azulmarino LA piedras de colores",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One azulmarino LA piedras de colores",
-    "seoDescription": "Jockey Thirty One azulmarino la piedras de colores. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo azulmarino LA piedras de colores. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "azulmarino LA piedras de colores"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_35",
-    "slug": "thirty-one-negra-la-piedras-blancas",
-    "name": "Negra LA piedras blancas",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra LA piedras blancas",
-    "seoDescription": "Jockey Thirty One negra la piedras blancas. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra LA piedras blancas. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra LA piedras blancas"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_36",
-    "slug": "thirty-one-negra-thirty-con-cruces-plateadas-a-la-orilla",
-    "name": "Negra THIRTY con cruces plateadas a la orilla",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra THIRTY con cruces plateadas a la",
-    "seoDescription": "Jockey Thirty One negra thirty con cruces plateadas a la orilla. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra THIRTY con cruces plateadas a la orilla. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra THIRTY con cruces plateadas a la orilla"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_37",
-    "slug": "thirty-one-negra-con-b-plateada-letras-negras-y-b-brillante",
-    "name": "negra con b plateada letras negras y B brillante",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One negra con b plateada letras negras y B",
-    "seoDescription": "Jockey Thirty One negra con b plateada letras negras y b brillante. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo negra con b plateada letras negras y B brillante. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "negra con b plateada letras negras y B brillante"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_38",
-    "slug": "thirty-one-negra-con-b-y-corona-piedras-negras-malla-lateral",
-    "name": "Negra con B y corona piedras negras malla lateral",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra con B y corona piedras negras malla",
-    "seoDescription": "Jockey Thirty One negra con b y corona piedras negras malla lateral. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo Negra con B y corona piedras negras malla lateral. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "Negra con B y corona piedras negras malla lateral"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
-  },
-  {
-    "id": "prod_39",
-    "slug": "thirty-one-roja-y-negra-back-pack-boyz-bordados-blancos-y-negros",
-    "name": "roja y negra back pack boyz bordados blancos y negros",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One roja y negra back pack boyz bordados",
-    "seoDescription": "Jockey Thirty One roja y negra back pack boyz bordados blancos y negros. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "",
-        "alt": ""
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Jockey Thirty One modelo roja y negra back pack boyz bordados blancos y negros. 100% original.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Thirty One"
-      },
-      {
-        "label": "Modelo",
-        "value": "roja y negra back pack boyz bordados blancos y negros"
-      }
-    ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_40",
-    "slug": "thirty-one-negra-con-ny-blanco-y-piedras-tipo-perlas-en-todo-el-gorro",
-    "name": "Negra con NY blanco y piedras tipo perlas en todo el gorro",
-    "brand": "Thirty One",
-    "brandSlug": "thirty-one",
-    "seoTitle": "Jockey Thirty One Negra con NY blanco y piedras tipo perlas",
-    "seoDescription": "Jockey Thirty One negra con ny blanco y piedras tipo perlas en todo el gorro. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a",
+    "slug": "cash-only-gorra-cash-only-trust-no-one",
+    "name": "TRUST NO ONE",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only TRUST NO ONE",
+    "seoDescription": "Gorra streetwear original Cash Only TRUST NO ONE. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-cash-only-trust-no-one-1.webp",
+        "alt": "GORRA CASH ONLY - TRUST NO ONE - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-trust-no-one-2.webp",
+        "alt": "GORRA CASH ONLY - TRUST NO ONE - Gorra original CASH ONLY vista 2"
       }
     ],
     "initialStock": 1,
@@ -1705,84 +2365,124 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Thirty One modelo Negra con NY blanco y piedras tipo perlas en todo el gorro. 100% original.",
+    "description": "Gorra streetwear 100% original Cash Only modelo TRUST NO ONE. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Thirty One"
+        "value": "Cash Only"
       },
       {
         "label": "Modelo",
-        "value": "Negra con NY blanco y piedras tipo perlas en todo el gorro"
+        "value": "TRUST NO ONE"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_41",
-    "slug": "anymore-negra-con-letras-plateadas-y-brillos-angeles-grises",
-    "name": "Negra  con letras plateadas y brillos, angeles grises",
-    "brand": "Anymore",
-    "brandSlug": "anymore",
-    "seoTitle": "Jockey Anymore Negra con letras plateadas y brillos, angeles",
-    "seoDescription": "Jockey Anymore negra con letras plateadas y brillos, angeles grises. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "cash-only-gorra-cash-only-ny-liberty",
+    "name": "NY LIBERTY",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only NY LIBERTY",
+    "seoDescription": "Gorra streetwear original Cash Only NY LIBERTY. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-cash-only-ny-liberty-1.webp",
+        "alt": "GORRA CASH ONLY - NY LIBERTY - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-ny-liberty-2.webp",
+        "alt": "GORRA CASH ONLY - NY LIBERTY - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cash-only-ny-liberty-3.webp",
+        "alt": "GORRA CASH ONLY - NY LIBERTY - Gorra original CASH ONLY vista 3"
       }
     ],
-    "initialStock": 2,
-    "sold": 1,
+    "initialStock": 1,
+    "sold": 0,
     "stock": 1,
-    "isNew": false,
+    "isNew": true,
     "isFeatured": true,
     "isActive": true,
-    "description": "Jockey Anymore modelo Negra  con letras plateadas y brillos, angeles grises. 100% original.",
+    "description": "Gorra streetwear 100% original Cash Only modelo NY LIBERTY. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Anymore"
+        "value": "Cash Only"
       },
       {
         "label": "Modelo",
-        "value": "Negra  con letras plateadas y brillos, angeles grises"
+        "value": "NY LIBERTY"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_42",
-    "slug": "barbas-hats-cafe-con-b-rosa",
-    "name": "cafe con B ROSA",
-    "brand": "Barbas Hats",
-    "brandSlug": "barbas-hats",
-    "seoTitle": "Jockey Barbas Hats cafe con B ROSA",
-    "seoDescription": "Jockey Barbas Hats cafe con b rosa. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "cash-only-gorra-cash-only-in-flames-black",
+    "name": "IN FLAMES BLACK",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only IN FLAMES BLACK",
+    "seoDescription": "Gorra streetwear original Cash Only IN FLAMES BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-cash-only-in-flames-black-1.webp",
+        "alt": "GORRA CASH ONLY - IN FLAMES BLACK - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-in-flames-black-2.webp",
+        "alt": "GORRA CASH ONLY - IN FLAMES BLACK - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cash-only-in-flames-black-3.webp",
+        "alt": "GORRA CASH ONLY - IN FLAMES BLACK - Gorra original CASH ONLY vista 3"
       }
     ],
     "initialStock": 1,
@@ -1791,41 +2491,57 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Barbas Hats modelo cafe con B ROSA. 100% original.",
+    "description": "Gorra streetwear 100% original Cash Only modelo IN FLAMES BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Barbas Hats"
+        "value": "Cash Only"
       },
       {
         "label": "Modelo",
-        "value": "cafe con B ROSA"
+        "value": "IN FLAMES BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_43",
-    "slug": "barbas-hats-negra-barbas-connun-gato",
-    "name": "negra barbas connun gato",
-    "brand": "Barbas Hats",
-    "brandSlug": "barbas-hats",
-    "seoTitle": "Jockey Barbas Hats negra barbas connun gato",
-    "seoDescription": "Jockey Barbas Hats negra barbas connun gato. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "cash-only-gorra-cash-only-chrome-black",
+    "name": "CHROME BLACK",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only CHROME BLACK",
+    "seoDescription": "Gorra streetwear original Cash Only CHROME BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-cash-only-chrome-black-1.webp",
+        "alt": "GORRA CASH ONLY - CHROME BLACK - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-chrome-black-2.webp",
+        "alt": "GORRA CASH ONLY - CHROME BLACK - Gorra original CASH ONLY vista 2"
       }
     ],
     "initialStock": 1,
@@ -1834,41 +2550,57 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Barbas Hats modelo negra barbas connun gato. 100% original.",
+    "description": "Gorra streetwear 100% original Cash Only modelo CHROME BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Barbas Hats"
+        "value": "Cash Only"
       },
       {
         "label": "Modelo",
-        "value": "negra barbas connun gato"
+        "value": "CHROME BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_44",
-    "slug": "barbas-hats-negra-letras-rojas-n-mero-27-tumbados-corridos",
-    "name": "Negra letras rojas n├║mero 27 tumbados corridos",
-    "brand": "Barbas Hats",
-    "brandSlug": "barbas-hats",
-    "seoTitle": "Jockey Barbas Hats Negra letras rojas n├║mero 27 tumbados",
-    "seoDescription": "Jockey Barbas Hats negra letras rojas n├║mero 27 tumbados corridos. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "cash-only-gorra-cash-only-la-black",
+    "name": "LA TOTAL BLACK",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only LA TOTAL BLACK",
+    "seoDescription": "Gorra streetwear original Cash Only LA TOTAL BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-cash-only-la-black-1.webp",
+        "alt": "GORRA CASH ONLY - LA TOTAL BLACK - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-la-black-2.webp",
+        "alt": "GORRA CASH ONLY - LA TOTAL BLACK - Gorra original CASH ONLY vista 2"
       }
     ],
     "initialStock": 1,
@@ -1877,41 +2609,57 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Barbas Hats modelo Negra letras rojas n├║mero 27 tumbados corridos. 100% original.",
+    "description": "Gorra streetwear 100% original Cash Only modelo LA TOTAL BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Barbas Hats"
+        "value": "Cash Only"
       },
       {
         "label": "Modelo",
-        "value": "Negra letras rojas n├║mero 27 tumbados corridos"
+        "value": "LA TOTAL BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
   },
   {
     "id": "prod_45",
-    "slug": "barbas-hats-negra-con-estrlla-y6-piedra-negras",
-    "name": "Negra con estrlla y6 piedra negras",
-    "brand": "Barbas Hats",
-    "brandSlug": "barbas-hats",
-    "seoTitle": "Jockey Barbas Hats Negra con estrlla y6 piedra negras",
-    "seoDescription": "Jockey Barbas Hats negra con estrlla y6 piedra negras. Gorra streetwear original de edición limitada. Compra en SPM Store con envíos a todo Chile.",
+    "slug": "cash-only-gorra-cash-only-blue-denim",
+    "name": "BLUE DENIM",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only BLUE DENIM",
+    "seoDescription": "Gorra streetwear original Cash Only BLUE DENIM. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
-      "name": "Referencia imagen",
-      "hex": "#000000"
+      "name": "Edición Oficial",
+      "hex": "#111111"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "",
-        "alt": ""
+        "src": "/products/gorra-cash-only-blue-denim-1.webp",
+        "alt": "GORRA CASH ONLY - BLUE DENIM - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-blue-denim-2.webp",
+        "alt": "GORRA CASH ONLY - BLUE DENIM - Gorra original CASH ONLY vista 2"
       }
     ],
     "initialStock": 1,
@@ -1920,18 +2668,1749 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Jockey Barbas Hats modelo Negra con estrlla y6 piedra negras. 100% original.",
+    "description": "Gorra streetwear 100% original Cash Only modelo BLUE DENIM. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Barbas Hats"
+        "value": "Cash Only"
       },
       {
         "label": "Modelo",
-        "value": "Negra con estrlla y6 piedra negras"
+        "value": "BLUE DENIM"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-06T04:25:04.637Z",
-    "updatedAt": "2026-10-06T04:25:04.637Z"
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_46",
+    "slug": "cash-only-gorra-cash-only-chane-the-rules",
+    "name": "CHANGE THE RULES",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only CHANGE THE RULES",
+    "seoDescription": "Gorra streetwear original Cash Only CHANGE THE RULES. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-chane-the-rules-1.webp",
+        "alt": "GORRA CASH ONLY - CHANGE THE RULES - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-chane-the-rules-2.webp",
+        "alt": "GORRA CASH ONLY - CHANGE THE RULES - Gorra original CASH ONLY vista 2"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo CHANGE THE RULES. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "CHANGE THE RULES"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_47",
+    "slug": "cash-only-gorra-cash-only-pink-panter-monograma",
+    "name": "PINK PANTHER MONOGRAMA",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only PINK PANTHER MONOGRAMA",
+    "seoDescription": "Gorra streetwear original Cash Only PINK PANTHER MONOGRAMA. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-pink-panter-monograma-1.webp",
+        "alt": "GORRA CASH ONLY - PINK PANTHER MONOGRAMA - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-pink-panter-monograma-2.webp",
+        "alt": "GORRA CASH ONLY - PINK PANTHER MONOGRAMA - Gorra original CASH ONLY vista 2"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo PINK PANTHER MONOGRAMA. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "PINK PANTHER MONOGRAMA"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_48",
+    "slug": "cash-only-gorra-cash-only-rockstar",
+    "name": "ROCKSTAR",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only ROCKSTAR",
+    "seoDescription": "Gorra streetwear original Cash Only ROCKSTAR. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-rockstar-1.webp",
+        "alt": "GORRA CASH ONLY - ROCKSTAR - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-rockstar-2.webp",
+        "alt": "GORRA CASH ONLY - ROCKSTAR - Gorra original CASH ONLY vista 2"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo ROCKSTAR. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "ROCKSTAR"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_49",
+    "slug": "cash-only-gorra-cash-only-ny-drip",
+    "name": "NY DRIP",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only NY DRIP",
+    "seoDescription": "Gorra streetwear original Cash Only NY DRIP. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-ny-drip-1.webp",
+        "alt": "GORRA CASH ONLY - NY DRIP - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-ny-drip-2.webp",
+        "alt": "GORRA CASH ONLY - NY DRIP - Gorra original CASH ONLY vista 2"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo NY DRIP. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY DRIP"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_50",
+    "slug": "cash-only-gorra-cash-only-chrome-white",
+    "name": "CHROME WHITE",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only CHROME WHITE",
+    "seoDescription": "Gorra streetwear original Cash Only CHROME WHITE. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-chrome-white-1.webp",
+        "alt": "GORRA CASH ONLY - CHROME WHITE - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-chrome-white-2.webp",
+        "alt": "GORRA CASH ONLY - CHROME WHITE - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cash-only-chrome-white-3.webp",
+        "alt": "GORRA CASH ONLY - CHROME WHITE - Gorra original CASH ONLY vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo CHROME WHITE. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "CHROME WHITE"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_51",
+    "slug": "cash-only-gorra-cash-only-triple-cross",
+    "name": "TRIPLE CROSS",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only TRIPLE CROSS",
+    "seoDescription": "Gorra streetwear original Cash Only TRIPLE CROSS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-triple-cross-1.webp",
+        "alt": "GORRA CASH ONLY - TRIPLE CROSS - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-triple-cross-2.webp",
+        "alt": "GORRA CASH ONLY - TRIPLE CROSS - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cash-only-triple-cross-3.webp",
+        "alt": "GORRA CASH ONLY - TRIPLE CROSS - Gorra original CASH ONLY vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo TRIPLE CROSS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "TRIPLE CROSS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_52",
+    "slug": "cash-only-gorra-cash-only-ny-pearls-blue",
+    "name": "NY PEARLS BLUE",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only NY PEARLS BLUE",
+    "seoDescription": "Gorra streetwear original Cash Only NY PEARLS BLUE. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-ny-pearls-blue-1.webp",
+        "alt": "GORRA CASH ONLY - NY PEARLS BLUE - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-ny-pearls-blue-2.webp",
+        "alt": "GORRA CASH ONLY - NY PEARLS BLUE - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cash-only-ny-pearls-blue-3.webp",
+        "alt": "GORRA CASH ONLY - NY PEARLS BLUE - Gorra original CASH ONLY vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo NY PEARLS BLUE. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY PEARLS BLUE"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_53",
+    "slug": "cash-only-gorra-cash-only-blue-flowers",
+    "name": "BLUE FLOWERS",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only BLUE FLOWERS",
+    "seoDescription": "Gorra streetwear original Cash Only BLUE FLOWERS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-blue-flowers-1.webp",
+        "alt": "GORRA CASH ONLY - BLUE FLOWERS - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-blue-flowers-2.webp",
+        "alt": "GORRA CASH ONLY - BLUE FLOWERS - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cash-only-blue-flowers-3.webp",
+        "alt": "GORRA CASH ONLY - BLUE FLOWERS - Gorra original CASH ONLY vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo BLUE FLOWERS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "BLUE FLOWERS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_54",
+    "slug": "cash-only-gorra-cash-only-cash-only-new-york",
+    "name": "CASH ONLY NEW YORK",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only CASH ONLY NEW YORK",
+    "seoDescription": "Gorra streetwear original Cash Only CASH ONLY NEW YORK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-cash-only-new-york-1.webp",
+        "alt": "GORRA CASH ONLY - CASH ONLY NEW YORK - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-cash-only-new-york-2.webp",
+        "alt": "GORRA CASH ONLY - CASH ONLY NEW YORK - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cash-only-cash-only-new-york-3.webp",
+        "alt": "GORRA CASH ONLY - CASH ONLY NEW YORK - Gorra original CASH ONLY vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo CASH ONLY NEW YORK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "CASH ONLY NEW YORK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_55",
+    "slug": "cash-only-gorra-cash-only-cash-only-la",
+    "name": "LA CRYSTALS",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only LA CRYSTALS",
+    "seoDescription": "Gorra streetwear original Cash Only LA CRYSTALS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-cash-only-la-1.webp",
+        "alt": "GORRA CASH ONLY - LA CRYSTALS - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-cash-only-la-2.webp",
+        "alt": "GORRA CASH ONLY - LA CRYSTALS - Gorra original CASH ONLY vista 2"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo LA CRYSTALS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA CRYSTALS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_56",
+    "slug": "cash-only-gorra-cash-only-chrome-pink",
+    "name": "CHROME PINK",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only CHROME PINK",
+    "seoDescription": "Gorra streetwear original Cash Only CHROME PINK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-chrome-pink-1.webp",
+        "alt": "GORRA CASH ONLY - CHROME PINK - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-chrome-pink-2.webp",
+        "alt": "GORRA CASH ONLY - CHROME PINK - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cash-only-chrome-pink-3.webp",
+        "alt": "GORRA CASH ONLY - CHROME PINK - Gorra original CASH ONLY vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo CHROME PINK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "CHROME PINK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_57",
+    "slug": "cash-only-gorra-cash-only-x-washed-out-black-denim",
+    "name": "WASHED OUT LOYALTY BLACK DENIM",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only WASHED OUT LOYALTY BLACK DENIM",
+    "seoDescription": "Gorra streetwear original Cash Only WASHED OUT LOYALTY BLACK DENIM. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM...",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cash-only-x-washed-out-black-denim-1.webp",
+        "alt": "GORRA CASH ONLY - WASHED OUT LOYALTY BLACK DENIM - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cash-only-x-washed-out-black-denim-2.webp",
+        "alt": "GORRA CASH ONLY - WASHED OUT LOYALTY BLACK DENIM - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cash-only-x-washed-out-black-denim-3.webp",
+        "alt": "GORRA CASH ONLY - WASHED OUT LOYALTY BLACK DENIM - Gorra original CASH ONLY vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo WASHED OUT LOYALTY BLACK DENIM. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "WASHED OUT LOYALTY BLACK DENIM"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_58",
+    "slug": "cash-only-gorra-cashed-out-stars-preventa",
+    "name": "X TITO DOUBLE P BLACK STARS",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only X TITO DOUBLE P BLACK STARS",
+    "seoDescription": "Gorra streetwear original Cash Only X TITO DOUBLE P BLACK STARS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM St...",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cashed-out-stars-preventa-1.webp",
+        "alt": "GORRA CASH ONLY X TITO DOUBLE P \"BLACK STARS\" - Gorra original CASH ONLY vista 1"
+      },
+      {
+        "src": "/products/gorra-cashed-out-stars-preventa-2.webp",
+        "alt": "GORRA CASH ONLY X TITO DOUBLE P \"BLACK STARS\" - Gorra original CASH ONLY vista 2"
+      },
+      {
+        "src": "/products/gorra-cashed-out-stars-preventa-3.webp",
+        "alt": "GORRA CASH ONLY X TITO DOUBLE P \"BLACK STARS\" - Gorra original CASH ONLY vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo X TITO DOUBLE P BLACK STARS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "X TITO DOUBLE P BLACK STARS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_59",
+    "slug": "cash-only-gorra-cashed-out-chrome-preventa",
+    "name": "CASHED OUT CHROME",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only CASHED OUT CHROME",
+    "seoDescription": "Gorra streetwear original Cash Only CASHED OUT CHROME. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cashed-out-chrome-preventa-1.webp",
+        "alt": "GORRA CASHED OUT \"CHROME\" - Gorra original CASH ONLY vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo CASHED OUT CHROME. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "CASHED OUT CHROME"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_60",
+    "slug": "cash-only-gorra-cashed-out-ny-metallic-preventa",
+    "name": "CASHED OUT NY METALLIC",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only CASHED OUT NY METALLIC",
+    "seoDescription": "Gorra streetwear original Cash Only CASHED OUT NY METALLIC. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-cashed-out-ny-metallic-preventa-1.webp",
+        "alt": "GORRA CASHED OUT \"NY METALLIC\" - Gorra original CASH ONLY vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo CASHED OUT NY METALLIC. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "CASHED OUT NY METALLIC"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_61",
+    "slug": "fame-club-gorra-fame-club-x-samantha-universe-tiffany-1",
+    "name": "x Samantha Universe Tiffany",
+    "brand": "Fame Club",
+    "brandSlug": "fame-club",
+    "seoTitle": "Jockey Fame Club x Samantha Universe Tiffany",
+    "seoDescription": "Gorra streetwear original Fame Club x Samantha Universe Tiffany. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM St...",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-fame-club-x-samantha-universe-tiffany-1-1.webp",
+        "alt": "Gorra Fame Club x Samantha Universe Tiffany - Gorra original FAME CLUB vista 1"
+      },
+      {
+        "src": "/products/gorra-fame-club-x-samantha-universe-tiffany-1-2.webp",
+        "alt": "Gorra Fame Club x Samantha Universe Tiffany - Gorra original FAME CLUB vista 2"
+      },
+      {
+        "src": "/products/gorra-fame-club-x-samantha-universe-tiffany-1-3.webp",
+        "alt": "Gorra Fame Club x Samantha Universe Tiffany - Gorra original FAME CLUB vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Fame Club modelo x Samantha Universe Tiffany. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Fame Club"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Samantha Universe Tiffany"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_62",
+    "slug": "fame-club-gorra-fame-club-x-samantha-universe-pink",
+    "name": "x Samantha Universe Pink",
+    "brand": "Fame Club",
+    "brandSlug": "fame-club",
+    "seoTitle": "Jockey Fame Club x Samantha Universe Pink",
+    "seoDescription": "Gorra streetwear original Fame Club x Samantha Universe Pink. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-fame-club-x-samantha-universe-pink-1.webp",
+        "alt": "Gorra Fame Club x Samantha Universe Pink - Gorra original FAME CLUB vista 1"
+      },
+      {
+        "src": "/products/gorra-fame-club-x-samantha-universe-pink-2.webp",
+        "alt": "Gorra Fame Club x Samantha Universe Pink - Gorra original FAME CLUB vista 2"
+      },
+      {
+        "src": "/products/gorra-fame-club-x-samantha-universe-pink-3.webp",
+        "alt": "Gorra Fame Club x Samantha Universe Pink - Gorra original FAME CLUB vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Fame Club modelo x Samantha Universe Pink. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Fame Club"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Samantha Universe Pink"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_63",
+    "slug": "fame-club-gorra-fame-club-x-samantha-universe-tiffany",
+    "name": "x Samantha Universe Black",
+    "brand": "Fame Club",
+    "brandSlug": "fame-club",
+    "seoTitle": "Jockey Fame Club x Samantha Universe Black",
+    "seoDescription": "Gorra streetwear original Fame Club x Samantha Universe Black. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-fame-club-x-samantha-universe-tiffany-1.webp",
+        "alt": "Gorra Fame Club x Samantha Universe Black - Gorra original FAME CLUB vista 1"
+      },
+      {
+        "src": "/products/gorra-fame-club-x-samantha-universe-tiffany-2.webp",
+        "alt": "Gorra Fame Club x Samantha Universe Black - Gorra original FAME CLUB vista 2"
+      },
+      {
+        "src": "/products/gorra-fame-club-x-samantha-universe-tiffany-3.webp",
+        "alt": "Gorra Fame Club x Samantha Universe Black - Gorra original FAME CLUB vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Fame Club modelo x Samantha Universe Black. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Fame Club"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Samantha Universe Black"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345Z",
+    "updatedAt": "2026-10-09T10:11:37.345Z"
+  },
+  {
+    "id": "prod_64",
+    "slug": "fame-club-gorra-fame-club-flashes-copia",
+    "name": "x Samantha Blessed",
+    "brand": "Fame Club",
+    "brandSlug": "fame-club",
+    "seoTitle": "Jockey Fame Club x Samantha Blessed",
+    "seoDescription": "Gorra streetwear original Fame Club x Samantha Blessed. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-fame-club-flashes-copia-1.webp",
+        "alt": "Gorra Fame Club x Samantha Blessed - Gorra original FAME CLUB vista 1"
+      },
+      {
+        "src": "/products/gorra-fame-club-flashes-copia-2.webp",
+        "alt": "Gorra Fame Club x Samantha Blessed - Gorra original FAME CLUB vista 2"
+      },
+      {
+        "src": "/products/gorra-fame-club-flashes-copia-3.webp",
+        "alt": "Gorra Fame Club x Samantha Blessed - Gorra original FAME CLUB vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Fame Club modelo x Samantha Blessed. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Fame Club"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Samantha Blessed"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_65",
+    "slug": "31-hats-gorra-31-hats-la-thorns",
+    "name": "LA THORNS",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats LA THORNS",
+    "seoDescription": "Gorra streetwear original 31 Hats LA THORNS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-la-thorns-1.webp",
+        "alt": "GORRA 31 HATS \"LA THORNS\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo LA THORNS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA THORNS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_66",
+    "slug": "31-hats-gorra-31-hats-31-forever-black-preventa",
+    "name": "31 FOREVER BLACK",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats 31 FOREVER BLACK",
+    "seoDescription": "Gorra streetwear original 31 Hats 31 FOREVER BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-31-forever-black-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"31 FOREVER BLACK\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo 31 FOREVER BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "31 FOREVER BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_67",
+    "slug": "31-hats-gorra-31-hats-31-0",
+    "name": "x Benavidez 31-0",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats x Benavidez 31-0",
+    "seoDescription": "Gorra streetwear original 31 Hats x Benavidez 31-0. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-31-0-1.webp",
+        "alt": "Gorra 31 hats x Benavidez \"31-0\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo x Benavidez 31-0. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Benavidez 31-0"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_68",
+    "slug": "31-hats-gorra-31-hats-thirty-one-gelato-preventa",
+    "name": "THIRTY ONE GELATO",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats THIRTY ONE GELATO",
+    "seoDescription": "Gorra streetwear original 31 Hats THIRTY ONE GELATO. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-thirty-one-gelato-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"THIRTY ONE GELATO\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo THIRTY ONE GELATO. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "THIRTY ONE GELATO"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_69",
+    "slug": "31-hats-gorra-31-hats-fade-to-black",
+    "name": "FADE TO BLACK",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats FADE TO BLACK",
+    "seoDescription": "Gorra streetwear original 31 Hats FADE TO BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-fade-to-black-1.webp",
+        "alt": "GORRA 31 HATS \"FADE TO BLACK\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo FADE TO BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "FADE TO BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_70",
+    "slug": "31-hats-gorra-31-hats-x-benavidez-db31-preventa",
+    "name": "x Benavidez DB31",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats x Benavidez DB31",
+    "seoDescription": "Gorra streetwear original 31 Hats x Benavidez DB31. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-x-benavidez-db31-preventa-1.webp",
+        "alt": "Gorra 31 hats x Benavidez \"DB31\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo x Benavidez DB31. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Benavidez DB31"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_71",
+    "slug": "31-hats-gorra-31-hats-la-mochila-preventa",
+    "name": "LA MOCHILA",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats LA MOCHILA",
+    "seoDescription": "Gorra streetwear original 31 Hats LA MOCHILA. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-la-mochila-preventa-1.webp",
+        "alt": "GORRA 31 HATS \"LA MOCHILA\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo LA MOCHILA. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA MOCHILA"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_72",
+    "slug": "31-hats-gorra-31-hats-world-champions-2025",
+    "name": "WORLD CHAMPIONS 2025",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats WORLD CHAMPIONS 2025",
+    "seoDescription": "Gorra streetwear original 31 Hats WORLD CHAMPIONS 2025. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-world-champions-2025-1.webp",
+        "alt": "GORRA 31 HATS \"WORLD CHAMPIONS\" 2025 - Gorra original 31 HATS vista 1"
+      },
+      {
+        "src": "/products/gorra-31-hats-world-champions-2025-2.webp",
+        "alt": "GORRA 31 HATS \"WORLD CHAMPIONS\" 2025 - Gorra original 31 HATS vista 2"
+      },
+      {
+        "src": "/products/gorra-31-hats-world-champions-2025-3.webp",
+        "alt": "GORRA 31 HATS \"WORLD CHAMPIONS\" 2025 - Gorra original 31 HATS vista 3"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo WORLD CHAMPIONS 2025. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "WORLD CHAMPIONS 2025"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_73",
+    "slug": "31-hats-gorra-31-hats-31-vamp",
+    "name": "31 VAMP",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats 31 VAMP",
+    "seoDescription": "Gorra streetwear original 31 Hats 31 VAMP. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-31-vamp-1.webp",
+        "alt": "GORRA 31 HATS \"31 VAMP\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo 31 VAMP. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "31 VAMP"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
+  },
+  {
+    "id": "prod_74",
+    "slug": "31-hats-gorra-31-hats-x-benavidez-and-still",
+    "name": "x Benavidez AND STILL",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats x Benavidez AND STILL",
+    "seoDescription": "Gorra streetwear original 31 Hats x Benavidez AND STILL. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "name": "Edición Oficial",
+      "hex": "#111111"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-31-hats-x-benavidez-and-still-1.webp",
+        "alt": "Gorra 31 hats x Benavidez \"AND STILL\" - Gorra original 31 HATS vista 1"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo x Benavidez AND STILL. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Benavidez AND STILL"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346Z",
+    "updatedAt": "2026-10-09T10:11:37.346Z"
   }
 ]

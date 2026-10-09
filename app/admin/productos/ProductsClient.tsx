@@ -46,10 +46,38 @@ export default function ProductsClient({ initialProducts }: { initialProducts: P
     router.push(`/admin/productos/${id}`);
   };
 
-  const handleDelete = (id: string) => {
-    if (confirm("¿Seguro que deseas eliminar este producto?")) {
-      setProductsList(prev => prev.filter(p => p.id !== id));
-      alert("Producto eliminado de la lista local (Falta persistencia en API)");
+  const handleDelete = async (id: string) => {
+    if (confirm("¿Seguro que deseas eliminar este producto del catálogo oficial?")) {
+      try {
+        const res = await fetch(`/api/admin/products?id=${id}`, { method: "DELETE" });
+        const data = await res.json();
+        if (data.success) {
+          setProductsList(prev => prev.filter(p => p.id !== id));
+          if (typeof window !== "undefined") {
+            window.dispatchEvent(new Event("catalog-updated"));
+          }
+        } else {
+          alert("Error al eliminar el producto");
+        }
+      } catch (err: any) {
+        alert("Error de conexión: " + err.message);
+      }
+    }
+  };
+
+  const handleToggleStatus = async (id: string, currentStatus: boolean) => {
+    try {
+      const res = await fetch("/api/admin/products", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, isActive: !currentStatus }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setProductsList(prev => prev.map(p => p.id === id ? { ...p, isActive: !currentStatus } : p));
+      }
+    } catch (e: any) {
+      console.error(e);
     }
   };
 
@@ -140,7 +168,12 @@ export default function ProductsClient({ initialProducts }: { initialProducts: P
                       </div>
                     </td>
                     <td>
-                      <span className={`${styles.statusBadge} ${p.isActive ? styles.statusActive : styles.statusInactive}`}>
+                      <span 
+                        onClick={() => handleToggleStatus(p.id, p.isActive)}
+                        style={{ cursor: "pointer", userSelect: "none" }}
+                        title="Clic para cambiar visibilidad en tienda"
+                        className={`${styles.statusBadge} ${p.isActive ? styles.statusActive : styles.statusInactive}`}
+                      >
                         {p.isActive ? "Activo" : "Oculto"}
                       </span>
                     </td>

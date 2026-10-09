@@ -1,21 +1,22 @@
 import type { Metadata, Viewport } from "next";
-import { Archivo, Inter } from "next/font/google";
+import { Syne, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { site } from "@/lib/site";
 import { OrganizationJsonLd } from "./components/JsonLd";
 import CookieConsent from "./components/CookieConsent";
 
-const archivo = Archivo({
+const syne = Syne({
   subsets: ["latin"],
-  variable: "--font-archivo",
+  variable: "--font-syne",
   display: "swap",
-  weight: ["700", "800", "900"],
+  weight: ["700", "800"],
 });
 
-const inter = Inter({
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-space-grotesk",
   display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const viewport: Viewport = {
@@ -78,7 +79,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang={site.lang} className={`${archivo.variable} ${inter.variable}`}>
+    <html lang={site.lang} className={`${syne.variable} ${spaceGrotesk.variable}`}>
       <body>
         <OrganizationJsonLd />
         {children}

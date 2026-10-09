@@ -37,7 +37,7 @@ export default function FlujoClient({ initialProducts }: { initialProducts: Prod
         <div>
           <h1 className={styles.pageTitle}>Flujo de Visitas & Analítica en Vivo</h1>
           <p className={styles.pageSubtitle}>
-            Planilla oficial de 45 productos • 9 marcas • Normas Google SEO WebP
+            Catálogo oficial de {initialProducts.length} productos • {new Set(initialProducts.map(p => p.brand)).size} marcas • Normas Google SEO WebP
           </p>
         </div>
         <div className={styles.headerActions}>

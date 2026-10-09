@@ -38,7 +38,7 @@ export function ProductJsonLd({ product }: { product: Product }) {
     sku: product.id,
     brand: {
       "@type": "Brand",
-      name: site.shortName,
+      name: product.brand || site.shortName,
     },
     offers: {
       "@type": "Offer",

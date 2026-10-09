@@ -4,10 +4,19 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { ShoppingBag, Menu, X, Search, ChevronRight, User, Truck, Zap } from "lucide-react";
+import { ShoppingBag, Menu, X, Search, ChevronRight, User, Truck, Zap, Shield } from "lucide-react";
 import { useCart } from "./CartContext";
 import { navLinks, site } from "@/lib/site";
 import styles from "./Navbar.module.css";
+
+const DRAWER_BRANDS = [
+  { name: "31 Hats", slug: "31-hats" },
+  { name: "Cash Only", slug: "cash-only" },
+  { name: "Rebel Hats", slug: "rebel-hats" },
+  { name: "Dreamer Hats", slug: "dreamer-hats" },
+  { name: "Barbas Hats", slug: "barbas-hats" },
+  { name: "Fame Club", slug: "fame-club" },
+];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -55,6 +64,24 @@ export default function Navbar() {
     }
   }, [menuOpen]);
 
+  // Manejo fluido de enlaces internos y anclas
+  const handleNavClick = (href: string) => {
+    setMenuOpen(false);
+    if (href === "/" && pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+    if (href.startsWith("/#") && pathname === "/") {
+      const id = href.replace("/#", "");
+      const el = document.getElementById(id);
+      if (el) {
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    }
+  };
+
   return (
     <>
       {/* Top Shipping Bar */}
@@ -68,31 +95,35 @@ export default function Navbar() {
         </div>
       </div>
 
-
       <header className={`${styles.header} ${scrolled ? styles.scrolled : ""} ${isScrolling ? styles.isScrolling : ""}`}>
         <div className={styles.container}>
-          {/* Mobile Menu Toggle */}
-          <button
-            className={styles.menuToggle}
-            onClick={() => setMenuOpen(true)}
-            aria-label="Abrir menú"
-          >
-            <Menu size={24} />
-          </button>
+          {/* Controles Izquierdos en Móvil: Menú Hamburguesa + Buscar */}
+          <div className={styles.leftMobileControls}>
+            <button
+              className={styles.menuToggle}
+              onClick={() => setMenuOpen(true)}
+              aria-label="Abrir menú"
+            >
+              <Menu size={24} />
+            </button>
+            <Link href="/tienda" className={styles.mobileSearchBtn} aria-label="Buscar productos">
+              <Search size={20} />
+            </Link>
+          </div>
 
-          {/* Logo */}
-          <Link href="/" className={styles.logoLink}>
+          {/* Logo Oficial SPM (Centrado en móvil, a la izquierda en desktop) */}
+          <Link href="/" className={styles.logoLink} onClick={() => setMenuOpen(false)}>
             <Image
               src="/brand/spm-logo-white.png"
               alt="SPM Streetwear Logo"
-              width={140}
-              height={34}
+              width={135}
+              height={32}
               priority
               className={styles.logoImg}
             />
           </Link>
 
-          {/* Nav Desktop Links */}
+          {/* Navegación Desktop */}
           <nav className={styles.desktopNav}>
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
@@ -108,19 +139,22 @@ export default function Navbar() {
             })}
           </nav>
 
-          {/* Right Actions */}
+          {/* Acciones Derecha */}
           <div className={styles.actions}>
-            <Link href="/tienda" className={styles.iconBtn} aria-label="Buscar productos">
+            {/* Búsqueda en Desktop */}
+            <Link href="/tienda" className={`${styles.iconBtn} ${styles.desktopOnly}`} aria-label="Buscar productos">
               <Search size={20} />
             </Link>
 
-            <Link href="/login?type=customer" className={styles.navAuthBtn}>
+            {/* Accesos en Desktop (Ocultos en barra móvil para no apretar el diseño) */}
+            <Link href="/login?type=customer" className={`${styles.navAuthBtn} ${styles.desktopOnly}`}>
               MI CUENTA
             </Link>
-            <Link href="/login?type=admin" className={styles.navAuthBtn}>
+            <Link href="/login?type=admin" className={`${styles.navAuthBtn} ${styles.desktopOnly}`}>
               COLABORADOR
             </Link>
 
+            {/* Bolsa de compras (Siempre visible en desktop y móvil) */}
             <button
               onClick={toggleCart}
               className={styles.cartBtn}
@@ -133,17 +167,22 @@ export default function Navbar() {
         </div>
       </header>
 
-      {/* Off-Canvas Mobile Drawer */}
+      {/* Drawer Móvil Lateral Ultra-Completo */}
       <div className={`${styles.mobileDrawer} ${menuOpen ? styles.drawerOpen : ""}`}>
         <div className={styles.drawerOverlay} onClick={() => setMenuOpen(false)} />
+        
         <div className={styles.drawerContent}>
+          {/* Header del Drawer */}
           <div className={styles.drawerHeader}>
-            <Image
-              src="/brand/spm-logo-white.png"
-              alt="SPM Logo"
-              width={120}
-              height={30}
-            />
+            <Link href="/" onClick={() => setMenuOpen(false)} className={styles.drawerLogoLink}>
+              <Image
+                src="/brand/spm-logo-white.png"
+                alt="SPM Logo"
+                width={120}
+                height={29}
+                className={styles.drawerLogo}
+              />
+            </Link>
             <button
               onClick={() => setMenuOpen(false)}
               className={styles.closeBtn}
@@ -153,12 +192,36 @@ export default function Navbar() {
             </button>
           </div>
 
+          {/* Sección de Accesos Requerida por el Usuario: MI CUENTA & COLABORADOR */}
+          <div className={styles.drawerAuthSection}>
+            <p className={styles.drawerSectionTitle}>ACCESOS Y CUENTA</p>
+            <div className={styles.drawerAuthGrid}>
+              <Link
+                href="/login?type=customer"
+                onClick={() => setMenuOpen(false)}
+                className={styles.drawerAuthBtn}
+              >
+                <User size={16} />
+                <span>MI CUENTA</span>
+              </Link>
+              <Link
+                href="/login?type=admin"
+                onClick={() => setMenuOpen(false)}
+                className={`${styles.drawerAuthBtn} ${styles.drawerAuthBtnAdmin}`}
+              >
+                <Shield size={16} />
+                <span>COLABORADOR</span>
+              </Link>
+            </div>
+          </div>
+
+          {/* Navegación Principal */}
           <nav className={styles.mobileNav}>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                onClick={() => setMenuOpen(false)}
+                onClick={() => handleNavClick(link.href)}
                 className={styles.mobileNavLink}
               >
                 <span>{link.label}</span>
@@ -167,29 +230,16 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <div style={{ marginTop: "1.5rem" }}>
-            <p className={styles.socialTitle}>MARCAS POPULARES</p>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginTop: "0.5rem" }}>
-              {[
-                { name: "Thirty One", slug: "thirty-one" },
-                { name: "Cash Only", slug: "cash-only" },
-                { name: "Rebel Hats", slug: "rebel-hats" },
-                { name: "Barbas Hats", slug: "barbas-hats" },
-                { name: "Dreamer Hats", slug: "dreamer-hats" },
-                { name: "Inédit", slug: "inedit" },
-              ].map((b) => (
+          {/* Marcas Activas del Catálogo */}
+          <div className={styles.drawerBrandsSection}>
+            <p className={styles.drawerSectionTitle}>MARCAS DEL CATÁLOGO</p>
+            <div className={styles.brandPillsGrid}>
+              {DRAWER_BRANDS.map((b) => (
                 <Link
                   key={b.slug}
                   href={`/tienda?marca=${b.slug}`}
                   onClick={() => setMenuOpen(false)}
-                  style={{
-                    fontSize: "0.75rem",
-                    fontWeight: 700,
-                    padding: "0.4rem 0.75rem",
-                    borderRadius: "14px",
-                    background: "rgba(255,255,255,0.08)",
-                    color: "#ffffff",
-                  }}
+                  className={styles.brandPill}
                 >
                   {b.name}
                 </Link>
@@ -197,15 +247,35 @@ export default function Navbar() {
             </div>
           </div>
 
+          {/* Enlaces de Ayuda y Políticas */}
+          <div className={styles.drawerHelpSection}>
+            <p className={styles.drawerSectionTitle}>INFORMACIÓN & AYUDA</p>
+            <div className={styles.drawerHelpLinks}>
+              <Link href="/politicas-de-envio" onClick={() => setMenuOpen(false)}>
+                Envíos Starken / Blue Express
+              </Link>
+              <Link href="/cambios-y-devoluciones" onClick={() => setMenuOpen(false)}>
+                Garantía Legal SERNAC (6 meses)
+              </Link>
+              <Link href="/terminos" onClick={() => setMenuOpen(false)}>
+                Términos y Condiciones
+              </Link>
+              <Link href="/faq" onClick={() => setMenuOpen(false)}>
+                Preguntas Frecuentes (FAQ)
+              </Link>
+            </div>
+          </div>
+
+          {/* Footer del Menú: Comunidad Instagram */}
           <div className={styles.drawerFooter}>
-            <p className={styles.socialTitle}>SIGUENOS EN INSTAGRAM</p>
+            <p className={styles.drawerSectionTitle}>COMUNIDAD OFICIAL</p>
             <a
               href={site.instagram}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.instagramLink}
             >
-              {site.instagramHandle}
+              <span>{site.instagramHandle}</span>
             </a>
           </div>
         </div>

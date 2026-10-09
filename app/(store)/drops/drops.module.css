@@ -1,0 +1,865 @@
+/* ==========================================================================
+   DROPS & LOOKBOOK PAGE — ARCHITECTURAL BLACK & WHITE LUXURY STREETWEAR
+   ========================================================================== */
+
+.dropsPage {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #09090b;
+  padding-bottom: 6rem;
+}
+
+/* =========================================
+   HERO SECTION (Streetwear Subway Background 4.jpg)
+   ========================================= */
+.heroSection {
+  position: relative;
+  padding: 6.5rem 0 4rem;
+  background-color: #09090b;
+  background-image: 
+    linear-gradient(180deg, rgba(9, 9, 11, 0.72) 0%, rgba(9, 9, 11, 0.55) 45%, rgba(9, 9, 11, 0.88) 100%),
+    url('/backgrounds/fondo-4.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #27272a;
+  text-align: center;
+}
+
+.heroContent {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.badgeRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.95rem;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 9999px;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  backdrop-filter: blur(8px);
+}
+
+.heroBadgeSecondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.95rem;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 9999px;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  backdrop-filter: blur(8px);
+}
+
+.heroTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 1.05;
+  margin: 0 0 1.25rem;
+  text-shadow: 0 4px 25px rgba(0, 0, 0, 0.8);
+}
+
+.heroSubtitle {
+  font-family: var(--font-body);
+  font-size: clamp(0.92rem, 1.8vw, 1.08rem);
+  line-height: 1.6;
+  color: #f4f4f5;
+  margin: 0 auto 2.5rem;
+  max-width: 680px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.85);
+}
+
+.heroSubtitle strong {
+  color: #ffffff;
+}
+
+/* =========================================
+   INSTAGRAM OFFICIAL PROFILE CARD (White & Black)
+   ========================================= */
+.igProfileCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  padding: 1.35rem 1.85rem;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+  max-width: 720px;
+  margin: 0 auto;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.igProfileCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+@media (max-width: 680px) {
+  .igProfileCard {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.25rem 1rem;
+  }
+}
+
+.igProfileInfo {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+  text-align: left;
+}
+
+@media (max-width: 680px) {
+  .igProfileInfo {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.igAvatarRing {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  padding: 2.5px;
+  border: 2px solid #09090b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.igAvatar {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 6px;
+}
+
+.avatarImg {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+.igUserTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+@media (max-width: 680px) {
+  .igUserTitle {
+    justify-content: center;
+  }
+}
+
+.igUsername {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: #09090b;
+}
+
+.verifiedBadge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  background: #09090b;
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 0.65rem;
+  font-weight: 900;
+}
+
+.igBioText {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #18181b;
+  margin: 0.2rem 0 0.15rem;
+}
+
+.igMeta {
+  font-family: var(--font-body);
+  font-size: 0.74rem;
+  color: #71717a;
+  margin: 0;
+}
+
+.igActionBtns {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+@media (max-width: 680px) {
+  .igActionBtns {
+    width: 100%;
+  }
+}
+
+.igFollowBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: #09090b;
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+@media (max-width: 680px) {
+  .igFollowBtn {
+    flex: 2;
+    justify-content: center;
+  }
+}
+
+.igFollowBtn:hover {
+  background: #27272a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.igShopBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.75rem 1.15rem;
+  background: #ffffff;
+  border: 1px solid #09090b;
+  color: #09090b;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+@media (max-width: 680px) {
+  .igShopBtn {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+.igShopBtn:hover {
+  background: #f4f4f5;
+  transform: translateY(-2px);
+}
+
+/* =========================================
+   STICKY TABS BAR
+   ========================================= */
+.tabsSection {
+  background: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid #e4e4e7;
+  position: sticky;
+  top: var(--nav-height, 60px);
+  z-index: 30;
+  backdrop-filter: blur(14px);
+}
+
+.tabsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 0;
+  gap: 1rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.tabsList {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.tabBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1.05rem;
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  color: #71717a;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.tabBtn:hover {
+  color: #09090b;
+  border-color: #09090b;
+}
+
+.activeTab {
+  background: #09090b !important;
+  color: #ffffff !important;
+  border-color: #09090b !important;
+  font-weight: 800;
+}
+
+.directIgBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #09090b;
+  border-bottom: 1px solid #09090b;
+  padding-bottom: 2px;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: opacity 0.2s ease;
+}
+
+.directIgBtn:hover {
+  opacity: 0.7;
+}
+
+/* =========================================
+   SECTION HEADERS
+   ========================================= */
+.sectionHeader {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.25rem;
+  gap: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .sectionHeader {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.subTag {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #71717a;
+  margin-bottom: 0.4rem;
+}
+
+.sectionTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #09090b;
+  margin: 0;
+}
+
+.sectionNotice {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: #71717a;
+  margin: 0;
+  max-width: 440px;
+  text-align: right;
+  line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+  .sectionNotice {
+    text-align: left;
+  }
+}
+
+/* ==========================================================================
+   REELS SECTION (4 Columns en Desktop, 2 en Tablet, 1 en Mobile)
+   DIMENSIONAMIENTO EXACTO PARA FORMATO VERTICAL 9:16
+   ========================================================================== */
+.reelsSection {
+  padding: 4.5rem 0 3.5rem;
+  background: #fafafa;
+}
+
+.reelsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+  .reelsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 820px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reelsGrid {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+  }
+}
+
+.reelEmbedCard {
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.reelEmbedCard:hover {
+  border-color: #09090b;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.reelEmbedHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #f4f4f5;
+}
+
+.reelBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.65rem;
+  background: #09090b;
+  border-radius: 9999px;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.openIgLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #71717a;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.openIgLink:hover {
+  color: #09090b;
+}
+
+.iframeWrapper {
+  width: 100%;
+  height: 520px;
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.instagramIframe {
+  width: 100%;
+  height: 520px;
+  border: none;
+  background: #ffffff;
+}
+
+.reelCardFooter {
+  padding: 1.15rem 1rem;
+  background: #ffffff;
+  border-top: 1px solid #f4f4f5;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.reelMetaText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.reelCardTitle {
+  font-family: var(--font-heading);
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: #09090b;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.reelCardDesc {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: #71717a;
+  margin: 0;
+}
+
+.reelCardActions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.reelWatchBtn {
+  flex: 1.6;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.65rem 0.75rem;
+  background: #09090b;
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.reelWatchBtn:hover {
+  background: #27272a;
+}
+
+.reelBuyBtn {
+  flex: 1.2;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.65rem 0.75rem;
+  background: #ffffff;
+  border: 1px solid #09090b;
+  color: #09090b;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.reelBuyBtn:hover {
+  background: #f4f4f5;
+}
+
+/* ==========================================================================
+   POSTS FEED SECTION (3 Columns equilibradas)
+   ========================================================================== */
+.postsSection {
+  padding: 4.5rem 0;
+  background: #ffffff;
+  border-top: 1px solid #e4e4e7;
+}
+
+.postsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .postsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .postsGrid {
+    grid-template-columns: 1fr;
+    max-width: 440px;
+  }
+}
+
+.postEmbedCard {
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.postEmbedCard:hover {
+  border-color: #09090b;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.postEmbedHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #f4f4f5;
+}
+
+.postBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.65rem;
+  background: #f4f4f5;
+  border: 1px solid #e4e4e7;
+  border-radius: 9999px;
+  font-family: var(--font-body);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #09090b;
+}
+
+.postIframeWrapper {
+  width: 100%;
+  height: 480px;
+  background: #ffffff;
+}
+
+.instagramIframePost {
+  width: 100%;
+  height: 480px;
+  border: none;
+  background: #ffffff;
+}
+
+.postCardFooter {
+  padding: 0.85rem 1rem;
+  background: #ffffff;
+  border-top: 1px solid #f4f4f5;
+}
+
+.postLinkBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #09090b;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.postLinkBtn:hover {
+  opacity: 0.7;
+}
+
+/* ==========================================================================
+   COMMUNITY BANNER (Statement Box con fondo Collage 1.jpg y Letras en Blanco)
+   ========================================================================== */
+.communityBanner {
+  padding: 4.5rem 0 2rem;
+  background: #ffffff;
+}
+
+.bannerBox {
+  position: relative;
+  background-color: #09090b;
+  background-image: 
+    linear-gradient(180deg, rgba(9, 9, 11, 0.80) 0%, rgba(9, 9, 11, 0.88) 100%),
+    url('/backgrounds/fondo-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 20px;
+  padding: 4.5rem 2.5rem;
+  text-align: center;
+  max-width: 980px;
+  margin: 0 auto;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .bannerBox {
+    padding: 3rem 1.25rem;
+  }
+}
+
+.bannerTag {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 0.85rem;
+  padding: 0.4rem 0.95rem;
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 9999px;
+  backdrop-filter: blur(8px);
+}
+
+.bannerTitle {
+  font-family: var(--font-heading);
+  font-size: clamp(1.9rem, 4.2vw, 3rem);
+  font-weight: 900;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 0 1.15rem;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.8);
+}
+
+.bannerDesc {
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: #ffffff;
+  max-width: 640px;
+  margin: 0 auto 2.5rem;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.7);
+}
+
+.bannerDesc strong {
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.bannerActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.bannerIgBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.75rem;
+  background: #ffffff;
+  color: #09090b;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bannerIgBtn:hover {
+  background: #f4f4f5;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.25);
+}
+
+.bannerShopBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.75rem;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 8px;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
+}
+
+.bannerShopBtn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+}

@@ -174,8 +174,10 @@
 
 .productImg {
   border-radius: 6px;
-  object-fit: cover;
-  background-color: #f3f4f6;
+  object-fit: contain;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 2px;
 }
 
 .productName {

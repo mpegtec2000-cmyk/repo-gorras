@@ -1,13 +1,57 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { LayoutDashboard, Package, Tag, Users, Settings, TrendingUp, Store } from "lucide-react";
 import styles from "./layout.module.css";
 
-export default function SidebarNav() {
+interface SidebarNavProps {
+  initialProductCount?: number;
+  initialBrandCount?: number;
+}
+
+export default function SidebarNav({ initialProductCount = 74, initialBrandCount = 6 }: SidebarNavProps) {
   const pathname = usePathname();
+  const [productCount, setProductCount] = useState<number>(initialProductCount);
+  const [brandCount, setBrandCount] = useState<number>(initialBrandCount);
+
+  useEffect(() => {
+    if (initialProductCount !== undefined) {
+      setProductCount(initialProductCount);
+    }
+    if (initialBrandCount !== undefined) {
+      setBrandCount(initialBrandCount);
+    }
+  }, [initialProductCount, initialBrandCount]);
+
+  useEffect(() => {
+    const fetchCounts = async () => {
+      try {
+        const res = await fetch("/api/admin/products");
+        if (res.ok) {
+          const data = await res.json();
+          const items = Array.isArray(data) ? data : (data.products || []);
+          if (items.length > 0) {
+            setProductCount(items.length);
+            const brands = new Set(items.map((p: any) => p.brand).filter(Boolean));
+            setBrandCount(brands.size);
+          }
+        }
+      } catch {
+        // Fallback to current state
+      }
+    };
+
+    const handleCatalogUpdate = () => {
+      fetchCounts();
+    };
+
+    window.addEventListener("catalog-updated", handleCatalogUpdate);
+    return () => {
+      window.removeEventListener("catalog-updated", handleCatalogUpdate);
+    };
+  }, []);
 
   return (
     <nav className={styles.sidebarNav}>
@@ -23,7 +67,7 @@ export default function SidebarNav() {
         </Link>
         <Link href="/admin/productos" className={`${styles.navLink} ${pathname === "/admin/productos" ? styles.activeLink : ""}`}>
           <Package size={18} />
-          <span>Productos (45)</span>
+          <span>Productos ({productCount})</span>
         </Link>
         <Link href="/admin/ventas" className={`${styles.navLink} ${pathname.startsWith("/admin/ventas") ? styles.activeLink : ""}`}>
           <Store size={18} />
@@ -39,7 +83,7 @@ export default function SidebarNav() {
         </Link>
         <Link href="/admin/marcas" className={`${styles.navLink} ${pathname.startsWith("/admin/marcas") ? styles.activeLink : ""}`}>
           <Users size={18} />
-          <span>Marcas (9)</span>
+          <span>Marcas ({brandCount})</span>
         </Link>
       </div>
 

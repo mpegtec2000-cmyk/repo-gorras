@@ -66,6 +66,13 @@ export default function ShopClient({ initialProducts }: ShopClientProps) {
     setMobileFilterOpen(false);
   };
 
+  const activeBrandObj = useMemo(
+    () => brands.find((b) => b.slug === selectedBrand),
+    [brands, selectedBrand]
+  );
+  const activeFiltersCount =
+    (selectedBrand ? 1 : 0) + (onlyInStock ? 1 : 0) + (query.trim() ? 1 : 0);
+
   return (
     <div className={styles.shopContainer}>
       {/* Page Header */}
@@ -118,31 +125,63 @@ export default function ShopClient({ initialProducts }: ShopClientProps) {
           {/* Mobile Filter Button */}
           <button
             onClick={() => setMobileFilterOpen(true)}
-            className={styles.mobileFilterToggle}
+            className={`${styles.mobileFilterToggle} ${activeFiltersCount > 0 ? styles.mobileFilterActive : ""}`}
+            aria-label="Abrir filtros"
           >
-            <Filter size={18} />
+            <Filter size={17} />
             <span>FILTROS</span>
+            {activeFiltersCount > 0 && (
+              <span className={styles.filterActiveBadge}>{activeFiltersCount}</span>
+            )}
           </button>
         </div>
 
-        {/* Mobile Brand Chips Carousel */}
-        <div className={styles.mobileBrandChips}>
-          <button
-            onClick={() => handleBrandSelect("")}
-            className={`${styles.chipBtn} ${!selectedBrand ? styles.activeChip : ""}`}
-          >
-            Todas ({initialProducts.length})
-          </button>
-          {brands.map((b) => (
-            <button
-              key={b.slug}
-              onClick={() => handleBrandSelect(b.slug)}
-              className={`${styles.chipBtn} ${selectedBrand === b.slug ? styles.activeChip : ""}`}
-            >
-              {b.name} ({b.count})
-            </button>
-          ))}
-        </div>
+        {/* Active Filters Row (Solo visible cuando hay filtros aplicados) */}
+        {activeFiltersCount > 0 && (
+          <div className={styles.activeFiltersBar}>
+            <span className={styles.activeFiltersLabel}>Filtros activos:</span>
+            <div className={styles.activeFiltersTags}>
+              {activeBrandObj && (
+                <button
+                  onClick={() => handleBrandSelect("")}
+                  className={styles.activeFilterTag}
+                  title="Quitar filtro de marca"
+                >
+                  <span>{activeBrandObj.name}</span>
+                  <X size={13} />
+                </button>
+              )}
+              {onlyInStock && (
+                <button
+                  onClick={() => setOnlyInStock(false)}
+                  className={styles.activeFilterTag}
+                  title="Quitar filtro de stock"
+                >
+                  <span>En stock</span>
+                  <X size={13} />
+                </button>
+              )}
+              {query.trim() && (
+                <button
+                  onClick={() => {
+                    setQuery("");
+                    const params = new URLSearchParams(searchParams.toString());
+                    params.delete("q");
+                    router.push(`/tienda?${params.toString()}`);
+                  }}
+                  className={styles.activeFilterTag}
+                  title="Quitar filtro de búsqueda"
+                >
+                  <span>&ldquo;{query}&rdquo;</span>
+                  <X size={13} />
+                </button>
+              )}
+              <button onClick={clearAllFilters} className={styles.clearAllTextBtn}>
+                Limpiar todo
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Main Content Layout */}
         <div className={styles.shopLayout}>
@@ -229,40 +268,46 @@ export default function ShopClient({ initialProducts }: ShopClientProps) {
         <div className={styles.mobileFilterOverlay} onClick={() => setMobileFilterOpen(false)}>
           <div className={styles.mobileFilterContent} onClick={(e) => e.stopPropagation()}>
             <div className={styles.mobileFilterHeader}>
-              <h3 className={styles.mobileFilterTitle}>FILTRAR POR MARCA</h3>
-              <button onClick={() => setMobileFilterOpen(false)} className={styles.closeFilterBtn}>
-                <X size={24} />
+              <div className={styles.modalHeaderTitleBox}>
+                <Filter size={18} />
+                <h3 className={styles.mobileFilterTitle}>FILTROS Y MARCAS</h3>
+              </div>
+              <button
+                onClick={() => setMobileFilterOpen(false)}
+                className={styles.closeFilterBtn}
+                aria-label="Cerrar filtros"
+              >
+                <X size={22} />
               </button>
             </div>
 
-            <div className={styles.filterGroup} style={{ border: "none", padding: 0 }}>
-              <ul className={styles.categoryList}>
-                <li>
-                  <button
-                    onClick={() => handleBrandSelect("")}
-                    className={`${styles.categoryBtn} ${!selectedBrand ? styles.activeCat : ""}`}
-                    style={{ padding: "0.85rem" }}
-                  >
-                    <span>Todas las Marcas</span>
-                    <span className={styles.catCount}>{initialProducts.length}</span>
-                  </button>
-                </li>
+            {/* Marcas Organizadas como Pills Dentro de Filtros */}
+            <div className={styles.modalFilterSection}>
+              <h4 className={styles.modalSectionTitle}>MARCAS ({brands.length})</h4>
+              <div className={styles.modalPillsGrid}>
+                <button
+                  onClick={() => handleBrandSelect("")}
+                  className={`${styles.modalPill} ${!selectedBrand ? styles.activeModalPill : ""}`}
+                >
+                  <span>Todas</span>
+                  <span className={styles.modalPillCount}>({initialProducts.length})</span>
+                </button>
                 {brands.map((b) => (
-                  <li key={b.slug}>
-                    <button
-                      onClick={() => handleBrandSelect(b.slug)}
-                      className={`${styles.categoryBtn} ${selectedBrand === b.slug ? styles.activeCat : ""}`}
-                      style={{ padding: "0.85rem" }}
-                    >
-                      <span>{b.name}</span>
-                      <span className={styles.catCount}>{b.count}</span>
-                    </button>
-                  </li>
+                  <button
+                    key={b.slug}
+                    onClick={() => handleBrandSelect(b.slug)}
+                    className={`${styles.modalPill} ${selectedBrand === b.slug ? styles.activeModalPill : ""}`}
+                  >
+                    <span>{b.name}</span>
+                    <span className={styles.modalPillCount}>({b.count})</span>
+                  </button>
                 ))}
-              </ul>
+              </div>
             </div>
 
-            <div className={styles.filterGroup} style={{ border: "none", padding: 0 }}>
+            {/* Disponibilidad */}
+            <div className={styles.modalFilterSection}>
+              <h4 className={styles.modalSectionTitle}>DISPONIBILIDAD</h4>
               <label className={styles.checkboxLabel}>
                 <input
                   type="checkbox"
@@ -270,20 +315,24 @@ export default function ShopClient({ initialProducts }: ShopClientProps) {
                   onChange={(e) => setOnlyInStock(e.target.checked)}
                   className={styles.checkbox}
                 />
-                <span>Solo productos en stock</span>
+                <span>Solo productos en stock disponible</span>
               </label>
             </div>
 
-            <div style={{ display: "flex", gap: "0.75rem", marginTop: "1rem" }}>
-              <button onClick={clearAllFilters} className={styles.clearAllBtn} style={{ flex: 1 }}>
-                LIMPIAR
+            {/* Acciones del Modal */}
+            <div className={styles.modalActions}>
+              <button
+                onClick={clearAllFilters}
+                className={styles.modalClearBtn}
+                disabled={activeFiltersCount === 0}
+              >
+                LIMPIAR TODO
               </button>
               <button
                 onClick={() => setMobileFilterOpen(false)}
-                className={styles.resetBtn}
-                style={{ flex: 1 }}
+                className={styles.modalApplyBtn}
               >
-                APLICAR
+                VER {filteredProducts.length} PRODUCTOS
               </button>
             </div>
           </div>

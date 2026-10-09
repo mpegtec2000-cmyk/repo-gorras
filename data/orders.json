@@ -1,0 +1,958 @@
+[
+  {
+    "id": "spm_1791554433967",
+    "orderNumber": "#SPM-4433617",
+    "date": "2026-10-09T14:00:33.967Z",
+    "clientName": "Matias Espinoza",
+    "clientRut": "20.483.954-9",
+    "clientEmail": "mpeg.logistica@gmail.com",
+    "clientPhone": "+56 9 929645522",
+    "clientAddress": "manuel guerrero 371-b, Depto/Casa casa 2 pisos roja",
+    "clientCity": "Viña del Mar",
+    "clientRegion": "Región de Valparaíso",
+    "shippingMethod": "Envío Express a Domicilio (Starken / Blue Express)",
+    "shippingCost": 0,
+    "status": "Pendiente de Pago",
+    "items": [
+      {
+        "productId": "prod_1",
+        "name": "x Lonche & Wilito Skull Fes",
+        "brand": "Barbas Hats",
+        "image": "/products/gorra-barbas-hats-x-lonche-wilito-heartbreaker-preventa-copia-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_6",
+        "name": "Pharaoh Crown Black and White",
+        "brand": "Rebel Hats",
+        "image": "/products/gorra-rebel-pharaoh-crown-black-and-white-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_11",
+        "name": "SAINT OF CHAOS",
+        "brand": "Rebel Hats",
+        "image": "/products/gorra-rebel-saint-of-chaos-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 210000,
+    "total": 210000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "flowToken": "8F136797A6907F46EF7F2056F944937DED202FCA",
+    "flowOrder": 184441039
+  },
+  {
+    "id": "spm_1791552878946",
+    "orderNumber": "#SPM-2878342",
+    "date": "2026-10-09T13:34:38.946Z",
+    "clientName": "Cliente Real SPM",
+    "clientRut": "18.456.789-0",
+    "clientEmail": "usuario@hotmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 402",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana de Santiago",
+    "shippingMethod": "Envío Express a Domicilio (Starken / Blue Express)",
+    "shippingCost": 0,
+    "status": "Pendiente de Pago",
+    "items": [
+      {
+        "productId": "prod_2",
+        "name": "DARK NEBULA",
+        "brand": "Barbas Hats",
+        "image": "/products/gorra-barbas-hats-dark-nebula-preventa-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "flowToken": "40DF4A03680E269906B4FC6BFFD185E33C0F46DY",
+    "flowOrder": 184439323
+  },
+  {
+    "id": "spm_1791552863366",
+    "orderNumber": "#SPM-2863575",
+    "date": "2026-10-09T13:34:23.366Z",
+    "clientName": "Cliente Prueba SPM",
+    "clientRut": "18.456.789-0",
+    "clientEmail": "comprador@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 402",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana de Santiago",
+    "shippingMethod": "Envío Express a Domicilio (Starken / Blue Express)",
+    "shippingCost": 0,
+    "status": "Pendiente de Pago",
+    "items": [
+      {
+        "productId": "prod_2",
+        "name": "DARK NEBULA",
+        "brand": "Barbas Hats",
+        "image": "/products/gorra-barbas-hats-dark-nebula-preventa-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow"
+  },
+  {
+    "id": "ord_1003",
+    "orderNumber": "#SPM-1003",
+    "date": "2026-10-09T13:34:23.367Z",
+    "clientName": "Ana Rojas",
+    "clientRut": "15.567.890-1",
+    "clientEmail": "ana@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pagado",
+    "items": [
+      {
+        "productId": "prod_28",
+        "name": "SILVER CLOVER",
+        "brand": "Dreamer Hats",
+        "image": "/products/gorra-el-dreamer-hats-silver-clover-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-09T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1002",
+    "orderNumber": "#SPM-1002",
+    "date": "2026-10-08T13:34:23.367Z",
+    "clientName": "Carlos Soto",
+    "clientRut": "20.456.789-0",
+    "clientEmail": "carlos@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Preparando Pedido",
+    "items": [
+      {
+        "productId": "prod_47",
+        "name": "PINK PANTHER MONOGRAMA",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cash-only-pink-panter-monograma-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-08T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1004",
+    "orderNumber": "#SPM-1004",
+    "date": "2026-10-08T13:34:23.367Z",
+    "clientName": "Pedro Silva",
+    "clientRut": "17.678.901-2",
+    "clientEmail": "pedro@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Preparando Pedido",
+    "items": [
+      {
+        "productId": "prod_36",
+        "name": "Hannya Drift",
+        "brand": "Rebel Hats",
+        "image": "/products/gorra-rebel-hats-hannya-drift-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-08T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1005",
+    "orderNumber": "#SPM-1005",
+    "date": "2026-10-08T13:34:23.367Z",
+    "clientName": "Camila Morales",
+    "clientRut": "21.789.012-3",
+    "clientEmail": "camila@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_44",
+        "name": "LA TOTAL BLACK",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cash-only-la-black-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-08T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1022",
+    "orderNumber": "#SPM-1022",
+    "date": "2026-10-08T13:34:23.367Z",
+    "clientName": "Diego Castillo",
+    "clientRut": "16.890.123-4",
+    "clientEmail": "diego@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_53",
+        "name": "BLUE FLOWERS",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cash-only-blue-flowers-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_6",
+        "name": "Pharaoh Crown Black and White",
+        "brand": "Rebel Hats",
+        "image": "/products/gorra-rebel-pharaoh-crown-black-and-white-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 140000,
+    "total": 140000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-08T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1001",
+    "orderNumber": "#SPM-1001",
+    "date": "2026-10-07T13:34:23.367Z",
+    "clientName": "María González",
+    "clientRut": "18.345.678-9",
+    "clientEmail": "maría@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Preparando Pedido",
+    "items": [
+      {
+        "productId": "prod_39",
+        "name": "CASH ONLY CHROME BLACK 11:11",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cash-only-cash-only-chrome-black-11-11-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-07T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1008",
+    "orderNumber": "#SPM-1008",
+    "date": "2026-10-07T13:34:23.367Z",
+    "clientName": "Juan Pérez",
+    "clientRut": "19.234.567-8",
+    "clientEmail": "juan@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_34",
+        "name": "Koi",
+        "brand": "Rebel Hats",
+        "image": "/products/gorra-rebel-hats-rebel-koi-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-07T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1011",
+    "orderNumber": "#SPM-1011",
+    "date": "2026-10-07T13:34:23.367Z",
+    "clientName": "Ana Rojas",
+    "clientRut": "15.567.890-1",
+    "clientEmail": "ana@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_30",
+        "name": "KOI OLIVE",
+        "brand": "Dreamer Hats",
+        "image": "/products/gorra-el-dreamer-hats-koi-olive-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_47",
+        "name": "PINK PANTHER MONOGRAMA",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cash-only-pink-panter-monograma-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 140000,
+    "total": 140000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-07T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1006",
+    "orderNumber": "#SPM-1006",
+    "date": "2026-10-06T13:34:23.367Z",
+    "clientName": "Diego Castillo",
+    "clientRut": "16.890.123-4",
+    "clientEmail": "diego@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_36",
+        "name": "Hannya Drift",
+        "brand": "Rebel Hats",
+        "image": "/products/gorra-rebel-hats-hannya-drift-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-06T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1018",
+    "orderNumber": "#SPM-1018",
+    "date": "2026-10-06T13:34:23.367Z",
+    "clientName": "Carlos Soto",
+    "clientRut": "20.456.789-0",
+    "clientEmail": "carlos@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_15",
+        "name": "JEWERLY DISTRICT",
+        "brand": "31 Hats",
+        "image": "/products/gorra-31-hats-jewerly-district-preventa-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-06T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1017",
+    "orderNumber": "#SPM-1017",
+    "date": "2026-10-05T13:34:23.367Z",
+    "clientName": "María González",
+    "clientRut": "18.345.678-9",
+    "clientEmail": "maría@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_53",
+        "name": "BLUE FLOWERS",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cash-only-blue-flowers-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_71",
+        "name": "LA MOCHILA",
+        "brand": "31 Hats",
+        "image": "/products/gorra-31-hats-la-mochila-preventa-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 140000,
+    "total": 140000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-05T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1025",
+    "orderNumber": "#SPM-1025",
+    "date": "2026-10-04T13:34:23.367Z",
+    "clientName": "María González",
+    "clientRut": "18.345.678-9",
+    "clientEmail": "maría@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_49",
+        "name": "NY DRIP",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cash-only-ny-drip-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-04T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1021",
+    "orderNumber": "#SPM-1021",
+    "date": "2026-10-03T13:34:23.367Z",
+    "clientName": "Camila Morales",
+    "clientRut": "21.789.012-3",
+    "clientEmail": "camila@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_30",
+        "name": "KOI OLIVE",
+        "brand": "Dreamer Hats",
+        "image": "/products/gorra-el-dreamer-hats-koi-olive-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-03T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1012",
+    "orderNumber": "#SPM-1012",
+    "date": "2026-10-02T13:34:23.367Z",
+    "clientName": "Pedro Silva",
+    "clientRut": "17.678.901-2",
+    "clientEmail": "pedro@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_26",
+        "name": "x Lonche & Wilito Skull Fes",
+        "brand": "Barbas Hats",
+        "image": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_63",
+        "name": "x Samantha Universe Black",
+        "brand": "Fame Club",
+        "image": "/products/gorra-fame-club-x-samantha-universe-tiffany-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 140000,
+    "total": 140000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-02T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1009",
+    "orderNumber": "#SPM-1009",
+    "date": "2026-10-01T13:34:23.367Z",
+    "clientName": "María González",
+    "clientRut": "18.345.678-9",
+    "clientEmail": "maría@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_67",
+        "name": "x Benavidez 31-0",
+        "brand": "31 Hats",
+        "image": "/products/gorra-31-hats-31-0-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_18",
+        "name": "STARRY NIGHT",
+        "brand": "31 Hats",
+        "image": "/products/gorra-31-hats-starry-night-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 140000,
+    "total": 140000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-01T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1014",
+    "orderNumber": "#SPM-1014",
+    "date": "2026-10-01T13:34:23.367Z",
+    "clientName": "Diego Castillo",
+    "clientRut": "16.890.123-4",
+    "clientEmail": "diego@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_65",
+        "name": "LA THORNS",
+        "brand": "31 Hats",
+        "image": "/products/gorra-31-hats-la-thorns-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-10-01T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1020",
+    "orderNumber": "#SPM-1020",
+    "date": "2026-09-29T13:34:23.367Z",
+    "clientName": "Pedro Silva",
+    "clientRut": "17.678.901-2",
+    "clientEmail": "pedro@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_72",
+        "name": "WORLD CHAMPIONS 2025",
+        "brand": "31 Hats",
+        "image": "/products/gorra-31-hats-world-champions-2025-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-09-29T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1024",
+    "orderNumber": "#SPM-1024",
+    "date": "2026-09-28T13:34:23.367Z",
+    "clientName": "Juan Pérez",
+    "clientRut": "19.234.567-8",
+    "clientEmail": "juan@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_44",
+        "name": "LA TOTAL BLACK",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cash-only-la-black-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-09-28T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1007",
+    "orderNumber": "#SPM-1007",
+    "date": "2026-09-27T13:34:23.367Z",
+    "clientName": "Valentina Torres",
+    "clientRut": "19.901.234-5",
+    "clientEmail": "valentina@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_3",
+        "name": "PLATINUM SNOWFLAKE",
+        "brand": "Barbas Hats",
+        "image": "/products/gorra-barbas-hats-platinum-snowflake-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_57",
+        "name": "WASHED OUT LOYALTY BLACK DENIM",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cash-only-x-washed-out-black-denim-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 140000,
+    "total": 140000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-09-27T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1023",
+    "orderNumber": "#SPM-1023",
+    "date": "2026-09-27T13:34:23.367Z",
+    "clientName": "Valentina Torres",
+    "clientRut": "19.901.234-5",
+    "clientEmail": "valentina@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_20",
+        "name": "NY SWEETHEARTS",
+        "brand": "31 Hats",
+        "image": "/products/gorra-31-hats-ny-sweethearts-preventa-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-09-27T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1019",
+    "orderNumber": "#SPM-1019",
+    "date": "2026-09-22T13:34:23.367Z",
+    "clientName": "Ana Rojas",
+    "clientRut": "15.567.890-1",
+    "clientEmail": "ana@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_59",
+        "name": "CASHED OUT CHROME",
+        "brand": "Cash Only",
+        "image": "/products/gorra-cashed-out-chrome-preventa-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-09-22T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1013",
+    "orderNumber": "#SPM-1013",
+    "date": "2026-09-20T13:34:23.367Z",
+    "clientName": "Camila Morales",
+    "clientRut": "21.789.012-3",
+    "clientEmail": "camila@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_62",
+        "name": "x Samantha Universe Pink",
+        "brand": "Fame Club",
+        "image": "/products/gorra-fame-club-x-samantha-universe-pink-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-09-20T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1010",
+    "orderNumber": "#SPM-1010",
+    "date": "2026-09-18T13:34:23.367Z",
+    "clientName": "Carlos Soto",
+    "clientRut": "20.456.789-0",
+    "clientEmail": "carlos@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_36",
+        "name": "Hannya Drift",
+        "brand": "Rebel Hats",
+        "image": "/products/gorra-rebel-hats-hannya-drift-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_4",
+        "name": "WHO THE F... IS THIRTYONE?",
+        "brand": "31 Hats",
+        "image": "/products/gorra-31-hats-who-the-f-is-thirtyone-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 140000,
+    "total": 140000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-09-18T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1016",
+    "orderNumber": "#SPM-1016",
+    "date": "2026-09-17T13:34:23.367Z",
+    "clientName": "Juan Pérez",
+    "clientRut": "19.234.567-8",
+    "clientEmail": "juan@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_25",
+        "name": "THIS IS NOT A HEIST CAGED IN",
+        "brand": "31 Hats",
+        "image": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      },
+      {
+        "productId": "prod_38",
+        "name": "NEW",
+        "brand": "Rebel Hats",
+        "image": "/products/gorra-rebel-hats-new-rebel-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 140000,
+    "total": 140000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-09-17T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  },
+  {
+    "id": "ord_1015",
+    "orderNumber": "#SPM-1015",
+    "date": "2026-09-16T13:34:23.367Z",
+    "clientName": "Valentina Torres",
+    "clientRut": "19.901.234-5",
+    "clientEmail": "valentina@gmail.com",
+    "clientPhone": "+56 9 8765 4321",
+    "clientAddress": "Av. Providencia 1234, Depto 45",
+    "clientCity": "Providencia",
+    "clientRegion": "Región Metropolitana",
+    "shippingMethod": "Envío Express Starken / Blue Express",
+    "shippingCost": 0,
+    "status": "Pedido Entregado",
+    "items": [
+      {
+        "productId": "prod_36",
+        "name": "Hannya Drift",
+        "brand": "Rebel Hats",
+        "image": "/products/gorra-rebel-hats-hannya-drift-1.webp",
+        "size": "Única · Ajustable",
+        "quantity": 1,
+        "price": 70000
+      }
+    ],
+    "subtotal": 70000,
+    "total": 70000,
+    "paymentMethod": "Webpay Plus / Flow",
+    "paidAt": "2026-09-16T13:34:23.367Z",
+    "paymentMedia": "Webpay Débito"
+  }
+]

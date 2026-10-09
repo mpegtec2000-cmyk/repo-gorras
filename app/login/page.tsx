@@ -58,7 +58,7 @@ function LoginContent() {
               <ul className={styles.features}>
                 <li className={styles.featureItem}>
                   <CheckCircle2 size={16} className={styles.featureIcon} />
-                  Gestión de los 45 productos de la tienda
+                  Gestión integral del catálogo de productos
                 </li>
                 <li className={styles.featureItem}>
                   <CheckCircle2 size={16} className={styles.featureIcon} />

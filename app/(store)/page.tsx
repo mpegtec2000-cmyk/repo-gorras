@@ -55,8 +55,8 @@ export default async function Home() {
               </span>
               <h2 className={styles.sectionTitle}>NUEVOS DROPS 2026</h2>
             </div>
-            <Link href="/tienda?orden=nuevos" className={styles.linkBtn}>
-              VER TODOS LOS DROPS <ArrowRight size={16} />
+            <Link href="/drops" className={styles.linkBtn}>
+              VER DROPS & LOOKBOOK <ArrowRight size={16} />
             </Link>
           </div>
 
@@ -76,7 +76,7 @@ export default async function Home() {
 
       {/* Editorial Lookbook Banner */}
       <ScrollReveal>
-        <section className={styles.editorialSection}>
+        <section className={styles.editorialSection} id="nosotros">
         <div className={styles.editorialBgContainer}>
           <picture>
             <source media="(min-width: 768px)" srcSet="/backgrounds/fondo-2.jpg" />
@@ -109,7 +109,7 @@ export default async function Home() {
 
       {/* Best Sellers Section */}
       <ScrollReveal>
-        <section className={styles.section}>
+        <section className={`${styles.section} ${styles.favoritosSection}`}>
         <div className="container">
           <div className={styles.sectionHeader}>
             <div>

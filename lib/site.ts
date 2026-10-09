@@ -37,7 +37,7 @@ export const site = {
 export const navLinks = [
   { href: "/", label: "Inicio" },
   { href: "/tienda", label: "Tienda" },
-  { href: "/tienda?orden=nuevos", label: "Drops" },
+  { href: "/drops", label: "Drops" },
   { href: "/#colecciones", label: "Colecciones" },
   { href: "/#nosotros", label: "Nosotros" },
 ] as const;

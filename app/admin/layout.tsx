@@ -4,13 +4,18 @@ import Image from "next/image";
 import { LayoutDashboard, Package, Tag, Users, Settings, LogOut, ArrowLeft, Store, TrendingUp } from "lucide-react";
 import styles from "./layout.module.css";
 import SidebarNav from "./SidebarNav";
+import { getProducts } from "@/lib/catalog";
+import { getBrands } from "@/lib/products";
 
 export const metadata = {
   title: "SaaS Admin | SPM Streetwear",
   description: "Panel de administración SPM",
 };
 
-export default function AdminLayout({ children }: { children: React.ReactNode }) {
+export default async function AdminLayout({ children }: { children: React.ReactNode }) {
+  const products = await getProducts();
+  const brands = getBrands(products);
+
   return (
     <div className={styles.adminLayout}>
       {/* Sidebar */}
@@ -29,7 +34,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           <span className={styles.badge}>SaaS PRO</span>
         </div>
 
-        <SidebarNav />
+        <SidebarNav initialProductCount={products.length} initialBrandCount={brands.length} />
 
         <div className={styles.sidebarFooter}>
           <div className={styles.userCard}>

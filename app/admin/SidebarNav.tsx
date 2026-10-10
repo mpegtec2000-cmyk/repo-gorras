@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Package, Tag, Users, Settings, TrendingUp, Store } from "lucide-react";
+import { LayoutDashboard, Package, Tag, Users, Settings, TrendingUp, Store, UserCheck, Layers, Award } from "lucide-react";
 import styles from "./layout.module.css";
 
 interface SidebarNavProps {
@@ -15,6 +15,7 @@ export default function SidebarNav({ initialProductCount = 74, initialBrandCount
   const pathname = usePathname();
   const [productCount, setProductCount] = useState<number>(initialProductCount);
   const [brandCount, setBrandCount] = useState<number>(initialBrandCount);
+  const [clientCount, setClientCount] = useState<number>(1);
 
   useEffect(() => {
     if (initialProductCount !== undefined) {
@@ -39,9 +40,23 @@ export default function SidebarNav({ initialProductCount = 74, initialBrandCount
           }
         }
       } catch {
-        // Fallback to current state
+        // Fallback
+      }
+
+      try {
+        const clientRes = await fetch("/api/admin/clientes");
+        if (clientRes.ok) {
+          const cData = await clientRes.json();
+          if (Array.isArray(cData.clients)) {
+            setClientCount(cData.clients.length);
+          }
+        }
+      } catch {
+        // Fallback
       }
     };
+
+    fetchCounts();
 
     const handleCatalogUpdate = () => {
       fetchCounts();
@@ -65,6 +80,10 @@ export default function SidebarNav({ initialProductCount = 74, initialBrandCount
           <TrendingUp size={18} />
           <span>Flujo & Analítica</span>
         </Link>
+        <Link href="/admin/clientes" className={`${styles.navLink} ${pathname.startsWith("/admin/clientes") ? styles.activeLink : ""}`}>
+          <UserCheck size={18} />
+          <span>Clientes ({clientCount})</span>
+        </Link>
         <Link href="/admin/productos" className={`${styles.navLink} ${pathname === "/admin/productos" ? styles.activeLink : ""}`}>
           <Package size={18} />
           <span>Productos ({productCount})</span>
@@ -78,11 +97,11 @@ export default function SidebarNav({ initialProductCount = 74, initialBrandCount
           <span>Subir Producto / SEO</span>
         </Link>
         <Link href="/admin/inventario" className={`${styles.navLink} ${pathname.startsWith("/admin/inventario") ? styles.activeLink : ""}`}>
-          <Users size={18} />
+          <Layers size={18} />
           <span>Stock & Ventas</span>
         </Link>
         <Link href="/admin/marcas" className={`${styles.navLink} ${pathname.startsWith("/admin/marcas") ? styles.activeLink : ""}`}>
-          <Users size={18} />
+          <Award size={18} />
           <span>Marcas ({brandCount})</span>
         </Link>
       </div>

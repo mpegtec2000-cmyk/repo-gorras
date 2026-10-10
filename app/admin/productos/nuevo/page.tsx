@@ -1,5 +1,7 @@
 import React from "react";
-import ProductEditorClient from "../[id]/ProductEditorClient";
+import ProductEditorClient from "../ProductEditorClient";
+
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Nuevo Producto | SaaS Admin",
@@ -8,3 +10,4 @@ export const metadata = {
 export default function NewProductPage() {
   return <ProductEditorClient product={null} />;
 }
+

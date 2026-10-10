@@ -1,7 +1,9 @@
 import React from "react";
 import { getProduct } from "@/lib/catalog";
-import ProductEditorClient from "./ProductEditorClient";
+import ProductEditorClient from "../ProductEditorClient";
 import { notFound } from "next/navigation";
+
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Editor de Producto | SaaS Admin",
@@ -24,3 +26,4 @@ export default async function ProductEditorPage({ params }: PageProps) {
     <ProductEditorClient product={product} />
   );
 }
+

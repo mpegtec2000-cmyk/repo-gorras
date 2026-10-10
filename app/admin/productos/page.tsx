@@ -2,6 +2,8 @@ import React from "react";
 import { getProducts } from "@/lib/catalog";
 import ProductsClient from "./ProductsClient";
 
+export const dynamic = "force-dynamic";
+
 export const metadata = {
   title: "Catálogo de Productos | SaaS Admin",
 };
@@ -13,3 +15,4 @@ export default async function AdminProductsPage() {
     <ProductsClient initialProducts={products} />
   );
 }
+

@@ -1,12 +1,13 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ShieldCheck, ArrowRight, Truck, Lock, CreditCard, ShoppingBag, Loader2, ArrowLeft, CheckCircle2 } from "lucide-react";
+import { ShieldCheck, ArrowRight, Truck, Lock, CreditCard, ShoppingBag, Loader2, ArrowLeft, CheckCircle2, UserCheck } from "lucide-react";
 import { useCart } from "@/app/components/CartContext";
 import { formatCLP } from "@/lib/products";
 import { CHILE_REGIONS } from "@/lib/chile";
+import { supabase } from "@/lib/supabase";
 import styles from "./Checkout.module.css";
 
 // Formateador de RUT chileno (ej. 12.345.678-9)
@@ -42,6 +43,86 @@ export default function CheckoutClient() {
 
   const [loading, setLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
+  const [autofilled, setAutofilled] = useState(false);
+  const [autofillName, setAutofillName] = useState<string | null>(null);
+
+  useEffect(() => {
+    let isMounted = true;
+
+    async function loadUserData() {
+      // 1. Intentar sesión oficial de Supabase Auth
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session?.user) {
+          const meta = session.user.user_metadata || {};
+          let prof: any = null;
+          try {
+            const { data } = await supabase.from("profiles").select("*").eq("id", session.user.id).single();
+            prof = data;
+          } catch {}
+
+          if (isMounted) {
+            const resolvedName = prof?.name || meta.name || "";
+            const resolvedRut = prof?.rut || meta.rut || "";
+            const resolvedPhone = prof?.phone || meta.phone || "";
+            const resolvedEmail = session.user.email || "";
+            const resolvedRegion = prof?.region || "RM";
+            const resolvedCity = prof?.city || "Santiago Centro";
+            const resolvedAddress = prof?.address || "";
+            const resolvedApt = prof?.apartment || "";
+
+            setFormData((prev) => ({
+              ...prev,
+              name: resolvedName || prev.name,
+              rut: resolvedRut ? formatChileanRut(resolvedRut) : prev.rut,
+              email: resolvedEmail || prev.email,
+              phone: resolvedPhone || prev.phone,
+              region: resolvedRegion || prev.region,
+              city: resolvedCity || prev.city,
+              address: resolvedAddress || prev.address,
+              apartment: resolvedApt || prev.apartment,
+            }));
+            setAutofillName(resolvedName || resolvedEmail);
+            setAutofilled(true);
+          }
+          return;
+        }
+      } catch (err) {
+        console.warn("No se pudo obtener sesión remota:", err);
+      }
+
+      // 2. Fallback de cliente recordado en localStorage
+      try {
+        const saved = localStorage.getItem("spm_customer_info");
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (parsed && (parsed.email || parsed.name)) {
+            if (isMounted) {
+              setFormData((prev) => ({
+                ...prev,
+                name: parsed.name || prev.name,
+                rut: parsed.rut ? formatChileanRut(parsed.rut) : prev.rut,
+                email: parsed.email || prev.email,
+                phone: parsed.phone || prev.phone,
+                region: parsed.region || prev.region,
+                city: parsed.city || prev.city,
+                address: parsed.address || prev.address,
+                apartment: parsed.apartment || prev.apartment,
+              }));
+              setAutofillName(parsed.name || parsed.email);
+              setAutofilled(true);
+            }
+          }
+        }
+      } catch {}
+    }
+
+    loadUserData();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   // Region and comunas
   const selectedRegion = CHILE_REGIONS.find((r) => r.id === formData.region) || CHILE_REGIONS[0];
@@ -97,6 +178,38 @@ export default function CheckoutClient() {
 
     try {
       setLoading(true);
+
+      // Guardar datos en localStorage y perfiles para futuras compras
+      const customerToSave = {
+        name: formData.name.trim(),
+        rut: formData.rut.trim(),
+        email: formData.email.trim().toLowerCase(),
+        phone: formData.phone.trim(),
+        region: formData.region,
+        city: formData.city,
+        address: formData.address.trim(),
+        apartment: formData.apartment.trim(),
+      };
+      localStorage.setItem("spm_customer_info", JSON.stringify(customerToSave));
+
+      // Guardar en Supabase profiles si hay sesión activa
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (session?.user?.id) {
+          await supabase.from("profiles").upsert({
+            id: session.user.id,
+            email: formData.email.trim().toLowerCase(),
+            name: formData.name.trim(),
+            rut: formData.rut.trim(),
+            phone: formData.phone.trim(),
+            region: formData.region,
+            city: formData.city,
+            address: formData.address.trim(),
+            apartment: formData.apartment.trim(),
+            updated_at: new Date().toISOString(),
+          });
+        }
+      } catch {}
 
       const payload = {
         customer: {
@@ -204,6 +317,25 @@ export default function CheckoutClient() {
                 <span className={styles.stepNumber}>1</span>
                 <h3 className={styles.cardTitle}>Datos del Comprador</h3>
               </div>
+
+              {autofilled && (
+                <div style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.6rem",
+                  padding: "0.65rem 0.9rem",
+                  marginBottom: "1.25rem",
+                  borderRadius: "6px",
+                  backgroundColor: "rgba(16, 185, 129, 0.08)",
+                  border: "1px solid rgba(16, 185, 129, 0.25)",
+                  color: "#059669",
+                  fontSize: "0.85rem",
+                  fontWeight: 600
+                }}>
+                  <UserCheck size={18} />
+                  <span>Sesión activa ({autofillName}). Tus datos han sido autocompletados automáticamente.</span>
+                </div>
+              )}
 
               <div className={styles.formGroup}>
                 <label className={styles.formLabel}>Nombre y Apellido *</label>

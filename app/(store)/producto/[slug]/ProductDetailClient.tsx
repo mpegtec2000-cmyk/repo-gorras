@@ -23,6 +23,16 @@ export default function ProductDetailClient({ product, related }: ProductDetailC
   const isSoldOut = product.stock <= 0;
   const currentImage = images[selectedImgIndex] || images[0];
 
+  React.useEffect(() => {
+    try {
+      fetch("/api/analytics/click", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productId: product.id }),
+      }).catch(() => {});
+    } catch {}
+  }, [product.id]);
+
   const handleAddToCart = () => {
     if (!isSoldOut) {
       for (let i = 0; i < quantity; i++) {

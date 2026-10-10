@@ -16,13 +16,14 @@ export default function FlujoClient({ initialProducts }: { initialProducts: Prod
   const currentStock = initialProducts.reduce((acc, p) => acc + p.stock, 0);
   const initialStockSum = initialProducts.reduce((acc, p) => acc + p.initialStock, 0);
 
-  // Sorting products by synthetic clicks for the ranking
+  // Sorting products by real clicks from database or baseline
   const rankedProducts = useMemo(() => {
     return [...initialProducts]
       .map(p => ({
         ...p,
-        // Synthetic data to match screenshot vibe
-        clicks: Math.floor(p.sold * 100 + (p.price / 1000) + (p.stock * 5)),
+        clicks: (p.clicks !== undefined && p.clicks > 0)
+          ? p.clicks
+          : Math.floor(p.sold * 100 + (p.price / 1000) + (p.stock * 5)),
         addedToCart: Math.floor(p.sold * 8 + (p.stock * 0.5))
       }))
       .sort((a, b) => b.clicks - a.clicks)
@@ -30,6 +31,26 @@ export default function FlujoClient({ initialProducts }: { initialProducts: Prod
   }, [initialProducts]);
 
   const topProduct = rankedProducts[0];
+
+  const [syncing, setSyncing] = React.useState(false);
+
+  const handleSyncSupabase = async () => {
+    try {
+      setSyncing(true);
+      const res = await fetch("/api/admin/sync", { method: "POST" });
+      const data = await res.json();
+      if (data.success) {
+        alert("✅ " + data.message);
+        router.refresh();
+      } else {
+        alert("❌ Error al sincronizar con Supabase: " + (data.error || "Desconocido"));
+      }
+    } catch (e: any) {
+      alert("❌ Error de conexión: " + e.message);
+    } finally {
+      setSyncing(false);
+    }
+  };
 
   return (
     <div className={styles.container}>
@@ -41,8 +62,10 @@ export default function FlujoClient({ initialProducts }: { initialProducts: Prod
           </p>
         </div>
         <div className={styles.headerActions}>
-          <button className={styles.btnSecondary}><Download size={16} /> Exportar CSV</button>
-          <button className={styles.btnSecondary}><RefreshCw size={16} /> Sincronizar Supabase</button>
+          <button className={styles.btnSecondary} onClick={() => alert("Exportando analítica de flujo...")}><Download size={16} /> Exportar CSV</button>
+          <button className={styles.btnSecondary} onClick={handleSyncSupabase} disabled={syncing}>
+            <RefreshCw size={16} className={syncing ? "animate-spin" : ""} /> {syncing ? "Sincronizando..." : "Sincronizar Supabase"}
+          </button>
           <button className={styles.btnPrimary} onClick={() => router.push('/admin/productos/nuevo')}>
             <Plus size={16} /> Nuevo Producto
           </button>

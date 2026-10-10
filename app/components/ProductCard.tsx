@@ -43,7 +43,20 @@ export default function ProductCard({ product }: ProductCardProps) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <Link href={`/producto/${product.slug}`} className={styles.imageLink} aria-label={product.name}>
+      <Link
+        href={`/producto/${product.slug}`}
+        className={styles.imageLink}
+        aria-label={product.name}
+        onClick={() => {
+          try {
+            fetch("/api/analytics/click", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ productId: product.id }),
+            }).catch(() => {});
+          } catch {}
+        }}
+      >
         <div className={styles.imageWrapper}>
           {/* Badges */}
           <div className={styles.badges}>

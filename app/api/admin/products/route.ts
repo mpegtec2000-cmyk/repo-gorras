@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getProducts, saveProduct, updateProductPartial, deleteProduct } from "@/lib/catalog";
+import { getProducts, getProduct, saveProduct, updateProductPartial, deleteProduct } from "@/lib/catalog";
 import { Product } from "@/lib/products";
 
 export async function GET() {
@@ -15,32 +15,34 @@ export async function POST(req: NextRequest) {
     }
 
     const brandSlug = body.brandSlug || body.brand.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    const existing = body.id ? await getProduct(body.id) : null;
 
     const newProduct: Product = {
-      id: body.id || `spm-${Date.now().toString(36)}`,
-      slug: body.slug || body.name.toLowerCase().replace(/[^a-z0-9]+/g, "-"),
+      id: body.id || (existing ? existing.id : `spm-${Date.now().toString(36)}`),
+      slug: body.slug || (existing ? existing.slug : body.name.toLowerCase().replace(/[^a-z0-9]+/g, "-")),
       name: body.name,
       brand: body.brand,
       brandSlug: brandSlug,
-      seoTitle: body.seoTitle || `Jockey ${body.brand} ${body.name}`,
-      seoDescription: body.seoDescription || `Jockey ${body.brand} ${body.name}. Gorra streetwear original en SPM.`,
-      price: Number(body.price) || 70000,
-      compareAtPrice: body.compareAtPrice ? Number(body.compareAtPrice) : null,
-      color: body.color || { name: "Negro", hex: "#0b0b0b" },
-      sizes: body.sizes || ["Única · Ajustable"],
-      images: body.images || [],
-      initialStock: Number(body.initialStock) || Number(body.stock) || 1,
-      sold: Number(body.sold) || 0,
-      stock: Number(body.stock) ?? 1,
-      isNew: Boolean(body.isNew),
-      isFeatured: Boolean(body.isFeatured),
-      isActive: body.isActive !== undefined ? Boolean(body.isActive) : true,
-      description: body.description || "",
-      specs: body.specs || [
+      seoTitle: body.seoTitle || (existing ? existing.seoTitle : `Jockey ${body.brand} ${body.name}`),
+      seoDescription: body.seoDescription || (existing ? existing.seoDescription : `Jockey ${body.brand} ${body.name}. Gorra streetwear original en SPM.`),
+      price: body.price !== undefined ? Number(body.price) : (existing ? existing.price : 70000),
+      compareAtPrice: body.compareAtPrice !== undefined ? (body.compareAtPrice ? Number(body.compareAtPrice) : null) : (existing ? existing.compareAtPrice : null),
+      color: body.color || (existing ? existing.color : { name: "Negro", hex: "#0b0b0b" }),
+      sizes: body.sizes || (existing ? existing.sizes : ["Única · Ajustable"]),
+      images: (body.images && body.images.length > 0) ? body.images : (existing ? existing.images : []),
+      initialStock: body.initialStock !== undefined ? Number(body.initialStock) : (existing ? existing.initialStock : Number(body.stock) || 1),
+      sold: body.sold !== undefined ? Number(body.sold) : (existing ? existing.sold : 0),
+      stock: body.stock !== undefined ? Number(body.stock) : (existing ? existing.stock : 1),
+      isNew: body.isNew !== undefined ? Boolean(body.isNew) : (existing ? existing.isNew : false),
+      isFeatured: body.isFeatured !== undefined ? Boolean(body.isFeatured) : (existing ? existing.isFeatured : false),
+      isActive: body.isActive !== undefined ? Boolean(body.isActive) : (existing ? existing.isActive : true),
+      description: body.description !== undefined ? body.description : (existing ? existing.description : ""),
+      specs: body.specs || (existing ? existing.specs : [
         { label: "Marca", value: body.brand },
         { label: "Talla", value: "Única · Ajustable" },
-      ],
-      createdAt: body.createdAt || new Date().toISOString(),
+      ]),
+      createdAt: (existing && existing.createdAt) || body.createdAt || new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
     };
 
     const saved = await saveProduct(newProduct);

@@ -29,40 +29,89 @@ export default function ClientLogin({ onBack }: { onBack: () => void }) {
       if (isRegistering) {
         // Sign Up with Supabase Auth (stores extra metadata)
         const { data, error } = await supabase.auth.signUp({
-          email,
+          email: email.trim().toLowerCase(),
           password,
           options: {
             data: {
-              name,
-              rut,
-              phone
-            }
-          }
+              name: name.trim(),
+              rut: rut.trim(),
+              phone: phone.trim(),
+            },
+          },
         });
-        
+
         if (error) throw error;
-        
-        // No email confirmation required based on prompt, direct login
+
+        const customerInfo = {
+          name: name.trim(),
+          rut: rut.trim(),
+          phone: phone.trim(),
+          email: email.trim().toLowerCase(),
+        };
+        localStorage.setItem("spm_customer_info", JSON.stringify(customerInfo));
+
+        if (data?.user?.id) {
+          try {
+            await supabase.from("profiles").upsert({
+              id: data.user.id,
+              email: email.trim().toLowerCase(),
+              name: name.trim(),
+              rut: rut.trim(),
+              phone: phone.trim(),
+            });
+          } catch {}
+        }
+
         document.cookie = `spm_session=customer; path=/; max-age=86400`;
         router.push("/tienda");
-        
       } else {
         // Sign In
         const { data, error } = await supabase.auth.signInWithPassword({
-          email,
-          password
+          email: email.trim().toLowerCase(),
+          password,
         });
-        
+
         if (error) throw error;
-        
+
+        const meta = data.user?.user_metadata || {};
+        let prof: any = null;
+        if (data.user?.id) {
+          try {
+            const { data: p } = await supabase.from("profiles").select("*").eq("id", data.user.id).single();
+            prof = p;
+          } catch {}
+        }
+
+        const customerInfo = {
+          name: prof?.name || meta.name || "",
+          rut: prof?.rut || meta.rut || "",
+          phone: prof?.phone || meta.phone || "",
+          email: data.user?.email || email.trim().toLowerCase(),
+          region: prof?.region || "RM",
+          city: prof?.city || "Santiago Centro",
+          address: prof?.address || "",
+          apartment: prof?.apartment || "",
+        };
+        localStorage.setItem("spm_customer_info", JSON.stringify(customerInfo));
         document.cookie = `spm_session=customer; path=/; max-age=86400`;
         router.push("/tienda");
       }
     } catch (err: any) {
-      console.warn("Autenticación remota no disponible, iniciando sesión local de cliente:", err);
-      // Fallback resiliente para permitir compra y navegación al cliente
+      console.warn("Autenticación Supabase falló o requiere confirmación, guardando datos de cliente local:", err);
+      // Guardar de todas formas para autocompletar en el checkout
+      const fallbackInfo = {
+        name: name.trim(),
+        rut: rut.trim(),
+        phone: phone.trim(),
+        email: email.trim().toLowerCase(),
+      };
+      localStorage.setItem("spm_customer_info", JSON.stringify(fallbackInfo));
       document.cookie = `spm_session=customer; path=/; max-age=86400`;
-      router.push("/tienda");
+      setError(err.message || "Error al autenticar");
+      // Permitir continuar si ya llenó los campos
+      if (isRegistering && name && email) {
+        setTimeout(() => router.push("/tienda"), 1200);
+      }
     } finally {
       setLoading(false);
     }

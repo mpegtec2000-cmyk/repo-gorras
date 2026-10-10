@@ -3,7 +3,7 @@
 import React, { useState, useMemo } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { Search, Plus, Filter, Download, Edit, Trash2 } from "lucide-react";
+import { Search, Plus, Filter, Download, Edit, Trash2, RefreshCw } from "lucide-react";
 import { Product, formatCLP, displayImages } from "@/lib/products";
 import styles from "./Products.module.css";
 
@@ -12,6 +12,7 @@ export default function ProductsClient({ initialProducts }: { initialProducts: P
   const [query, setQuery] = useState("");
   const [statusFilter, setStatusFilter] = useState("all");
   const [productsList, setProductsList] = useState(initialProducts);
+  const [syncing, setSyncing] = useState(false);
 
   const filteredProducts = useMemo(() => {
     return productsList.filter((p) => {
@@ -40,6 +41,57 @@ export default function ProductsClient({ initialProducts }: { initialProducts: P
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+  };
+
+  const handleSyncDatabase = async () => {
+    try {
+      setSyncing(true);
+      const res = await fetch("/api/admin/sync", { method: "POST" });
+      const data = await res.json();
+      if (data.success) {
+        alert("✅ " + data.message);
+        router.refresh();
+      } else {
+        alert("❌ Error: " + (data.error || "No se pudo sincronizar"));
+      }
+    } catch (e: any) {
+      alert("❌ Error de red: " + e.message);
+    } finally {
+      setSyncing(false);
+    }
+  };
+
+  const handleQuickStock = async (id: string, delta: number) => {
+    const target = productsList.find((p) => p.id === id);
+    if (!target) return;
+    const newStock = Math.max(0, target.stock + delta);
+    if (newStock === target.stock) return;
+
+    // Optimistic UI update
+    setProductsList((prev) =>
+      prev.map((p) => (p.id === id ? { ...p, stock: newStock } : p))
+    );
+
+    try {
+      const res = await fetch("/api/admin/products", {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, stock: newStock }),
+      });
+      const data = await res.json();
+      if (!data.success) {
+        alert("Error al actualizar stock: " + (data.error || ""));
+        // Revertir
+        setProductsList((prev) =>
+          prev.map((p) => (p.id === id ? { ...p, stock: target.stock } : p))
+        );
+      }
+    } catch (err: any) {
+      alert("Error de conexión: " + err.message);
+      setProductsList((prev) =>
+        prev.map((p) => (p.id === id ? { ...p, stock: target.stock } : p))
+      );
+    }
   };
 
   const handleEdit = (id: string) => {
@@ -90,6 +142,9 @@ export default function ProductsClient({ initialProducts }: { initialProducts: P
       <div className={styles.header}>
         <h2 className={styles.title}>Catálogo de Productos ({filteredProducts.length})</h2>
         <div className={styles.actions}>
+          <button className={styles.exportBtn} onClick={handleSyncDatabase} disabled={syncing} title="Sincronizar todo con Supabase">
+            <RefreshCw size={16} className={syncing ? "animate-spin" : ""} /> {syncing ? "Sincronizando..." : "Sincronizar Supabase"}
+          </button>
           <button className={styles.exportBtn} onClick={handleExport}>
             <Download size={16} /> Exportar CSV
           </button>
@@ -161,9 +216,48 @@ export default function ProductsClient({ initialProducts }: { initialProducts: P
                     <td>{formatCLP(p.price)}</td>
                     <td>
                       <div className={styles.stockInfo}>
-                        <span className={`${styles.stockBadge} ${p.stock === 0 ? styles.stockNone : p.stock <= 2 ? styles.stockLow : styles.stockOk}`}>
-                          {p.stock} un.
-                        </span>
+                        <div style={{ display: "flex", alignItems: "center", gap: "0.35rem" }}>
+                          <button
+                            onClick={() => handleQuickStock(p.id, -1)}
+                            disabled={p.stock <= 0}
+                            title="Disminuir stock (-1)"
+                            type="button"
+                            style={{
+                              border: "1px solid #cbd5e1",
+                              borderRadius: "4px",
+                              backgroundColor: "#ffffff",
+                              cursor: p.stock <= 0 ? "not-allowed" : "pointer",
+                              padding: "2px 6px",
+                              fontSize: "0.75rem",
+                              fontWeight: 700,
+                              color: "#475569",
+                              lineHeight: 1,
+                            }}
+                          >
+                            -
+                          </button>
+                          <span className={`${styles.stockBadge} ${p.stock === 0 ? styles.stockNone : p.stock <= 2 ? styles.stockLow : styles.stockOk}`}>
+                            {p.stock} un.
+                          </span>
+                          <button
+                            onClick={() => handleQuickStock(p.id, 1)}
+                            title="Aumentar stock (+1)"
+                            type="button"
+                            style={{
+                              border: "1px solid #cbd5e1",
+                              borderRadius: "4px",
+                              backgroundColor: "#ffffff",
+                              cursor: "pointer",
+                              padding: "2px 6px",
+                              fontSize: "0.75rem",
+                              fontWeight: 700,
+                              color: "#475569",
+                              lineHeight: 1,
+                            }}
+                          >
+                            +
+                          </button>
+                        </div>
                         <span className={styles.soldText}>{p.sold} vendidos</span>
                       </div>
                     </td>

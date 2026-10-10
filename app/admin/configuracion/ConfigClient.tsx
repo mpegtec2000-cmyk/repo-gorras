@@ -44,50 +44,14 @@ export default function ConfigClient() {
     setSyncing(true);
     setSyncResult(null);
     try {
-      // Leer productos del catálogo local
-      const res = await fetch("/api/admin/products");
+      const res = await fetch("/api/admin/sync", { method: "POST" });
       const data = await res.json();
-      const products = data.products || [];
 
-      if (products.length === 0) {
-        setSyncResult("No se encontraron productos locales para sincronizar.");
-        setSyncing(false);
-        return;
-      }
-
-      // Enviar a Supabase
-      const payload = products.map((p: any) => ({
-        id: p.id,
-        slug: p.slug,
-        name: p.name,
-        brand: p.brand,
-        brand_slug: p.brandSlug,
-        seo_title: p.seoTitle,
-        seo_description: p.seoDescription,
-        price: p.price,
-        compare_at_price: p.compareAtPrice,
-        color: p.color,
-        sizes: p.sizes,
-        images: p.images,
-        initial_stock: p.initialStock,
-        sold: p.sold,
-        stock: p.stock,
-        is_new: p.isNew,
-        is_featured: p.isFeatured,
-        is_active: p.isActive,
-        description: p.description,
-        specs: p.specs,
-        created_at: p.createdAt,
-        updated_at: new Date().toISOString(),
-      }));
-
-      const { error } = await supabase.from("products").upsert(payload);
-
-      if (error) {
-        setSyncResult(`Error en Supabase: ${error.message}`);
-      } else {
-        setSyncResult(`¡Éxito! Se sincronizaron los ${products.length} productos a Supabase.`);
+      if (data.success) {
+        setSyncResult(`¡Éxito! ${data.message}`);
         checkConnection();
+      } else {
+        setSyncResult(`Error en Supabase: ${data.error || "No se pudo sincronizar"}`);
       }
     } catch (e: any) {
       setSyncResult(`Error de conexión: ${e.message}`);

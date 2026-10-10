@@ -32,6 +32,8 @@ export interface Product {
   sold: number;
   /** Stock actual disponible */
   stock: number;
+  /** Clics / visitas registradas */
+  clicks?: number;
   isNew?: boolean;
   isFeatured?: boolean;
   /** Visible en la tienda */

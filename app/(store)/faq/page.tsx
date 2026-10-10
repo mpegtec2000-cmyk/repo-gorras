@@ -2,10 +2,23 @@ import React from "react";
 import Link from "next/link";
 import { HelpCircle, ChevronRight, ShoppingBag, Truck, ShieldCheck, CreditCard, Sparkles } from "lucide-react";
 import styles from "../legal.module.css";
+import { FaqJsonLd } from "@/app/components/JsonLd";
+import { site } from "@/lib/site";
 
 export const metadata = {
   title: "Preguntas Frecuentes (FAQ) | SPM Streetwear Chile",
   description: "Resuelve todas tus dudas sobre autenticidad de gorras, medios de pago Webpay/Flow, tiempos de envío y tallas en SPM.",
+  alternates: {
+    canonical: `${site.url}/faq`,
+  },
+  openGraph: {
+    title: "Preguntas Frecuentes (FAQ) | SPM Streetwear Chile",
+    description: "Resuelve todas tus dudas sobre autenticidad de gorras, medios de pago Webpay/Flow, tiempos de envío y tallas en SPM.",
+    url: `${site.url}/faq`,
+    siteName: site.name,
+    locale: site.locale,
+    type: "website",
+  },
 };
 
 const FAQ_ITEMS = [
@@ -45,8 +58,10 @@ const FAQ_ITEMS = [
 
 export default function FaqPage() {
   return (
-    <div className={styles.legalContainer}>
-      <div className={styles.legalInner}>
+    <>
+      <FaqJsonLd items={FAQ_ITEMS} />
+      <div className={styles.legalContainer}>
+        <div className={styles.legalInner}>
         {/* Breadcrumb */}
         <nav className={styles.breadcrumb}>
           <Link href="/">Inicio</Link>
@@ -111,5 +126,6 @@ export default function FaqPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

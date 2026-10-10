@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Syne, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { site } from "@/lib/site";
-import { OrganizationJsonLd } from "./components/JsonLd";
+import { OrganizationJsonLd, WebSiteJsonLd } from "./components/JsonLd";
 import CookieConsent from "./components/CookieConsent";
 
 const syne = Syne({
@@ -28,6 +28,9 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
+  alternates: {
+    canonical: site.url,
+  },
   title: {
     default: `${site.name} | Gorras Streetwear & Accesorios`,
     template: `%s | ${site.shortName} Streetwear`,
@@ -82,6 +85,7 @@ export default function RootLayout({
     <html lang={site.lang} className={`${syne.variable} ${spaceGrotesk.variable}`}>
       <body>
         <OrganizationJsonLd />
+        <WebSiteJsonLd />
         {children}
         <CookieConsent />
       </body>

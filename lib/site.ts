@@ -10,7 +10,7 @@ export const site = {
   tagline: "Streetwear / Accessories / More",
   description:
     "SPM Store (SPM Streetwear): tienda oficial de gorras y jockeys streetwear en Chile. Snapbacks, truckers, dad hats y gorros con bordados 3D exclusivos. Drops limitados y envíos a todo Chile.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://spm-store.cl",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.spm-store.cl",
   locale: "es_CL",
   lang: "es-CL",
   currency: "CLP",

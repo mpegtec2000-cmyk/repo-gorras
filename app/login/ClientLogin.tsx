@@ -1,55 +1,49 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import { ArrowRight, ShoppingBag, CheckCircle2, LogIn, UserPlus, KeyRound, Mail, ArrowLeft, ShieldCheck } from "lucide-react";
-import { useRouter, useSearchParams } from "next/navigation";
+import React, { useState } from "react";
+import { LogIn, UserPlus, Mail, ArrowLeft, ShieldCheck, CheckCircle2, User, KeyRound } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import styles from "./login.module.css";
 
 export default function ClientLogin({ onBack }: { onBack: () => void }) {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  
-  type AuthMode = "login" | "register" | "forgot" | "forgot_success" | "reset_password";
+
+  type AuthMode = "login" | "register" | "recover";
   const [mode, setMode] = useState<AuthMode>("login");
 
+  // Estados generales
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
-  // States
+  // Estados para Login / Registro
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
   const [rut, setRut] = useState("");
   const [phone, setPhone] = useState("");
 
-  // States for resetting password
+  // Estados para Recuperación por Identidad en 4 pasos
+  const [recoverStep, setRecoverStep] = useState<1 | 2 | 3 | 4>(1);
+  const [recoverEmail, setRecoverEmail] = useState("");
+  const [recoverRut, setRecoverRut] = useState("");
+  const [recoverName, setRecoverName] = useState("");
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
-  useEffect(() => {
-    // Detectar si el usuario viene de un enlace de recuperación de contraseña
-    const { data: authListener } = supabase.auth.onAuthStateChange(async (event) => {
-      if (event === "PASSWORD_RECOVERY") {
-        setMode("reset_password");
-        setError("");
-      }
-    });
+  const resetRecovery = () => {
+    setRecoverStep(1);
+    setRecoverEmail("");
+    setRecoverRut("");
+    setRecoverName("");
+    setNewPassword("");
+    setConfirmPassword("");
+    setError("");
+    setSuccessMsg("");
+  };
 
-    if (typeof window !== "undefined") {
-      const hash = window.location.hash || "";
-      const isResetParam = searchParams.get("type") === "reset";
-      if (hash.includes("type=recovery") || isResetParam) {
-        setMode("reset_password");
-      }
-    }
-
-    return () => {
-      authListener?.subscription?.unsubscribe();
-    };
-  }, [searchParams]);
-
+  // 1. Manejo de Login y Registro
   const handleAuth = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
@@ -57,7 +51,6 @@ export default function ClientLogin({ onBack }: { onBack: () => void }) {
 
     try {
       if (mode === "register") {
-        // Registro directo pre-confirmado en el servidor (sin pedir confirmación de correo)
         const res = await fetch("/api/auth/register", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -75,14 +68,13 @@ export default function ClientLogin({ onBack }: { onBack: () => void }) {
           throw new Error(resData.error || "Error al crear la cuenta.");
         }
 
-        // Iniciar sesión inmediatamente
         const { error: loginError } = await supabase.auth.signInWithPassword({
           email: email.trim().toLowerCase(),
           password,
         });
 
         if (loginError) {
-          console.warn("Aviso en inicio de sesión post-registro:", loginError);
+          console.warn("Aviso en login post-registro:", loginError);
         }
 
         const customerInfo = {
@@ -95,7 +87,6 @@ export default function ClientLogin({ onBack }: { onBack: () => void }) {
         document.cookie = `spm_session=customer; path=/; max-age=86400`;
         router.push("/tienda");
       } else {
-        // Sign In
         const { data, error } = await supabase.auth.signInWithPassword({
           email: email.trim().toLowerCase(),
           password,
@@ -134,62 +125,112 @@ export default function ClientLogin({ onBack }: { onBack: () => void }) {
     }
   };
 
-  const handleForgotPassword = async (e: React.FormEvent) => {
+  // 2. Manejo de Pasos de Recuperación por Identidad
+  const handleRecoverStepSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email) {
-      setError("Por favor ingresa tu correo electrónico.");
-      return;
-    }
     setError("");
     setLoading(true);
 
     try {
-      const origin = typeof window !== "undefined" ? window.location.origin : "https://www.spm-store.cl";
-      const { error } = await supabase.auth.resetPasswordForEmail(email.trim().toLowerCase(), {
-        redirectTo: `${origin}/login?type=reset`,
-      });
+      // PASO 1: Verificar Correo
+      if (recoverStep === 1) {
+        const res = await fetch("/api/auth/recover-identity", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            action: "verify_email",
+            email: recoverEmail.trim().toLowerCase(),
+          }),
+        });
 
-      if (error) throw error;
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "Correo no encontrado.");
 
-      setMode("forgot_success");
-      setSuccessMsg(`Hemos enviado un correo de recuperación a ${email.trim()}. Revisa tu bandeja de entrada o spam.`);
+        setRecoverStep(2);
+      } 
+      // PASO 2: Verificar RUT
+      else if (recoverStep === 2) {
+        const res = await fetch("/api/auth/recover-identity", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            action: "verify_rut",
+            email: recoverEmail.trim().toLowerCase(),
+            rut: recoverRut.trim(),
+          }),
+        });
+
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "RUT no coincide.");
+
+        setRecoverStep(3);
+      } 
+      // PASO 3: Verificar Nombre
+      else if (recoverStep === 3) {
+        const res = await fetch("/api/auth/recover-identity", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            action: "verify_name",
+            email: recoverEmail.trim().toLowerCase(),
+            rut: recoverRut.trim(),
+            name: recoverName.trim(),
+          }),
+        });
+
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "Nombre no coincide.");
+
+        setRecoverStep(4);
+      } 
+      // PASO 4: Cambiar Contraseña Directamente en la Web
+      else if (recoverStep === 4) {
+        if (newPassword.length < 6) {
+          throw new Error("La nueva contraseña debe tener al menos 6 caracteres.");
+        }
+        if (newPassword !== confirmPassword) {
+          throw new Error("Las contraseñas no coinciden. Por favor revísalas.");
+        }
+
+        const res = await fetch("/api/auth/recover-identity", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            action: "reset_password",
+            email: recoverEmail.trim().toLowerCase(),
+            rut: recoverRut.trim(),
+            name: recoverName.trim(),
+            newPassword,
+          }),
+        });
+
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.error || "Error al actualizar contraseña.");
+
+        setSuccessMsg("¡Identidad verificada! Tu contraseña ha sido cambiada con éxito.");
+
+        // Iniciar sesión automáticamente con la nueva clave
+        const { error: loginErr } = await supabase.auth.signInWithPassword({
+          email: recoverEmail.trim().toLowerCase(),
+          password: newPassword,
+        });
+
+        if (!loginErr) {
+          document.cookie = `spm_session=customer; path=/; max-age=86400`;
+          setTimeout(() => {
+            router.push("/tienda");
+          }, 1500);
+        } else {
+          // Si por alguna razón no loguea automático, volver al login
+          setTimeout(() => {
+            setMode("login");
+            setEmail(recoverEmail);
+            resetRecovery();
+          }, 2000);
+        }
+      }
     } catch (err: any) {
-      setError(err.message || "Error al enviar el correo de recuperación.");
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const handleUpdatePassword = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setError("");
-
-    if (newPassword.length < 6) {
-      setError("La nueva contraseña debe tener al menos 6 caracteres.");
-      return;
-    }
-
-    if (newPassword !== confirmPassword) {
-      setError("Las contraseñas no coinciden. Por favor verifícalas.");
-      return;
-    }
-
-    setLoading(true);
-
-    try {
-      const { error } = await supabase.auth.updateUser({
-        password: newPassword,
-      });
-
-      if (error) throw error;
-
-      setSuccessMsg("¡Contraseña actualizada con éxito! Accediendo a tu cuenta...");
-      document.cookie = `spm_session=customer; path=/; max-age=86400`;
-      setTimeout(() => {
-        router.push("/tienda");
-      }, 1500);
-    } catch (err: any) {
-      setError(err.message || "Error al actualizar la contraseña.");
+      setError(err.message || "Error al validar la información.");
     } finally {
       setLoading(false);
     }
@@ -199,107 +240,126 @@ export default function ClientLogin({ onBack }: { onBack: () => void }) {
     <div className={`${styles.card} ${styles.expandedCard}`}>
       <span className={styles.roleTag}>TIENDA & CLIENTE</span>
 
-      {/* CASO 1: RECUPERACIÓN ENVIADA */}
-      {mode === "forgot_success" && (
-        <div>
-          <h2 className={styles.cardTitle}>CORREO ENVIADO</h2>
-          <div className={styles.successAlert} style={{ margin: "1.5rem 0" }}>
-            <CheckCircle2 size={32} color="#10b981" style={{ margin: "0 auto 0.75rem", display: "block" }} />
-            <p style={{ margin: 0, fontWeight: 700, fontSize: "1rem" }}>¡Revisa tu bandeja de entrada!</p>
-            <p style={{ margin: "0.5rem 0 0", color: "#d1fae5", fontSize: "0.85rem" }}>
-              {successMsg}
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={() => { setMode("login"); setError(""); setSuccessMsg(""); }}
-            className={`${styles.btn} ${styles.btnOutline}`}
-            style={{ width: "100%" }}
-          >
-            <ArrowLeft size={16} />
-            <span>VOLVER A INICIAR SESIÓN</span>
-          </button>
-        </div>
-      )}
-
-      {/* CASO 2: FORMULARIO OLVIDÉ MI CONTRASEÑA */}
-      {mode === "forgot" && (
+      {/* SECCIÓN RECUPERACIÓN DIRECTA POR IDENTIDAD */}
+      {mode === "recover" ? (
         <div>
           <h2 className={styles.cardTitle}>RECUPERAR CONTRASEÑA</h2>
           <p className={styles.cardDesc}>
-            Ingresa tu correo registrado y te enviaremos el enlace oficial con el diseño exclusivo de SPM Store para definir una nueva clave.
+            Valida tus datos registrados para cambiar tu contraseña directamente desde esta pantalla.
           </p>
 
-          <form onSubmit={handleForgotPassword} className={styles.loginForm}>
-            <div className={styles.formGroup}>
-              <label>Correo Electrónico Registrado</label>
-              <input
-                type="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                placeholder="tu@correo.cl"
-                className={styles.input}
+          {/* INDICADOR DE PASOS */}
+          <div style={{ display: "flex", gap: "0.4rem", margin: "1rem 0 1.5rem" }}>
+            {[1, 2, 3, 4].map((step) => (
+              <div
+                key={step}
+                style={{
+                  flex: 1,
+                  height: "4px",
+                  borderRadius: "9999px",
+                  backgroundColor: step <= recoverStep ? "#ffffff" : "rgba(255, 255, 255, 0.15)",
+                  transition: "background-color 0.3s ease",
+                }}
               />
-            </div>
-
-            {error && <div className={styles.errorAlert}>{error}</div>}
-
-            <button
-              type="submit"
-              disabled={loading}
-              className={`${styles.btn} ${styles.btnOutline}`}
-              style={{ width: "100%", marginTop: "0.5rem" }}
-            >
-              <span>{loading ? "ENVIANDO CORREO..." : "ENVIAR ENLACE DE RECUPERACIÓN"}</span>
-              <Mail size={18} />
-            </button>
-          </form>
-
-          <div style={{ marginTop: "1.5rem", textAlign: "center" }}>
-            <button
-              onClick={() => { setMode("login"); setError(""); }}
-              type="button"
-              className={styles.toggleAuthBtn}
-            >
-              ← Volver al inicio de sesión
-            </button>
+            ))}
           </div>
-        </div>
-      )}
 
-      {/* CASO 3: FORMULARIO DEFINIR NUEVA CONTRASEÑA */}
-      {mode === "reset_password" && (
-        <div>
-          <h2 className={styles.cardTitle}>NUEVA CONTRASEÑA</h2>
-          <p className={styles.cardDesc}>
-            Ingresa y confirma tu nueva contraseña de acceso seguro a SPM Store.
-          </p>
+          <form onSubmit={handleRecoverStepSubmit} className={styles.loginForm}>
+            {/* PASO 1: CORREO */}
+            {recoverStep === 1 && (
+              <div className={styles.formGroup}>
+                <label style={{ display: "flex", justifyContent: "space-between" }}>
+                  <span>Paso 1 de 4: Correo Electrónico</span>
+                </label>
+                <input
+                  type="email"
+                  value={recoverEmail}
+                  onChange={(e) => setRecoverEmail(e.target.value)}
+                  required
+                  placeholder="ejemplo@correo.cl"
+                  className={styles.input}
+                  autoFocus
+                />
+              </div>
+            )}
 
-          <form onSubmit={handleUpdatePassword} className={styles.loginForm}>
-            <div className={styles.formGroup}>
-              <label>Nueva Contraseña</label>
-              <input
-                type="password"
-                value={newPassword}
-                onChange={(e) => setNewPassword(e.target.value)}
-                required
-                placeholder="Mínimo 6 caracteres"
-                className={styles.input}
-              />
-            </div>
+            {/* PASO 2: RUT */}
+            {recoverStep === 2 && (
+              <div className={styles.formGroup}>
+                <label style={{ display: "flex", justifyContent: "space-between" }}>
+                  <span>Paso 2 de 4: RUT Registrado</span>
+                </label>
+                <input
+                  type="text"
+                  value={recoverRut}
+                  onChange={(e) => setRecoverRut(e.target.value)}
+                  required
+                  placeholder="12.345.678-9"
+                  className={styles.input}
+                  autoFocus
+                />
+                <p style={{ margin: "0.35rem 0 0", fontSize: "0.76rem", color: "#94a3b8" }}>
+                  Ingresa el mismo RUT asociado a {recoverEmail}.
+                </p>
+              </div>
+            )}
 
-            <div className={styles.formGroup}>
-              <label>Confirmar Nueva Contraseña</label>
-              <input
-                type="password"
-                value={confirmPassword}
-                onChange={(e) => setConfirmPassword(e.target.value)}
-                required
-                placeholder="Repite tu contraseña"
-                className={styles.input}
-              />
-            </div>
+            {/* PASO 3: NOMBRE */}
+            {recoverStep === 3 && (
+              <div className={styles.formGroup}>
+                <label style={{ display: "flex", justifyContent: "space-between" }}>
+                  <span>Paso 3 de 4: Nombre Completo</span>
+                </label>
+                <input
+                  type="text"
+                  value={recoverName}
+                  onChange={(e) => setRecoverName(e.target.value)}
+                  required
+                  placeholder="Tu nombre y apellido"
+                  className={styles.input}
+                  autoFocus
+                />
+                <p style={{ margin: "0.35rem 0 0", fontSize: "0.76rem", color: "#94a3b8" }}>
+                  Ingresa el nombre con el que creaste tu cuenta.
+                </p>
+              </div>
+            )}
+
+            {/* PASO 4: NUEVA CLAVE */}
+            {recoverStep === 4 && (
+              <>
+                <div style={{ backgroundColor: "rgba(16, 185, 129, 0.12)", border: "1px solid rgba(16, 185, 129, 0.3)", borderRadius: "8px", padding: "0.75rem", marginBottom: "1rem", textAlign: "center" }}>
+                  <p style={{ margin: 0, color: "#6ee7b7", fontSize: "0.82rem", fontWeight: 700 }}>
+                    ✓ Identidad confirmada para {recoverName} ({recoverEmail})
+                  </p>
+                </div>
+
+                <div className={styles.formGroup}>
+                  <label>Paso 4 de 4: Nueva Contraseña</label>
+                  <input
+                    type="password"
+                    value={newPassword}
+                    onChange={(e) => setNewPassword(e.target.value)}
+                    required
+                    placeholder="Mínimo 6 caracteres"
+                    className={styles.input}
+                    autoFocus
+                  />
+                </div>
+
+                <div className={styles.formGroup}>
+                  <label>Confirmar Nueva Contraseña</label>
+                  <input
+                    type="password"
+                    value={confirmPassword}
+                    onChange={(e) => setConfirmPassword(e.target.value)}
+                    required
+                    placeholder="Repite tu nueva contraseña"
+                    className={styles.input}
+                  />
+                </div>
+              </>
+            )}
 
             {error && <div className={styles.errorAlert}>{error}</div>}
             {successMsg && <div className={styles.successAlert}>{successMsg}</div>}
@@ -310,15 +370,36 @@ export default function ClientLogin({ onBack }: { onBack: () => void }) {
               className={`${styles.btn} ${styles.btnOutline}`}
               style={{ width: "100%", marginTop: "0.5rem" }}
             >
-              <span>{loading ? "ACTUALIZANDO..." : "GUARDAR NUEVA CONTRASEÑA"}</span>
-              <ShieldCheck size={18} />
+              <span>
+                {loading
+                  ? "VERIFICANDO..."
+                  : recoverStep === 1
+                  ? "VERIFICAR CORREO →"
+                  : recoverStep === 2
+                  ? "VERIFICAR RUT →"
+                  : recoverStep === 3
+                  ? "VERIFICAR NOMBRE →"
+                  : "GUARDAR NUEVA CONTRASEÑA E INGRESAR"}
+              </span>
+              {recoverStep === 4 ? <ShieldCheck size={18} /> : <ArrowLeft size={18} style={{ transform: "rotate(180deg)" }} />}
             </button>
           </form>
-        </div>
-      )}
 
-      {/* CASO 4: LOGIN / REGISTRO NORMAL */}
-      {(mode === "login" || mode === "register") && (
+          <div style={{ marginTop: "1.25rem", textAlign: "center" }}>
+            <button
+              onClick={() => {
+                setMode("login");
+                resetRecovery();
+              }}
+              type="button"
+              className={styles.toggleAuthBtn}
+            >
+              ← Cancelar y volver al inicio de sesión
+            </button>
+          </div>
+        </div>
+      ) : (
+        /* SECCIÓN LOGIN / REGISTRO NORMAL */
         <div>
           <h2 className={styles.cardTitle}>{mode === "register" ? "CREAR CUENTA" : "ACCESO CLIENTE"}</h2>
           <p className={styles.cardDesc}>
@@ -378,14 +459,18 @@ export default function ClientLogin({ onBack }: { onBack: () => void }) {
                 className={styles.input}
               />
             </div>
-            
+
             <div className={styles.formGroup}>
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                 <label style={{ margin: 0 }}>Contraseña</label>
                 {mode === "login" && (
                   <button
                     type="button"
-                    onClick={() => { setMode("forgot"); setError(""); setSuccessMsg(""); }}
+                    onClick={() => {
+                      setMode("recover");
+                      setRecoverEmail(email);
+                      setError("");
+                    }}
                     className={styles.forgotBtn}
                   >
                     ¿Olvidaste tu contraseña?

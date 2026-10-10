@@ -41,7 +41,9 @@ export const metadata: Metadata = {
   creator: site.name,
   publisher: site.name,
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+    google:
+      process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ||
+      "lvJGX_CtjSMnb8rznieITeTxBrty_vY_w_MWpXB5rXI",
   },
   formatDetection: {
     telephone: false,

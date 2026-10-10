@@ -166,7 +166,7 @@ export async function getOrders(): Promise<Order[]> {
   try {
     const sb = getServiceSupabase();
     const { data, error } = await sb.from("orders").select("*").order("date", { ascending: false });
-    if (!error && Array.isArray(data) && data.length > 0) {
+    if (!error && Array.isArray(data)) {
       cachedOrders = data.map(mapOrderFromDb);
       return cachedOrders;
     }
@@ -180,11 +180,8 @@ export async function getOrders(): Promise<Order[]> {
     cachedOrders = JSON.parse(raw);
     return cachedOrders!;
   } catch {
-    const initial = generateInitialOrders();
-    cachedOrders = initial;
-    await fs.mkdir(path.dirname(ORDERS_FILE_PATH), { recursive: true }).catch(() => {});
-    await fs.writeFile(ORDERS_FILE_PATH, JSON.stringify(initial, null, 2), "utf-8").catch(() => {});
-    return initial;
+    cachedOrders = [];
+    return [];
   }
 }
 

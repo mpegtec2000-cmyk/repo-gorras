@@ -10,23 +10,21 @@ import { useRouter } from "next/navigation";
 export default function FlujoClient({ initialProducts }: { initialProducts: Product[] }) {
   const router = useRouter();
 
-  // Synthetic Analytics based on actual catalog to look like the screenshot
-  const totalSold = initialProducts.reduce((acc, p) => acc + p.sold, 0);
-  const totalRevenue = initialProducts.reduce((acc, p) => acc + (p.sold * p.price), 0);
+  // Métricas reales basadas en el catálogo y base de datos
+  const totalSold = initialProducts.reduce((acc, p) => acc + (p.sold || 0), 0);
+  const totalRevenue = initialProducts.reduce((acc, p) => acc + ((p.sold || 0) * p.price), 0);
   const currentStock = initialProducts.reduce((acc, p) => acc + p.stock, 0);
   const initialStockSum = initialProducts.reduce((acc, p) => acc + p.initialStock, 0);
 
-  // Sorting products by real clicks from database or baseline
+  // Ranking de productos por clics reales registrados
   const rankedProducts = useMemo(() => {
     return [...initialProducts]
       .map(p => ({
         ...p,
-        clicks: (p.clicks !== undefined && p.clicks > 0)
-          ? p.clicks
-          : Math.floor(p.sold * 100 + (p.price / 1000) + (p.stock * 5)),
-        addedToCart: Math.floor(p.sold * 8 + (p.stock * 0.5))
+        clicks: p.clicks || 0,
+        addedToCart: 0
       }))
-      .sort((a, b) => b.clicks - a.clicks)
+      .sort((a, b) => (b.clicks || 0) - (a.clicks || 0))
       .slice(0, 10);
   }, [initialProducts]);
 

@@ -6,12 +6,20 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const products = await getProducts();
   const baseUrl = site.url;
 
-  const productUrls: MetadataRoute.Sitemap = products.map((p) => ({
-    url: `${baseUrl}/producto/${p.slug}`,
-    lastModified: p.updatedAt ? new Date(p.updatedAt) : new Date(),
-    changeFrequency: "daily",
-    priority: 0.8,
-  }));
+  const productUrls: MetadataRoute.Sitemap = products.map((p) => {
+    const rawImg = p.images?.[0]?.src;
+    const imgUrl = rawImg
+      ? (rawImg.startsWith("http") ? rawImg : `${baseUrl}${rawImg.startsWith("/") ? rawImg : `/${rawImg}`}`)
+      : undefined;
+
+    return {
+      url: `${baseUrl}/producto/${p.slug}`,
+      lastModified: p.updatedAt ? new Date(p.updatedAt) : new Date(),
+      changeFrequency: "daily",
+      priority: 0.8,
+      ...(imgUrl ? { images: [imgUrl] } : {}),
+    };
+  });
 
   const staticUrls: MetadataRoute.Sitemap = [
     {

@@ -220,3 +220,32 @@ export function FaqJsonLd({
   );
 }
 
+export function ItemListJsonLd({ products }: { products: Product[] }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Catálogo Oficial SPM Store Chile",
+    description: "Catálogo de gorras streetwear, snapbacks, truckers y accesorios en Chile.",
+    numberOfItems: products.length,
+    itemListElement: products.slice(0, 30).map((product, index) => {
+      const img = product.images?.[0]?.src;
+      const imageUrl = img ? getAbsoluteImageUrl(img) : undefined;
+      return {
+        "@type": "ListItem",
+        position: index + 1,
+        name: product.name,
+        url: `${site.url}/producto/${product.slug}`,
+        image: imageUrl,
+      };
+    }),
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+

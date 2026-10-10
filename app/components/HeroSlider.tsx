@@ -9,9 +9,9 @@ import styles from "./HeroSlider.module.css";
 const SLIDES = [
   {
     id: 1,
-    title: "SPM STREETWEAR",
-    subtitle: "DROP 01 // EDICIÓN LIMITADA",
-    tag: "NUEVA COLECCIÓN 2026",
+    title: "SPM STORE CHILE",
+    subtitle: "STREETWEAR // DROPS LIMITADOS",
+    tag: "COLECCIÓN OFICIAL 2026",
     desktop: "/hero/desktop/fondo-1-1920.webp?v=2",
     mobile: "/hero/mobile/fondo-1-1080.webp?v=2",
     link: "/tienda",
@@ -116,7 +116,11 @@ export default function HeroSlider() {
             <div className={styles.contentContainer}>
               <div className={styles.content}>
                 <span className={styles.badge}>{slide.tag}</span>
-                <h1 className={styles.title}>{slide.title}</h1>
+                {index === 0 ? (
+                  <h1 className={styles.title}>{slide.title}</h1>
+                ) : (
+                  <h2 className={styles.title}>{slide.title}</h2>
+                )}
                 <p className={styles.subtitle}>{slide.subtitle}</p>
                 <div className={styles.actions}>
                   <Link href={slide.link} className={styles.primaryBtn}>

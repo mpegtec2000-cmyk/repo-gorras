@@ -28,12 +28,17 @@ export const metadata: Metadata = {
   },
 };
 
+import { ItemListJsonLd } from "@/app/components/JsonLd";
+
 export default async function ShopPage() {
   const products = await getProducts();
 
   return (
-    <Suspense fallback={<div style={{ padding: "8rem 2rem", textAlign: "center", color: "#fff" }}>Cargando tienda...</div>}>
-      <ShopClient initialProducts={products} />
-    </Suspense>
+    <>
+      <ItemListJsonLd products={products} />
+      <Suspense fallback={<div style={{ padding: "8rem 2rem", textAlign: "center", color: "#fff" }}>Cargando tienda...</div>}>
+        <ShopClient initialProducts={products} />
+      </Suspense>
+    </>
   );
 }

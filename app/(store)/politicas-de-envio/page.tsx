@@ -2,10 +2,22 @@ import React from "react";
 import Link from "next/link";
 import { Truck, Clock, ShieldCheck, ChevronRight, MapPin, PackageCheck, AlertCircle } from "lucide-react";
 import styles from "../legal.module.css";
+import { site } from "@/lib/site";
 
 export const metadata = {
   title: "Políticas de Envío y Despacho | SPM Streetwear Chile",
   description: "Conoce los plazos de entrega, couriers oficiales Starken y Blue Express, y cobertura a todo Chile de SPM Streetwear.",
+  alternates: {
+    canonical: `${site.url}/politicas-de-envio`,
+  },
+  openGraph: {
+    title: "Políticas de Envío y Despacho | SPM Streetwear Chile",
+    description: "Conoce los plazos de entrega, couriers oficiales Starken y Blue Express, y cobertura a todo Chile.",
+    url: `${site.url}/politicas-de-envio`,
+    siteName: site.name,
+    locale: site.locale,
+    type: "website",
+  },
 };
 
 export default function PoliticasEnvioPage() {

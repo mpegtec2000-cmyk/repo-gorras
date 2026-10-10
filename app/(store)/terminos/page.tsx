@@ -2,10 +2,22 @@ import React from "react";
 import Link from "next/link";
 import { FileText, Shield, Lock, ChevronRight, CheckCircle2, ShoppingBag } from "lucide-react";
 import styles from "../legal.module.css";
+import { site } from "@/lib/site";
 
 export const metadata = {
   title: "Términos y Condiciones de Uso | SPM Streetwear Chile",
   description: "Términos y condiciones generales de compra y navegación en la tienda oficial de SPM Streetwear.",
+  alternates: {
+    canonical: `${site.url}/terminos`,
+  },
+  openGraph: {
+    title: "Términos y Condiciones de Uso | SPM Streetwear Chile",
+    description: "Términos y condiciones de compra y navegación en SPM Streetwear.",
+    url: `${site.url}/terminos`,
+    siteName: site.name,
+    locale: site.locale,
+    type: "website",
+  },
 };
 
 export default function TerminosPage() {

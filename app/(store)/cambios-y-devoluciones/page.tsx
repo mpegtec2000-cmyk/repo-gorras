@@ -2,10 +2,22 @@ import React from "react";
 import Link from "next/link";
 import { RotateCcw, ShieldCheck, CheckCircle2, ChevronRight, Scale, RefreshCw } from "lucide-react";
 import styles from "../legal.module.css";
+import { site } from "@/lib/site";
 
 export const metadata = {
   title: "Garantía Legal, Cambios y Devoluciones | SPM Streetwear Chile",
   description: "Conoce nuestra garantía legal de 6 meses bajo normativa SERNAC (Ley 19.496) y políticas de cambio en SPM Streetwear.",
+  alternates: {
+    canonical: `${site.url}/cambios-y-devoluciones`,
+  },
+  openGraph: {
+    title: "Garantía Legal, Cambios y Devoluciones | SPM Streetwear Chile",
+    description: "Garantía legal de 6 meses según Ley SERNAC y cambios sin costo por fallas de fábrica.",
+    url: `${site.url}/cambios-y-devoluciones`,
+    siteName: site.name,
+    locale: site.locale,
+    type: "website",
+  },
 };
 
 export default function CambiosDevolucionesPage() {

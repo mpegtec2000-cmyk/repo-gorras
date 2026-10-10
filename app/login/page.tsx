@@ -14,7 +14,7 @@ function LoginContent() {
   const typeParam = searchParams.get("type");
   
   const initialView = typeParam === "admin" ? "admin" 
-                    : typeParam === "customer" ? "customer" 
+                    : (typeParam === "customer" || typeParam === "reset") ? "customer" 
                     : "selection";
 
   const [view, setView] = useState<"selection" | "admin" | "customer">(initialView);

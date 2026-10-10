@@ -70,6 +70,25 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       return [...prev, { product, size: selectedSize, quantity }];
     });
     setIsOpen(true);
+
+    // Registrar evento real de agregado a bolsa para Analítica & Flujo
+    try {
+      fetch("/api/analytics/event", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          eventType: "cart_add",
+          productId: product.id,
+          metadata: {
+            productName: product.name,
+            brand: product.brand,
+            price: product.price,
+            size: selectedSize,
+            quantity,
+          },
+        }),
+      }).catch(() => {});
+    } catch {}
   };
 
   const removeItem = (productId: string, size: string) => {

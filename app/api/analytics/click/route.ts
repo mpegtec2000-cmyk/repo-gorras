@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
     // 1. Registrar evento en analytics_events
     try {
       await sb.from("analytics_events").insert({
-        event_type: "click",
+        event_type: "product_view",
         product_id: productId,
         url: req.headers.get("referer") || "",
         metadata: {

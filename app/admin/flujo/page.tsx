@@ -1,12 +1,14 @@
 import React from "react";
-import { getProducts } from "@/lib/catalog";
+import { getRealAnalytics } from "@/lib/analytics-server";
 import FlujoClient from "./FlujoClient";
+
+export const dynamic = "force-dynamic";
 
 export const metadata = {
   title: "Flujo & Analítica | SaaS Admin",
 };
 
 export default async function FlujoPage() {
-  const products = await getProducts();
-  return <FlujoClient initialProducts={products} />;
+  const initialMetrics = await getRealAnalytics();
+  return <FlujoClient initialMetrics={initialMetrics} />;
 }

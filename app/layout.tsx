@@ -4,6 +4,7 @@ import "./globals.css";
 import { site } from "@/lib/site";
 import { OrganizationJsonLd, WebSiteJsonLd } from "./components/JsonLd";
 import CookieConsent from "./components/CookieConsent";
+import AnalyticsTracker from "./components/AnalyticsTracker";
 
 const syne = Syne({
   subsets: ["latin"],
@@ -91,6 +92,7 @@ export default function RootLayout({
       <body>
         <OrganizationJsonLd />
         <WebSiteJsonLd />
+        <AnalyticsTracker />
         {children}
         <CookieConsent />
       </body>

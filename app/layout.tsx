@@ -32,14 +32,17 @@ export const metadata: Metadata = {
     canonical: site.url,
   },
   title: {
-    default: `${site.name} | Gorras Streetwear & Accesorios`,
-    template: `%s | ${site.shortName} Streetwear`,
+    default: "SPM Store | Gorras Streetwear & Jockeys Chile Oficial",
+    template: `%s | SPM Store Chile`,
   },
   description: site.description,
   keywords: [...site.keywords],
-  authors: [{ name: site.name }],
+  authors: [{ name: site.name, url: site.url }],
   creator: site.name,
   publisher: site.name,
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION,
+  },
   formatDetection: {
     telephone: false,
   },
@@ -48,20 +51,20 @@ export const metadata: Metadata = {
     locale: site.locale,
     url: site.url,
     siteName: site.name,
-    title: `${site.name} | Gorras Streetwear & Accesorios`,
+    title: "SPM Store | Gorras Streetwear & Jockeys Chile Oficial",
     description: site.description,
     images: [
       {
         url: "/brand/spm-logo-black.png",
         width: 1200,
         height: 630,
-        alt: site.name,
+        alt: "SPM Store - Gorras Streetwear Chile",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${site.name} | Gorras Streetwear`,
+    title: "SPM Store | Gorras Streetwear Chile",
     description: site.description,
   },
   robots: {

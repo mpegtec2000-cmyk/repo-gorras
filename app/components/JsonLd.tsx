@@ -12,6 +12,7 @@ export function OrganizationJsonLd() {
     "@context": "https://schema.org",
     "@type": "ClothingStore",
     name: site.name,
+    alternateName: ["SPM", "SPM Store", "SPM Streetwear", "SPM Chile", "SPM Store Chile"],
     legalName: site.legalName,
     url: site.url,
     logo: `${site.url}/brand/spm-logo-black.png`,

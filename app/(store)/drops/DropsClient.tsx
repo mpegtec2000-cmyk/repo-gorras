@@ -221,6 +221,7 @@ export default function DropsClient({ products }: DropsClientProps) {
                       alt="SPM Store Instagram"
                       width={44}
                       height={44}
+                      style={{ width: "100%", height: "auto" }}
                       className={styles.avatarImg}
                     />
                   </div>

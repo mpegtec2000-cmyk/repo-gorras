@@ -265,6 +265,7 @@ export default function CheckoutClient() {
                 width={130}
                 height={32}
                 priority
+                style={{ width: "auto", height: "auto" }}
                 className={styles.brandLogo}
               />
             </Link>
@@ -300,6 +301,7 @@ export default function CheckoutClient() {
               width={140}
               height={34}
               priority
+              style={{ width: "auto", height: "auto" }}
               className={styles.brandLogo}
             />
           </Link>

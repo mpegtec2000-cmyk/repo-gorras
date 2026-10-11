@@ -28,6 +28,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
               width={140}
               height={34}
               priority
+              style={{ width: "auto", height: "auto" }}
               className={styles.logo}
             />
           </Link>

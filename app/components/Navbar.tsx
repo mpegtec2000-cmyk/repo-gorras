@@ -119,6 +119,7 @@ export default function Navbar() {
               width={135}
               height={32}
               priority
+              style={{ width: "auto", height: "auto" }}
               className={styles.logoImg}
             />
           </Link>
@@ -181,6 +182,7 @@ export default function Navbar() {
                 alt="SPM Logo"
                 width={120}
                 height={29}
+                style={{ width: "auto", height: "auto" }}
                 className={styles.drawerLogo}
               />
             </Link>

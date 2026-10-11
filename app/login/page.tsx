@@ -31,6 +31,7 @@ function LoginContent() {
               width={160}
               height={40}
               priority
+              style={{ width: "auto", height: "auto" }}
               className={styles.logoImg}
             />
           </Link>

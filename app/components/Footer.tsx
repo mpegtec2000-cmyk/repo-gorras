@@ -119,8 +119,9 @@ export default function Footer() {
                 alt="SPM Streetwear Logo"
                 width={155}
                 height={36}
-                className={styles.logo}
                 priority
+                style={{ width: "auto", height: "auto" }}
+                className={styles.logo}
               />
             </Link>
             <p className={styles.brandDesc}>

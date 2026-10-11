@@ -4,6 +4,9 @@ import ShopClient from "./ShopClient";
 import { getProducts } from "@/lib/catalog";
 import { site } from "@/lib/site";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export const metadata: Metadata = {
   title: "Tienda Oficial & Catálogo de Gorras Streetwear",
   description:

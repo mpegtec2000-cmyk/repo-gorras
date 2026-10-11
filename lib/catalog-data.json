@@ -1,43 +1,43 @@
 [
   {
-    "id": "prod_75",
-    "slug": "icon-hats-ny-yankees-crystal-black",
-    "name": "NY YANKEES CRYSTAL BLACK",
+    "id": "prod_81",
+    "slug": "icon-hats-la-dodgers-crystal-white",
+    "name": "LA DODGERS CRYSTAL WHITE",
     "brand": "Icon Hats",
     "brandSlug": "icon-hats",
-    "seoTitle": "Gorra Icon Hats NY YANKEES CRYSTAL BLACK | SPM Store Chile",
-    "seoDescription": "Gorra streetwear original Icon Hats modelo NY YANKEES CRYSTAL BLACK. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
+    "seoTitle": "Gorra Icon Hats LA DODGERS CRYSTAL WHITE | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo LA DODGERS CRYSTAL WHITE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": 85000,
     "color": {
-      "name": "Negro / Cristales Black",
-      "hex": "#0b0b0b"
+      "hex": "#1a1a1a",
+      "name": "Negro / Cristales White"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "/products/gorra-icon-hats-ny-yankees-crystal-black-1.webp",
-        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL BLACK\" - Vista 1 original SPM Store Chile"
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL WHITE\" - Vista 1 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-white-1.webp"
       },
       {
-        "src": "/products/gorra-icon-hats-ny-yankees-crystal-black-2.webp",
-        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL BLACK\" - Vista 2 original SPM Store Chile"
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL WHITE\" - Vista 2 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-white-2.webp"
       },
       {
-        "src": "/products/gorra-icon-hats-ny-yankees-crystal-black-3.webp",
-        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL BLACK\" - Vista 3 original SPM Store Chile"
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL WHITE\" - Vista 3 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-white-3.webp"
       }
     ],
     "initialStock": 1,
     "sold": 0,
     "stock": 1,
-    "clicks": 0,
+    "clicks": 4,
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original Icon Hats modelo NY YANKEES CRYSTAL BLACK. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original Icon Hats modelo LA DODGERS CRYSTAL WHITE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
@@ -45,7 +45,7 @@
       },
       {
         "label": "Modelo",
-        "value": "NY YANKEES CRYSTAL BLACK"
+        "value": "LA DODGERS CRYSTAL WHITE"
       },
       {
         "label": "Colección",
@@ -64,280 +64,8 @@
         "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-10T23:43:43.315Z",
-    "updatedAt": "2026-10-10T23:43:43.315Z"
-  },
-  {
-    "id": "prod_76",
-    "slug": "icon-hats-la-dodgers-crystal-black",
-    "name": "LA DODGERS CRYSTAL BLACK",
-    "brand": "Icon Hats",
-    "brandSlug": "icon-hats",
-    "seoTitle": "Gorra Icon Hats LA DODGERS CRYSTAL BLACK | SPM Store Chile",
-    "seoDescription": "Gorra streetwear original Icon Hats modelo LA DODGERS CRYSTAL BLACK. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": 85000,
-    "color": {
-      "name": "Negro / Cristales Black",
-      "hex": "#0b0b0b"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "/products/gorra-icon-hats-la-dodgers-crystal-black-1.webp",
-        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL BLACK\" - Vista 1 original SPM Store Chile"
-      },
-      {
-        "src": "/products/gorra-icon-hats-la-dodgers-crystal-black-2.webp",
-        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL BLACK\" - Vista 2 original SPM Store Chile"
-      },
-      {
-        "src": "/products/gorra-icon-hats-la-dodgers-crystal-black-3.webp",
-        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL BLACK\" - Vista 3 original SPM Store Chile"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original Icon Hats modelo LA DODGERS CRYSTAL BLACK. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Icon Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "LA DODGERS CRYSTAL BLACK"
-      },
-      {
-        "label": "Colección",
-        "value": "Icon Los Angeles Crystal Edition"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-10T23:43:45.186Z",
-    "updatedAt": "2026-10-10T23:43:45.186Z"
-  },
-  {
-    "id": "prod_77",
-    "slug": "icon-hats-ny-yankees-crystal-white",
-    "name": "NY YANKEES CRYSTAL WHITE",
-    "brand": "Icon Hats",
-    "brandSlug": "icon-hats",
-    "seoTitle": "Gorra Icon Hats NY YANKEES CRYSTAL WHITE | SPM Store Chile",
-    "seoDescription": "Gorra streetwear original Icon Hats modelo NY YANKEES CRYSTAL WHITE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": 85000,
-    "color": {
-      "name": "Negro / Cristales White",
-      "hex": "#1a1a1a"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "/products/gorra-icon-hats-ny-yankees-crystal-white-1.webp",
-        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL WHITE\" - Vista 1 original SPM Store Chile"
-      },
-      {
-        "src": "/products/gorra-icon-hats-ny-yankees-crystal-white-2.webp",
-        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL WHITE\" - Vista 2 original SPM Store Chile"
-      },
-      {
-        "src": "/products/gorra-icon-hats-ny-yankees-crystal-white-3.webp",
-        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL WHITE\" - Vista 3 original SPM Store Chile"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original Icon Hats modelo NY YANKEES CRYSTAL WHITE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Icon Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "NY YANKEES CRYSTAL WHITE"
-      },
-      {
-        "label": "Colección",
-        "value": "Icon Los Angeles Crystal Edition"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-10T23:43:47.105Z",
-    "updatedAt": "2026-10-10T23:43:47.105Z"
-  },
-  {
-    "id": "prod_78",
-    "slug": "icon-hats-los-angeles-stars",
-    "name": "LOS ANGELES STARS",
-    "brand": "Icon Hats",
-    "brandSlug": "icon-hats",
-    "seoTitle": "Gorra Icon Hats LOS ANGELES STARS | SPM Store Chile",
-    "seoDescription": "Gorra streetwear original Icon Hats modelo LOS ANGELES STARS. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": 85000,
-    "color": {
-      "name": "Negro / Estrellas 3D",
-      "hex": "#0a0a0a"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "/products/gorra-icon-hats-los-angeles-stars-1.webp",
-        "alt": "Gorra Icon Hats \"LOS ANGELES STARS\" - Vista 1 original SPM Store Chile"
-      },
-      {
-        "src": "/products/gorra-icon-hats-los-angeles-stars-2.webp",
-        "alt": "Gorra Icon Hats \"LOS ANGELES STARS\" - Vista 2 original SPM Store Chile"
-      },
-      {
-        "src": "/products/gorra-icon-hats-los-angeles-stars-3.webp",
-        "alt": "Gorra Icon Hats \"LOS ANGELES STARS\" - Vista 3 original SPM Store Chile"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original Icon Hats modelo LOS ANGELES STARS. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Icon Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "LOS ANGELES STARS"
-      },
-      {
-        "label": "Colección",
-        "value": "Icon Los Angeles Crystal Edition"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-10T23:43:49.096Z",
-    "updatedAt": "2026-10-10T23:43:49.096Z"
-  },
-  {
-    "id": "prod_79",
-    "slug": "icon-hats-la-dodgers-crystal-sky-blue",
-    "name": "LA DODGERS CRYSTAL SKY BLUE",
-    "brand": "Icon Hats",
-    "brandSlug": "icon-hats",
-    "seoTitle": "Gorra Icon Hats LA DODGERS CRYSTAL SKY BLUE | SPM Store Chile",
-    "seoDescription": "Gorra streetwear original Icon Hats modelo LA DODGERS CRYSTAL SKY BLUE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": 85000,
-    "color": {
-      "name": "Celeste / Sky Blue",
-      "hex": "#5b9bd5"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "src": "/products/gorra-icon-hats-la-dodgers-crystal-sky-blue-1.webp",
-        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL SKY BLUE\" - Vista 1 original SPM Store Chile"
-      },
-      {
-        "src": "/products/gorra-icon-hats-la-dodgers-crystal-sky-blue-2.webp",
-        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL SKY BLUE\" - Vista 2 original SPM Store Chile"
-      },
-      {
-        "src": "/products/gorra-icon-hats-la-dodgers-crystal-sky-blue-3.webp",
-        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL SKY BLUE\" - Vista 3 original SPM Store Chile"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original Icon Hats modelo LA DODGERS CRYSTAL SKY BLUE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Icon Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "LA DODGERS CRYSTAL SKY BLUE"
-      },
-      {
-        "label": "Colección",
-        "value": "Icon Los Angeles Crystal Edition"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-10T23:43:50.879Z",
-    "updatedAt": "2026-10-10T23:43:50.879Z"
+    "createdAt": "2026-10-10T23:43:55.012+00:00",
+    "updatedAt": "2026-10-11T00:31:40.471+00:00"
   },
   {
     "id": "prod_80",
@@ -350,24 +78,24 @@
     "price": 70000,
     "compareAtPrice": 85000,
     "color": {
-      "name": "Celeste / Sky Blue",
-      "hex": "#5b9bd5"
+      "hex": "#5b9bd5",
+      "name": "Celeste / Sky Blue"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "/products/gorra-icon-hats-ny-yankees-crystal-sky-blue-1.webp",
-        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL SKY BLUE\" - Vista 1 original SPM Store Chile"
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL SKY BLUE\" - Vista 1 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-sky-blue-1.webp"
       },
       {
-        "src": "/products/gorra-icon-hats-ny-yankees-crystal-sky-blue-2.webp",
-        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL SKY BLUE\" - Vista 2 original SPM Store Chile"
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL SKY BLUE\" - Vista 2 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-sky-blue-2.webp"
       },
       {
-        "src": "/products/gorra-icon-hats-ny-yankees-crystal-sky-blue-3.webp",
-        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL SKY BLUE\" - Vista 3 original SPM Store Chile"
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL SKY BLUE\" - Vista 3 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-sky-blue-3.webp"
       }
     ],
     "initialStock": 1,
@@ -404,38 +132,38 @@
         "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-10T23:43:52.840Z",
-    "updatedAt": "2026-10-10T23:43:52.840Z"
+    "createdAt": "2026-10-10T23:43:52.84+00:00",
+    "updatedAt": "2026-10-10T23:43:52.84+00:00"
   },
   {
-    "id": "prod_81",
-    "slug": "icon-hats-la-dodgers-crystal-white",
-    "name": "LA DODGERS CRYSTAL WHITE",
+    "id": "prod_79",
+    "slug": "icon-hats-la-dodgers-crystal-sky-blue",
+    "name": "LA DODGERS CRYSTAL SKY BLUE",
     "brand": "Icon Hats",
     "brandSlug": "icon-hats",
-    "seoTitle": "Gorra Icon Hats LA DODGERS CRYSTAL WHITE | SPM Store Chile",
-    "seoDescription": "Gorra streetwear original Icon Hats modelo LA DODGERS CRYSTAL WHITE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
+    "seoTitle": "Gorra Icon Hats LA DODGERS CRYSTAL SKY BLUE | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo LA DODGERS CRYSTAL SKY BLUE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": 85000,
     "color": {
-      "name": "Negro / Cristales White",
-      "hex": "#1a1a1a"
+      "hex": "#5b9bd5",
+      "name": "Celeste / Sky Blue"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "src": "/products/gorra-icon-hats-la-dodgers-crystal-white-1.webp",
-        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL WHITE\" - Vista 1 original SPM Store Chile"
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL SKY BLUE\" - Vista 1 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-sky-blue-1.webp"
       },
       {
-        "src": "/products/gorra-icon-hats-la-dodgers-crystal-white-2.webp",
-        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL WHITE\" - Vista 2 original SPM Store Chile"
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL SKY BLUE\" - Vista 2 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-sky-blue-2.webp"
       },
       {
-        "src": "/products/gorra-icon-hats-la-dodgers-crystal-white-3.webp",
-        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL WHITE\" - Vista 3 original SPM Store Chile"
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL SKY BLUE\" - Vista 3 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-sky-blue-3.webp"
       }
     ],
     "initialStock": 1,
@@ -445,7 +173,7 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original Icon Hats modelo LA DODGERS CRYSTAL WHITE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original Icon Hats modelo LA DODGERS CRYSTAL SKY BLUE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
@@ -453,7 +181,7 @@
       },
       {
         "label": "Modelo",
-        "value": "LA DODGERS CRYSTAL WHITE"
+        "value": "LA DODGERS CRYSTAL SKY BLUE"
       },
       {
         "label": "Colección",
@@ -472,86 +200,38 @@
         "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-10T23:43:55.012Z",
-    "updatedAt": "2026-10-10T23:43:55.012Z"
+    "createdAt": "2026-10-10T23:43:50.879+00:00",
+    "updatedAt": "2026-10-10T23:43:50.879+00:00"
   },
   {
-    "id": "prod_71",
-    "slug": "31-hats-gorra-31-hats-la-mochila-preventa",
-    "name": "LA MOCHILA",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats LA MOCHILA",
-    "seoDescription": "Gorra streetwear original 31 Hats LA MOCHILA. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "id": "prod_78",
+    "slug": "icon-hats-los-angeles-stars",
+    "name": "LOS ANGELES STARS",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats LOS ANGELES STARS | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo LOS ANGELES STARS. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
-    "compareAtPrice": null,
+    "compareAtPrice": 85000,
     "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
+      "hex": "#0a0a0a",
+      "name": "Negro / Estrellas 3D"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "alt": "GORRA 31 HATS \"LA MOCHILA\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-la-mochila-preventa-1.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo LA MOCHILA. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
+        "alt": "Gorra Icon Hats \"LOS ANGELES STARS\" - Vista 1 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-los-angeles-stars-1.webp"
       },
       {
-        "label": "Modelo",
-        "value": "LA MOCHILA"
+        "alt": "Gorra Icon Hats \"LOS ANGELES STARS\" - Vista 2 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-los-angeles-stars-2.webp"
       },
       {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.346+00:00",
-    "updatedAt": "2026-10-10T15:24:40.097Z"
-  },
-  {
-    "id": "prod_74",
-    "slug": "31-hats-gorra-31-hats-x-benavidez-and-still",
-    "name": "x Benavidez AND STILL",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats x Benavidez AND STILL",
-    "seoDescription": "Gorra streetwear original 31 Hats x Benavidez AND STILL. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "Gorra 31 hats x Benavidez \"AND STILL\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-x-benavidez-and-still-1.webp"
+        "alt": "Gorra Icon Hats \"LOS ANGELES STARS\" - Vista 3 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-los-angeles-stars-3.webp"
       }
     ],
     "initialStock": 1,
@@ -561,15 +241,19 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo x Benavidez AND STILL. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original Icon Hats modelo LOS ANGELES STARS. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "31 Hats"
+        "value": "Icon Hats"
       },
       {
         "label": "Modelo",
-        "value": "x Benavidez AND STILL"
+        "value": "LOS ANGELES STARS"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
       },
       {
         "label": "Tipo",
@@ -584,38 +268,38 @@
         "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-09T10:11:37.346+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+    "createdAt": "2026-10-10T23:43:49.096+00:00",
+    "updatedAt": "2026-10-10T23:43:49.096+00:00"
   },
   {
-    "id": "prod_64",
-    "slug": "fame-club-gorra-fame-club-flashes-copia",
-    "name": "x Samantha Blessed",
-    "brand": "Fame Club",
-    "brandSlug": "fame-club",
-    "seoTitle": "Jockey Fame Club x Samantha Blessed",
-    "seoDescription": "Gorra streetwear original Fame Club x Samantha Blessed. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "id": "prod_77",
+    "slug": "icon-hats-ny-yankees-crystal-white",
+    "name": "NY YANKEES CRYSTAL WHITE",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats NY YANKEES CRYSTAL WHITE | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo NY YANKEES CRYSTAL WHITE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
-    "compareAtPrice": null,
+    "compareAtPrice": 85000,
     "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
+      "hex": "#1a1a1a",
+      "name": "Negro / Cristales White"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "alt": "Gorra Fame Club x Samantha Blessed - Gorra original FAME CLUB vista 1",
-        "src": "/products/gorra-fame-club-flashes-copia-1.webp"
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL WHITE\" - Vista 1 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-white-1.webp"
       },
       {
-        "alt": "Gorra Fame Club x Samantha Blessed - Gorra original FAME CLUB vista 2",
-        "src": "/products/gorra-fame-club-flashes-copia-2.webp"
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL WHITE\" - Vista 2 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-white-2.webp"
       },
       {
-        "alt": "Gorra Fame Club x Samantha Blessed - Gorra original FAME CLUB vista 3",
-        "src": "/products/gorra-fame-club-flashes-copia-3.webp"
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL WHITE\" - Vista 3 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-white-3.webp"
       }
     ],
     "initialStock": 1,
@@ -625,15 +309,19 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original Fame Club modelo x Samantha Blessed. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original Icon Hats modelo NY YANKEES CRYSTAL WHITE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Fame Club"
+        "value": "Icon Hats"
       },
       {
         "label": "Modelo",
-        "value": "x Samantha Blessed"
+        "value": "NY YANKEES CRYSTAL WHITE"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
       },
       {
         "label": "Tipo",
@@ -648,30 +336,38 @@
         "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-09T10:11:37.346+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+    "createdAt": "2026-10-10T23:43:47.105+00:00",
+    "updatedAt": "2026-10-10T23:43:47.105+00:00"
   },
   {
-    "id": "prod_65",
-    "slug": "31-hats-gorra-31-hats-la-thorns",
-    "name": "LA THORNS",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats LA THORNS",
-    "seoDescription": "Gorra streetwear original 31 Hats LA THORNS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "id": "prod_76",
+    "slug": "icon-hats-la-dodgers-crystal-black",
+    "name": "LA DODGERS CRYSTAL BLACK",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats LA DODGERS CRYSTAL BLACK | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo LA DODGERS CRYSTAL BLACK. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
-    "compareAtPrice": null,
+    "compareAtPrice": 85000,
     "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
+      "hex": "#0b0b0b",
+      "name": "Negro / Cristales Black"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "alt": "GORRA 31 HATS \"LA THORNS\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-la-thorns-1.webp"
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL BLACK\" - Vista 1 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-black-1.webp"
+      },
+      {
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL BLACK\" - Vista 2 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-black-2.webp"
+      },
+      {
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL BLACK\" - Vista 3 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-black-3.webp"
       }
     ],
     "initialStock": 1,
@@ -681,15 +377,19 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo LA THORNS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original Icon Hats modelo LA DODGERS CRYSTAL BLACK. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "31 Hats"
+        "value": "Icon Hats"
       },
       {
         "label": "Modelo",
-        "value": "LA THORNS"
+        "value": "LA DODGERS CRYSTAL BLACK"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
       },
       {
         "label": "Tipo",
@@ -704,104 +404,60 @@
         "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-09T10:11:37.346+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+    "createdAt": "2026-10-10T23:43:45.186+00:00",
+    "updatedAt": "2026-10-10T23:43:45.186+00:00"
   },
   {
-    "id": "prod_66",
-    "slug": "31-hats-gorra-31-hats-31-forever-black-preventa",
-    "name": "31 FOREVER BLACK",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats 31 FOREVER BLACK",
-    "seoDescription": "Gorra streetwear original 31 Hats 31 FOREVER BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "id": "prod_75",
+    "slug": "icon-hats-ny-yankees-crystal-black",
+    "name": "NY YANKEES CRYSTAL BLACK",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats NY YANKEES CRYSTAL BLACK | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo NY YANKEES CRYSTAL BLACK. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
-    "compareAtPrice": null,
+    "compareAtPrice": 85000,
     "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
+      "hex": "#0b0b0b",
+      "name": "Negro / Cristales Black"
     },
     "sizes": [
       "Única · Ajustable"
     ],
     "images": [
       {
-        "alt": "GORRA 31 HATS \"31 FOREVER BLACK\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-31-forever-black-preventa-1.webp"
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL BLACK\" - Vista 1 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-black-1.webp"
+      },
+      {
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL BLACK\" - Vista 2 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-black-2.webp"
+      },
+      {
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL BLACK\" - Vista 3 original SPM Store Chile",
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-black-3.webp"
       }
     ],
     "initialStock": 1,
     "sold": 0,
     "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo 31 FOREVER BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "31 FOREVER BLACK"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.346+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_67",
-    "slug": "31-hats-gorra-31-hats-31-0",
-    "name": "x Benavidez 31-0",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats x Benavidez 31-0",
-    "seoDescription": "Gorra streetwear original 31 Hats x Benavidez 31-0. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "Gorra 31 hats x Benavidez \"31-0\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-31-0-1.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
+    "clicks": 2,
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo x Benavidez 31-0. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original Icon Hats modelo NY YANKEES CRYSTAL BLACK. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "31 Hats"
+        "value": "Icon Hats"
       },
       {
         "label": "Modelo",
-        "value": "x Benavidez 31-0"
+        "value": "NY YANKEES CRYSTAL BLACK"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
       },
       {
         "label": "Tipo",
@@ -816,64 +472,8 @@
         "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-09T10:11:37.346+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_68",
-    "slug": "31-hats-gorra-31-hats-thirty-one-gelato-preventa",
-    "name": "THIRTY ONE GELATO",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats THIRTY ONE GELATO",
-    "seoDescription": "Gorra streetwear original 31 Hats THIRTY ONE GELATO. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"THIRTY ONE GELATO\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-thirty-one-gelato-preventa-1.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo THIRTY ONE GELATO. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "THIRTY ONE GELATO"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.346+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+    "createdAt": "2026-10-10T23:43:43.315+00:00",
+    "updatedAt": "2026-10-10T23:43:43.315+00:00"
   },
   {
     "id": "prod_69",
@@ -1052,6 +652,294 @@
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
+    "id": "prod_65",
+    "slug": "31-hats-gorra-31-hats-la-thorns",
+    "name": "LA THORNS",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats LA THORNS",
+    "seoDescription": "Gorra streetwear original 31 Hats LA THORNS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"LA THORNS\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-la-thorns-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo LA THORNS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA THORNS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_66",
+    "slug": "31-hats-gorra-31-hats-31-forever-black-preventa",
+    "name": "31 FOREVER BLACK",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats 31 FOREVER BLACK",
+    "seoDescription": "Gorra streetwear original 31 Hats 31 FOREVER BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"31 FOREVER BLACK\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-31-forever-black-preventa-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 4,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo 31 FOREVER BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "31 FOREVER BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_64",
+    "slug": "fame-club-gorra-fame-club-flashes-copia",
+    "name": "x Samantha Blessed",
+    "brand": "Fame Club",
+    "brandSlug": "fame-club",
+    "seoTitle": "Jockey Fame Club x Samantha Blessed",
+    "seoDescription": "Gorra streetwear original Fame Club x Samantha Blessed. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "Gorra Fame Club x Samantha Blessed - Gorra original FAME CLUB vista 1",
+        "src": "/products/gorra-fame-club-flashes-copia-1.webp"
+      },
+      {
+        "alt": "Gorra Fame Club x Samantha Blessed - Gorra original FAME CLUB vista 2",
+        "src": "/products/gorra-fame-club-flashes-copia-2.webp"
+      },
+      {
+        "alt": "Gorra Fame Club x Samantha Blessed - Gorra original FAME CLUB vista 3",
+        "src": "/products/gorra-fame-club-flashes-copia-3.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Fame Club modelo x Samantha Blessed. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Fame Club"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Samantha Blessed"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_67",
+    "slug": "31-hats-gorra-31-hats-31-0",
+    "name": "x Benavidez 31-0",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats x Benavidez 31-0",
+    "seoDescription": "Gorra streetwear original 31 Hats x Benavidez 31-0. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "Gorra 31 hats x Benavidez \"31-0\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-31-0-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 3,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo x Benavidez 31-0. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Benavidez 31-0"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_74",
+    "slug": "31-hats-gorra-31-hats-x-benavidez-and-still",
+    "name": "x Benavidez AND STILL",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats x Benavidez AND STILL",
+    "seoDescription": "Gorra streetwear original 31 Hats x Benavidez AND STILL. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "Gorra 31 hats x Benavidez \"AND STILL\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-x-benavidez-and-still-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo x Benavidez AND STILL. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "x Benavidez AND STILL"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.346+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
     "id": "prod_73",
     "slug": "31-hats-gorra-31-hats-31-vamp",
     "name": "31 VAMP",
@@ -1108,13 +996,13 @@
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
-    "id": "prod_13",
-    "slug": "31-hats-gorra-31-hats-page-31",
-    "name": "PAGE 31",
+    "id": "prod_71",
+    "slug": "31-hats-gorra-31-hats-la-mochila-preventa",
+    "name": "LA MOCHILA",
     "brand": "31 Hats",
     "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats PAGE 31",
-    "seoDescription": "Gorra streetwear original 31 Hats PAGE 31. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "seoTitle": "Jockey 31 Hats LA MOCHILA",
+    "seoDescription": "Gorra streetwear original 31 Hats LA MOCHILA. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
@@ -1126,186 +1014,18 @@
     ],
     "images": [
       {
-        "alt": "GORRA 31 HATS \"PAGE 31\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-page-31-1.webp"
+        "alt": "GORRA 31 HATS \"LA MOCHILA\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-la-mochila-preventa-1.webp"
       }
     ],
     "initialStock": 1,
     "sold": 0,
     "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo PAGE 31. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "PAGE 31"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_14",
-    "slug": "31-hats-gorra-31-hats-backpack-boyz",
-    "name": "BACKPACK BOYZ",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats BACKPACK BOYZ",
-    "seoDescription": "Gorra streetwear original 31 Hats BACKPACK BOYZ. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"BACKPACK BOYZ\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-backpack-boyz-1.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo BACKPACK BOYZ. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "BACKPACK BOYZ"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_15",
-    "slug": "31-hats-gorra-31-hats-jewerly-district-preventa",
-    "name": "JEWERLY DISTRICT",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats JEWERLY DISTRICT",
-    "seoDescription": "Gorra streetwear original 31 Hats JEWERLY DISTRICT. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"JEWERLY DISTRICT\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-jewerly-district-preventa-1.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo JEWERLY DISTRICT. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "JEWERLY DISTRICT"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_16",
-    "slug": "31-hats-gorra-31-hats-31-vs-the-world-preventa",
-    "name": "31 VS THE WORLD",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats 31 VS THE WORLD",
-    "seoDescription": "Gorra streetwear original 31 Hats 31 VS THE WORLD. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"31 VS THE WORLD\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-31-vs-the-world-preventa-1.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
+    "clicks": 2,
     "isNew": true,
     "isFeatured": true,
     "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo 31 VS THE WORLD. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original 31 Hats modelo LA MOCHILA. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
@@ -1313,7 +1033,7 @@
       },
       {
         "label": "Modelo",
-        "value": "31 VS THE WORLD"
+        "value": "LA MOCHILA"
       },
       {
         "label": "Tipo",
@@ -1328,17 +1048,17 @@
         "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+    "createdAt": "2026-10-09T10:11:37.346+00:00",
+    "updatedAt": "2026-10-10T15:24:40.222+00:00"
   },
   {
-    "id": "prod_17",
-    "slug": "31-hats-gorra-31-hats-mago-forever",
-    "name": "MAGO TOTAL BLACK",
+    "id": "prod_68",
+    "slug": "31-hats-gorra-31-hats-thirty-one-gelato-preventa",
+    "name": "THIRTY ONE GELATO",
     "brand": "31 Hats",
     "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats MAGO TOTAL BLACK",
-    "seoDescription": "Gorra streetwear original 31 Hats MAGO TOTAL BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "seoTitle": "Jockey 31 Hats THIRTY ONE GELATO",
+    "seoDescription": "Gorra streetwear original 31 Hats THIRTY ONE GELATO. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
@@ -1350,8 +1070,8 @@
     ],
     "images": [
       {
-        "alt": "GORRA 31 HATS \"MAGO TOTAL BLACK\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-mago-forever-1.webp"
+        "alt": "GORRA 31 HATS \"THIRTY ONE GELATO\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-thirty-one-gelato-preventa-1.webp"
       }
     ],
     "initialStock": 1,
@@ -1361,7 +1081,7 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo MAGO TOTAL BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original 31 Hats modelo THIRTY ONE GELATO. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
@@ -1369,7 +1089,7 @@
       },
       {
         "label": "Modelo",
-        "value": "MAGO TOTAL BLACK"
+        "value": "THIRTY ONE GELATO"
       },
       {
         "label": "Tipo",
@@ -1384,375 +1104,7 @@
         "value": "Nuevo con etiquetas / 100% Original"
       }
     ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_18",
-    "slug": "31-hats-gorra-31-hats-starry-night",
-    "name": "STARRY NIGHT",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats STARRY NIGHT",
-    "seoDescription": "Gorra streetwear original 31 Hats STARRY NIGHT. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"STARRY NIGHT\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-starry-night-1.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo STARRY NIGHT. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "STARRY NIGHT"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_19",
-    "slug": "31-hats-gorra-31-hats-la-after-dark",
-    "name": "LA AFTER DARK",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats LA AFTER DARK",
-    "seoDescription": "Gorra streetwear original 31 Hats LA AFTER DARK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"LA AFTER DARK\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-la-after-dark-1.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo LA AFTER DARK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "LA AFTER DARK"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_20",
-    "slug": "31-hats-gorra-31-hats-ny-sweethearts-preventa",
-    "name": "NY SWEETHEARTS",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats NY SWEETHEARTS",
-    "seoDescription": "Gorra streetwear original 31 Hats NY SWEETHEARTS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"NY SWEETHEARTS\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-ny-sweethearts-preventa-1.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"NY SWEETHEARTS\" - Gorra original 31 HATS vista 2",
-        "src": "/products/gorra-31-hats-ny-sweethearts-preventa-2.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"NY SWEETHEARTS\" - Gorra original 31 HATS vista 3",
-        "src": "/products/gorra-31-hats-ny-sweethearts-preventa-3.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo NY SWEETHEARTS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "NY SWEETHEARTS"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_21",
-    "slug": "31-hats-gorra-31-hats-la-sweethearts-preventa",
-    "name": "LA SWEETHEARTS",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats LA SWEETHEARTS",
-    "seoDescription": "Gorra streetwear original 31 Hats LA SWEETHEARTS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"LA SWEETHEARTS\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-la-sweethearts-preventa-1.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"LA SWEETHEARTS\" - Gorra original 31 HATS vista 2",
-        "src": "/products/gorra-31-hats-la-sweethearts-preventa-2.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"LA SWEETHEARTS\" - Gorra original 31 HATS vista 3",
-        "src": "/products/gorra-31-hats-la-sweethearts-preventa-3.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo LA SWEETHEARTS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "LA SWEETHEARTS"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_22",
-    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist",
-    "name": "THIS IS NOT A HEIST",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST",
-    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-this-is-not-a-heist-1.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST\" - Gorra original 31 HATS vista 2",
-        "src": "/products/gorra-31-hats-this-is-not-a-heist-2.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST\" - Gorra original 31 HATS vista 3",
-        "src": "/products/gorra-31-hats-this-is-not-a-heist-3.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "THIS IS NOT A HEIST"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_23",
-    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist-la-smoke-preventa",
-    "name": "THIS IS NOT A HEIST LA SMOKE",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST LA SMOKE",
-    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST LA SMOKE. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST LA SMOKE\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-this-is-not-a-heist-la-smoke-preventa-1.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST LA SMOKE\" - Gorra original 31 HATS vista 2",
-        "src": "/products/gorra-31-hats-this-is-not-a-heist-la-smoke-preventa-2.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST LA SMOKE\" - Gorra original 31 HATS vista 3",
-        "src": "/products/gorra-31-hats-this-is-not-a-heist-la-smoke-preventa-3.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST LA SMOKE. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "THIS IS NOT A HEIST LA SMOKE"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "createdAt": "2026-10-09T10:11:37.346+00:00",
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
@@ -1802,70 +1154,6 @@
       {
         "label": "Modelo",
         "value": "THIS IS NOT A HEIST UNCUT GEMS"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_25",
-    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist-caged-in-preventa",
-    "name": "THIS IS NOT A HEIST CAGED IN",
-    "brand": "31 Hats",
-    "brandSlug": "31-hats",
-    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST CAGED IN",
-    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST CAGED IN. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST CAGED IN\" - Gorra original 31 HATS vista 1",
-        "src": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-1.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST CAGED IN\" - Gorra original 31 HATS vista 2",
-        "src": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-2.webp"
-      },
-      {
-        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST CAGED IN\" - Gorra original 31 HATS vista 3",
-        "src": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-3.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST CAGED IN. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "31 Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "THIS IS NOT A HEIST CAGED IN"
       },
       {
         "label": "Tipo",
@@ -1948,62 +1236,6 @@
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
-    "id": "prod_28",
-    "slug": "dreamer-hats-gorra-el-dreamer-hats-silver-clover",
-    "name": "SILVER CLOVER",
-    "brand": "Dreamer Hats",
-    "brandSlug": "dreamer-hats",
-    "seoTitle": "Jockey Dreamer Hats SILVER CLOVER",
-    "seoDescription": "Gorra streetwear original Dreamer Hats SILVER CLOVER. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA EL DREAMER HATS “SILVER CLOVER” - Gorra original DREAMER HATS vista 1",
-        "src": "/products/gorra-el-dreamer-hats-silver-clover-1.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": false,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original Dreamer Hats modelo SILVER CLOVER. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Dreamer Hats"
-      },
-      {
-        "label": "Modelo",
-        "value": "SILVER CLOVER"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
     "id": "prod_29",
     "slug": "dreamer-hats-gorra-el-dreamer-hats-koi-black",
     "name": "KOI BLACK",
@@ -2050,6 +1282,70 @@
       {
         "label": "Modelo",
         "value": "KOI BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_25",
+    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist-caged-in-preventa",
+    "name": "THIS IS NOT A HEIST CAGED IN",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST CAGED IN",
+    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST CAGED IN. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST CAGED IN\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-1.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST CAGED IN\" - Gorra original 31 HATS vista 2",
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-2.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST CAGED IN\" - Gorra original 31 HATS vista 3",
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-caged-in-preventa-3.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST CAGED IN. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "THIS IS NOT A HEIST CAGED IN"
       },
       {
         "label": "Tipo",
@@ -2722,70 +2018,6 @@
       {
         "label": "Modelo",
         "value": "TRUST NO ONE"
-      },
-      {
-        "label": "Tipo",
-        "value": "Gorra / Jockey Streetwear"
-      },
-      {
-        "label": "Talla",
-        "value": "Unitalla Ajustable (Snapback / Strapback)"
-      },
-      {
-        "label": "Condición",
-        "value": "Nuevo con etiquetas / 100% Original"
-      }
-    ],
-    "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
-  },
-  {
-    "id": "prod_41",
-    "slug": "cash-only-gorra-cash-only-ny-liberty",
-    "name": "NY LIBERTY",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only NY LIBERTY",
-    "seoDescription": "Gorra streetwear original Cash Only NY LIBERTY. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
-    "price": 70000,
-    "compareAtPrice": null,
-    "color": {
-      "hex": "#111111",
-      "name": "Edición Oficial"
-    },
-    "sizes": [
-      "Única · Ajustable"
-    ],
-    "images": [
-      {
-        "alt": "GORRA CASH ONLY - NY LIBERTY - Gorra original CASH ONLY vista 1",
-        "src": "/products/gorra-cash-only-ny-liberty-1.webp"
-      },
-      {
-        "alt": "GORRA CASH ONLY - NY LIBERTY - Gorra original CASH ONLY vista 2",
-        "src": "/products/gorra-cash-only-ny-liberty-2.webp"
-      },
-      {
-        "alt": "GORRA CASH ONLY - NY LIBERTY - Gorra original CASH ONLY vista 3",
-        "src": "/products/gorra-cash-only-ny-liberty-3.webp"
-      }
-    ],
-    "initialStock": 1,
-    "sold": 0,
-    "stock": 1,
-    "clicks": 0,
-    "isNew": true,
-    "isFeatured": true,
-    "isActive": true,
-    "description": "Gorra streetwear 100% original Cash Only modelo NY LIBERTY. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
-    "specs": [
-      {
-        "label": "Marca",
-        "value": "Cash Only"
-      },
-      {
-        "label": "Modelo",
-        "value": "NY LIBERTY"
       },
       {
         "label": "Tipo",
@@ -3796,13 +3028,13 @@
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
-    "id": "prod_59",
-    "slug": "cash-only-gorra-cashed-out-chrome-preventa",
-    "name": "CASHED OUT CHROME",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only CASHED OUT CHROME",
-    "seoDescription": "Gorra streetwear original Cash Only CASHED OUT CHROME. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "id": "prod_5",
+    "slug": "rebel-hats-gorra-rebel-desert-gods-friends-and-family",
+    "name": "Desert Gods (Friends and Family)",
+    "brand": "Rebel Hats",
+    "brandSlug": "rebel-hats",
+    "seoTitle": "Jockey Rebel Hats Desert Gods (Friends and Family)",
+    "seoDescription": "Gorra streetwear original Rebel Hats Desert Gods (Friends and Family). Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en...",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
@@ -3814,8 +3046,8 @@
     ],
     "images": [
       {
-        "alt": "GORRA CASHED OUT \"CHROME\" - Gorra original CASH ONLY vista 1",
-        "src": "/products/gorra-cashed-out-chrome-preventa-1.webp"
+        "alt": "Gorra Rebel - Desert Gods (Friends and Family) - Gorra original REBEL HATS vista 1",
+        "src": "/products/gorra-rebel-desert-gods-friends-and-family-1.webp"
       }
     ],
     "initialStock": 1,
@@ -3825,7 +3057,71 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original Cash Only modelo CASHED OUT CHROME. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original Rebel Hats modelo Desert Gods (Friends and Family). Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Rebel Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "Desert Gods (Friends and Family)"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_58",
+    "slug": "cash-only-gorra-cashed-out-stars-preventa",
+    "name": "X TITO DOUBLE P BLACK STARS",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only X TITO DOUBLE P BLACK STARS",
+    "seoDescription": "Gorra streetwear original Cash Only X TITO DOUBLE P BLACK STARS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM St...",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA CASH ONLY X TITO DOUBLE P \"BLACK STARS\" - Gorra original CASH ONLY vista 1",
+        "src": "/products/gorra-cashed-out-stars-preventa-1.webp"
+      },
+      {
+        "alt": "GORRA CASH ONLY X TITO DOUBLE P \"BLACK STARS\" - Gorra original CASH ONLY vista 2",
+        "src": "/products/gorra-cashed-out-stars-preventa-2.webp"
+      },
+      {
+        "alt": "GORRA CASH ONLY X TITO DOUBLE P \"BLACK STARS\" - Gorra original CASH ONLY vista 3",
+        "src": "/products/gorra-cashed-out-stars-preventa-3.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo X TITO DOUBLE P BLACK STARS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
@@ -3833,7 +3129,7 @@
       },
       {
         "label": "Modelo",
-        "value": "CASHED OUT CHROME"
+        "value": "X TITO DOUBLE P BLACK STARS"
       },
       {
         "label": "Tipo",
@@ -4100,13 +3396,13 @@
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
-    "id": "prod_58",
-    "slug": "cash-only-gorra-cashed-out-stars-preventa",
-    "name": "X TITO DOUBLE P BLACK STARS",
-    "brand": "Cash Only",
-    "brandSlug": "cash-only",
-    "seoTitle": "Jockey Cash Only X TITO DOUBLE P BLACK STARS",
-    "seoDescription": "Gorra streetwear original Cash Only X TITO DOUBLE P BLACK STARS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM St...",
+    "id": "prod_18",
+    "slug": "31-hats-gorra-31-hats-starry-night",
+    "name": "STARRY NIGHT",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats STARRY NIGHT",
+    "seoDescription": "Gorra streetwear original 31 Hats STARRY NIGHT. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
@@ -4118,16 +3414,8 @@
     ],
     "images": [
       {
-        "alt": "GORRA CASH ONLY X TITO DOUBLE P \"BLACK STARS\" - Gorra original CASH ONLY vista 1",
-        "src": "/products/gorra-cashed-out-stars-preventa-1.webp"
-      },
-      {
-        "alt": "GORRA CASH ONLY X TITO DOUBLE P \"BLACK STARS\" - Gorra original CASH ONLY vista 2",
-        "src": "/products/gorra-cashed-out-stars-preventa-2.webp"
-      },
-      {
-        "alt": "GORRA CASH ONLY X TITO DOUBLE P \"BLACK STARS\" - Gorra original CASH ONLY vista 3",
-        "src": "/products/gorra-cashed-out-stars-preventa-3.webp"
+        "alt": "GORRA 31 HATS \"STARRY NIGHT\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-starry-night-1.webp"
       }
     ],
     "initialStock": 1,
@@ -4137,15 +3425,135 @@
     "isNew": true,
     "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original Cash Only modelo X TITO DOUBLE P BLACK STARS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original 31 Hats modelo STARRY NIGHT. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Cash Only"
+        "value": "31 Hats"
       },
       {
         "label": "Modelo",
-        "value": "X TITO DOUBLE P BLACK STARS"
+        "value": "STARRY NIGHT"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_19",
+    "slug": "31-hats-gorra-31-hats-la-after-dark",
+    "name": "LA AFTER DARK",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats LA AFTER DARK",
+    "seoDescription": "Gorra streetwear original 31 Hats LA AFTER DARK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"LA AFTER DARK\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-la-after-dark-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo LA AFTER DARK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA AFTER DARK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_20",
+    "slug": "31-hats-gorra-31-hats-ny-sweethearts-preventa",
+    "name": "NY SWEETHEARTS",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats NY SWEETHEARTS",
+    "seoDescription": "Gorra streetwear original 31 Hats NY SWEETHEARTS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"NY SWEETHEARTS\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-ny-sweethearts-preventa-1.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"NY SWEETHEARTS\" - Gorra original 31 HATS vista 2",
+        "src": "/products/gorra-31-hats-ny-sweethearts-preventa-2.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"NY SWEETHEARTS\" - Gorra original 31 HATS vista 3",
+        "src": "/products/gorra-31-hats-ny-sweethearts-preventa-3.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo NY SWEETHEARTS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY SWEETHEARTS"
       },
       {
         "label": "Tipo",
@@ -4220,6 +3628,126 @@
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
+    "id": "prod_41",
+    "slug": "cash-only-gorra-cash-only-ny-liberty",
+    "name": "NY LIBERTY",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only NY LIBERTY",
+    "seoDescription": "Gorra streetwear original Cash Only NY LIBERTY. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA CASH ONLY - NY LIBERTY - Gorra original CASH ONLY vista 1",
+        "src": "/products/gorra-cash-only-ny-liberty-1.webp"
+      },
+      {
+        "alt": "GORRA CASH ONLY - NY LIBERTY - Gorra original CASH ONLY vista 2",
+        "src": "/products/gorra-cash-only-ny-liberty-2.webp"
+      },
+      {
+        "alt": "GORRA CASH ONLY - NY LIBERTY - Gorra original CASH ONLY vista 3",
+        "src": "/products/gorra-cash-only-ny-liberty-3.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 2,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo NY LIBERTY. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY LIBERTY"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_59",
+    "slug": "cash-only-gorra-cashed-out-chrome-preventa",
+    "name": "CASHED OUT CHROME",
+    "brand": "Cash Only",
+    "brandSlug": "cash-only",
+    "seoTitle": "Jockey Cash Only CASHED OUT CHROME",
+    "seoDescription": "Gorra streetwear original Cash Only CASHED OUT CHROME. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA CASHED OUT \"CHROME\" - Gorra original CASH ONLY vista 1",
+        "src": "/products/gorra-cashed-out-chrome-preventa-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Cash Only modelo CASHED OUT CHROME. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Cash Only"
+      },
+      {
+        "label": "Modelo",
+        "value": "CASHED OUT CHROME"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
     "id": "prod_4",
     "slug": "31-hats-gorra-31-hats-who-the-f-is-thirtyone",
     "name": "WHO THE F... IS THIRTYONE?",
@@ -4276,13 +3804,13 @@
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
-    "id": "prod_5",
-    "slug": "rebel-hats-gorra-rebel-desert-gods-friends-and-family",
-    "name": "Desert Gods (Friends and Family)",
-    "brand": "Rebel Hats",
-    "brandSlug": "rebel-hats",
-    "seoTitle": "Jockey Rebel Hats Desert Gods (Friends and Family)",
-    "seoDescription": "Gorra streetwear original Rebel Hats Desert Gods (Friends and Family). Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en...",
+    "id": "prod_26",
+    "slug": "barbas-hats-gorra-barbas-hats-x-lonche-wilito-skull-fes",
+    "name": "x Lonche & Wilito Skull Fes",
+    "brand": "Barbas Hats",
+    "brandSlug": "barbas-hats",
+    "seoTitle": "Jockey Barbas Hats x Lonche & Wilito Skull Fes",
+    "seoDescription": "Gorra streetwear original Barbas Hats x Lonche & Wilito Skull Fes. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM...",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
@@ -4294,8 +3822,16 @@
     ],
     "images": [
       {
-        "alt": "Gorra Rebel - Desert Gods (Friends and Family) - Gorra original REBEL HATS vista 1",
-        "src": "/products/gorra-rebel-desert-gods-friends-and-family-1.webp"
+        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 1",
+        "src": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-1.webp"
+      },
+      {
+        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 2",
+        "src": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-2.webp"
+      },
+      {
+        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 3",
+        "src": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-3.webp"
       }
     ],
     "initialStock": 1,
@@ -4303,17 +3839,17 @@
     "stock": 1,
     "clicks": 0,
     "isNew": true,
-    "isFeatured": false,
+    "isFeatured": true,
     "isActive": true,
-    "description": "Gorra streetwear 100% original Rebel Hats modelo Desert Gods (Friends and Family). Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original Barbas Hats modelo x Lonche & Wilito Skull Fes. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Rebel Hats"
+        "value": "Barbas Hats"
       },
       {
         "label": "Modelo",
-        "value": "Desert Gods (Friends and Family)"
+        "value": "x Lonche & Wilito Skull Fes"
       },
       {
         "label": "Tipo",
@@ -4329,7 +3865,7 @@
       }
     ],
     "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+    "updatedAt": "2026-10-10T15:24:22.699+00:00"
   },
   {
     "id": "prod_6",
@@ -4652,6 +4188,62 @@
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
+    "id": "prod_28",
+    "slug": "dreamer-hats-gorra-el-dreamer-hats-silver-clover",
+    "name": "SILVER CLOVER",
+    "brand": "Dreamer Hats",
+    "brandSlug": "dreamer-hats",
+    "seoTitle": "Jockey Dreamer Hats SILVER CLOVER",
+    "seoDescription": "Gorra streetwear original Dreamer Hats SILVER CLOVER. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA EL DREAMER HATS “SILVER CLOVER” - Gorra original DREAMER HATS vista 1",
+        "src": "/products/gorra-el-dreamer-hats-silver-clover-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Dreamer Hats modelo SILVER CLOVER. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Dreamer Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "SILVER CLOVER"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
     "id": "prod_11",
     "slug": "rebel-hats-gorra-rebel-saint-of-chaos",
     "name": "SAINT OF CHAOS",
@@ -4780,13 +4372,13 @@
     "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
-    "id": "prod_26",
-    "slug": "barbas-hats-gorra-barbas-hats-x-lonche-wilito-skull-fes",
-    "name": "x Lonche & Wilito Skull Fes",
-    "brand": "Barbas Hats",
-    "brandSlug": "barbas-hats",
-    "seoTitle": "Jockey Barbas Hats x Lonche & Wilito Skull Fes",
-    "seoDescription": "Gorra streetwear original Barbas Hats x Lonche & Wilito Skull Fes. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM...",
+    "id": "prod_13",
+    "slug": "31-hats-gorra-31-hats-page-31",
+    "name": "PAGE 31",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats PAGE 31",
+    "seoDescription": "Gorra streetwear original 31 Hats PAGE 31. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
     "price": 70000,
     "compareAtPrice": null,
     "color": {
@@ -4798,16 +4390,8 @@
     ],
     "images": [
       {
-        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 1",
-        "src": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-1.webp"
-      },
-      {
-        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 2",
-        "src": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-2.webp"
-      },
-      {
-        "alt": "Gorra Barbas Hats x Lonche & Wilito \"Skull Fes\" - Gorra original BARBAS HATS vista 3",
-        "src": "/products/gorra-barbas-hats-x-lonche-wilito-skull-fes-3.webp"
+        "alt": "GORRA 31 HATS \"PAGE 31\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-page-31-1.webp"
       }
     ],
     "initialStock": 1,
@@ -4815,17 +4399,17 @@
     "stock": 1,
     "clicks": 0,
     "isNew": true,
-    "isFeatured": true,
+    "isFeatured": false,
     "isActive": true,
-    "description": "Gorra streetwear 100% original Barbas Hats modelo x Lonche & Wilito Skull Fes. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "description": "Gorra streetwear 100% original 31 Hats modelo PAGE 31. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
     "specs": [
       {
         "label": "Marca",
-        "value": "Barbas Hats"
+        "value": "31 Hats"
       },
       {
         "label": "Modelo",
-        "value": "x Lonche & Wilito Skull Fes"
+        "value": "PAGE 31"
       },
       {
         "label": "Tipo",
@@ -4841,7 +4425,423 @@
       }
     ],
     "createdAt": "2026-10-09T10:11:37.345+00:00",
-    "updatedAt": "2026-10-10T15:24:22.699+00:00"
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_14",
+    "slug": "31-hats-gorra-31-hats-backpack-boyz",
+    "name": "BACKPACK BOYZ",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats BACKPACK BOYZ",
+    "seoDescription": "Gorra streetwear original 31 Hats BACKPACK BOYZ. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"BACKPACK BOYZ\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-backpack-boyz-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo BACKPACK BOYZ. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "BACKPACK BOYZ"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_15",
+    "slug": "31-hats-gorra-31-hats-jewerly-district-preventa",
+    "name": "JEWERLY DISTRICT",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats JEWERLY DISTRICT",
+    "seoDescription": "Gorra streetwear original 31 Hats JEWERLY DISTRICT. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"JEWERLY DISTRICT\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-jewerly-district-preventa-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo JEWERLY DISTRICT. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "JEWERLY DISTRICT"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_16",
+    "slug": "31-hats-gorra-31-hats-31-vs-the-world-preventa",
+    "name": "31 VS THE WORLD",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats 31 VS THE WORLD",
+    "seoDescription": "Gorra streetwear original 31 Hats 31 VS THE WORLD. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"31 VS THE WORLD\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-31-vs-the-world-preventa-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo 31 VS THE WORLD. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "31 VS THE WORLD"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_17",
+    "slug": "31-hats-gorra-31-hats-mago-forever",
+    "name": "MAGO TOTAL BLACK",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats MAGO TOTAL BLACK",
+    "seoDescription": "Gorra streetwear original 31 Hats MAGO TOTAL BLACK. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"MAGO TOTAL BLACK\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-mago-forever-1.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo MAGO TOTAL BLACK. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "MAGO TOTAL BLACK"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_21",
+    "slug": "31-hats-gorra-31-hats-la-sweethearts-preventa",
+    "name": "LA SWEETHEARTS",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats LA SWEETHEARTS",
+    "seoDescription": "Gorra streetwear original 31 Hats LA SWEETHEARTS. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"LA SWEETHEARTS\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-la-sweethearts-preventa-1.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"LA SWEETHEARTS\" - Gorra original 31 HATS vista 2",
+        "src": "/products/gorra-31-hats-la-sweethearts-preventa-2.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"LA SWEETHEARTS\" - Gorra original 31 HATS vista 3",
+        "src": "/products/gorra-31-hats-la-sweethearts-preventa-3.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": true,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo LA SWEETHEARTS. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA SWEETHEARTS"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_22",
+    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist",
+    "name": "THIS IS NOT A HEIST",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST",
+    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-1.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST\" - Gorra original 31 HATS vista 2",
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-2.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST\" - Gorra original 31 HATS vista 3",
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-3.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "THIS IS NOT A HEIST"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
+  },
+  {
+    "id": "prod_23",
+    "slug": "31-hats-gorra-31-hats-this-is-not-a-heist-la-smoke-preventa",
+    "name": "THIS IS NOT A HEIST LA SMOKE",
+    "brand": "31 Hats",
+    "brandSlug": "31-hats",
+    "seoTitle": "Jockey 31 Hats THIS IS NOT A HEIST LA SMOKE",
+    "seoDescription": "Gorra streetwear original 31 Hats THIS IS NOT A HEIST LA SMOKE. Edición limitada de alta calidad con broche ajustable. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": null,
+    "color": {
+      "hex": "#111111",
+      "name": "Edición Oficial"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST LA SMOKE\" - Gorra original 31 HATS vista 1",
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-la-smoke-preventa-1.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST LA SMOKE\" - Gorra original 31 HATS vista 2",
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-la-smoke-preventa-2.webp"
+      },
+      {
+        "alt": "GORRA 31 HATS \"THIS IS NOT A HEIST LA SMOKE\" - Gorra original 31 HATS vista 3",
+        "src": "/products/gorra-31-hats-this-is-not-a-heist-la-smoke-preventa-3.webp"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original 31 Hats modelo THIS IS NOT A HEIST LA SMOKE. Confección premium con bordados detallados y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "31 Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "THIS IS NOT A HEIST LA SMOKE"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-09T10:11:37.345+00:00",
+    "updatedAt": "2026-10-10T14:50:18.083+00:00"
   },
   {
     "id": "prod_2",

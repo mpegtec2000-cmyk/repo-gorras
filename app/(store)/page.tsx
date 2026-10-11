@@ -12,6 +12,9 @@ import { getProducts } from "@/lib/catalog";
 import { site } from "@/lib/site";
 import styles from "./page.module.css";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 function InstagramIcon({ size = 24, className }: { size?: number | string; className?: string }) {
   return (
     <svg

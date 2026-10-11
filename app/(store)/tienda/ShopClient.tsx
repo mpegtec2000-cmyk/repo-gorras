@@ -29,6 +29,26 @@ export default function ShopClient({ initialProducts }: ShopClientProps) {
   const [onlyInStock, setOnlyInStock] = useState(false);
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
 
+  React.useEffect(() => {
+    const handleUpdate = () => {
+      router.refresh();
+    };
+    window.addEventListener("focus", handleUpdate);
+    window.addEventListener("catalog-updated", handleUpdate);
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === "spm_catalog_updated") {
+        router.refresh();
+      }
+    };
+    window.addEventListener("storage", onStorage);
+
+    return () => {
+      window.removeEventListener("focus", handleUpdate);
+      window.removeEventListener("catalog-updated", handleUpdate);
+      window.removeEventListener("storage", onStorage);
+    };
+  }, [router]);
+
   const brands = useMemo(() => getBrands(initialProducts), [initialProducts]);
 
   const filteredProducts = useMemo(() => {

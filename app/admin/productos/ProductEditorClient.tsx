@@ -122,6 +122,9 @@ export default function ProductEditorClient({ product }: { product: Product | nu
         setSavedSuccess(true);
         if (typeof window !== "undefined") {
           window.dispatchEvent(new Event("catalog-updated"));
+          try {
+            localStorage.setItem("spm_catalog_updated", Date.now().toString());
+          } catch {}
         }
         setTimeout(() => {
           setSavedSuccess(false);

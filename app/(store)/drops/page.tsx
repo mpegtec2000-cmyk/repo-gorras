@@ -3,6 +3,9 @@ import { getProducts } from "@/lib/catalog";
 import { site } from "@/lib/site";
 import DropsClient from "./DropsClient";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export const metadata: Metadata = {
   title: `Drops & Streetwear Lookbook | ${site.name}`,
   description:

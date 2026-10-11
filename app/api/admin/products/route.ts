@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { getProducts, getProduct, saveProduct, updateProductPartial, deleteProduct } from "@/lib/catalog";
 import { Product } from "@/lib/products";
 
@@ -46,6 +47,17 @@ export async function POST(req: NextRequest) {
     };
 
     const saved = await saveProduct(newProduct);
+
+    // Invalidar caché de las rutas de la tienda y producto
+    try {
+      revalidatePath("/tienda");
+      revalidatePath("/");
+      revalidatePath("/drops");
+      revalidatePath(`/producto/${saved.slug}`);
+      revalidatePath("/admin/productos");
+      revalidatePath("/admin/inventario");
+    } catch {}
+
     return NextResponse.json({ success: true, product: saved });
   } catch (e: any) {
     return NextResponse.json({ success: false, error: e.message }, { status: 500 });
@@ -66,6 +78,15 @@ export async function PATCH(req: NextRequest) {
       return NextResponse.json({ success: false, error: "Producto no encontrado" }, { status: 404 });
     }
 
+    try {
+      revalidatePath("/tienda");
+      revalidatePath("/");
+      revalidatePath("/drops");
+      revalidatePath(`/producto/${updated.slug}`);
+      revalidatePath("/admin/productos");
+      revalidatePath("/admin/inventario");
+    } catch {}
+
     return NextResponse.json({ success: true, product: updated });
   } catch (e: any) {
     return NextResponse.json({ success: false, error: e.message }, { status: 500 });
@@ -78,6 +99,15 @@ export async function DELETE(req: NextRequest) {
     const id = searchParams.get("id");
     if (!id) return NextResponse.json({ success: false, error: "Missing product ID" }, { status: 400 });
     const deleted = await deleteProduct(id);
+
+    try {
+      revalidatePath("/tienda");
+      revalidatePath("/");
+      revalidatePath("/drops");
+      revalidatePath("/admin/productos");
+      revalidatePath("/admin/inventario");
+    } catch {}
+
     return NextResponse.json({ success: deleted });
   } catch (e: any) {
     return NextResponse.json({ success: false, error: e.message }, { status: 500 });

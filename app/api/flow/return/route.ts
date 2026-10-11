@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { getFlowPaymentStatus } from "@/lib/flow";
 import { getOrder, updateOrderStatus } from "@/lib/orders";
 import { updateProductPartial, getProduct } from "@/lib/catalog";
@@ -43,6 +44,16 @@ async function handleReturn(token: string | null, req: NextRequest) {
           }
         }
       }
+
+      try {
+        revalidatePath("/admin");
+        revalidatePath("/admin/ventas");
+        revalidatePath("/admin/flujo");
+        revalidatePath("/admin/inventario");
+        revalidatePath("/admin/productos");
+        revalidatePath("/tienda");
+        revalidatePath("/");
+      } catch {}
 
       return NextResponse.redirect(`${baseUrl}/pedido/${order.id}?status=success&token=${token}`);
     } else {

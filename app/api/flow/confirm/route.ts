@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { getFlowPaymentStatus } from "@/lib/flow";
 import { getOrder, updateOrderStatus } from "@/lib/orders";
 import { updateProductPartial, getProduct } from "@/lib/catalog";
@@ -43,6 +44,16 @@ export async function POST(req: NextRequest) {
             });
           }
         }
+
+        try {
+          revalidatePath("/admin");
+          revalidatePath("/admin/ventas");
+          revalidatePath("/admin/flujo");
+          revalidatePath("/admin/inventario");
+          revalidatePath("/admin/productos");
+          revalidatePath("/tienda");
+          revalidatePath("/");
+        } catch {}
       }
     } else if (flowStatus.status === 3 || flowStatus.status === 4) {
       // Rechazada o Anulada
@@ -50,6 +61,10 @@ export async function POST(req: NextRequest) {
         flowOrder: flowStatus.flowOrder,
         flowToken: token,
       });
+
+      try {
+        revalidatePath("/admin/ventas");
+      } catch {}
     }
 
     return NextResponse.json({ success: true, status: flowStatus.status });

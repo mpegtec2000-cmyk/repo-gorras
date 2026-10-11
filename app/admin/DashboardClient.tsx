@@ -4,6 +4,7 @@ import React, { useMemo } from "react";
 import { ArrowUpRight, Package, ShoppingCart, TrendingUp, AlertTriangle } from "lucide-react";
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar } from "recharts";
 import { Product } from "@/lib/products";
+import { Order } from "@/lib/orders";
 import styles from "./page.module.css";
 
 const MOCK_TRAFFIC_DATA = [
@@ -16,19 +17,81 @@ const MOCK_TRAFFIC_DATA = [
   { name: 'Dom', visitas: 380, ventas: 20 },
 ];
 
-export default function DashboardClient({ initialProducts }: { initialProducts: Product[] }) {
-  const totalStock = initialProducts.reduce((acc, p) => acc + p.stock, 0);
-  const totalSold = initialProducts.reduce((acc, p) => acc + p.sold, 0);
-  const totalRevenue = initialProducts.reduce((acc, p) => acc + (p.sold * p.price), 0);
-  const lowStock = initialProducts.filter(p => p.stock > 0 && p.stock <= 2).length;
-  const outOfStock = initialProducts.filter(p => p.stock === 0).length;
+export default function DashboardClient({ 
+  initialProducts, 
+  initialOrders = [] 
+}: { 
+  initialProducts: Product[];
+  initialOrders?: Order[];
+}) {
+  const [orders, setOrders] = React.useState<Order[]>(initialOrders);
+  const [products, setProducts] = React.useState<Product[]>(initialProducts);
+
+  React.useEffect(() => {
+    if (initialOrders && initialOrders.length > 0) {
+      setOrders(initialOrders);
+    }
+    if (initialProducts && initialProducts.length > 0) {
+      setProducts(initialProducts);
+    }
+
+    const fetchLatest = async () => {
+      try {
+        const [pRes, oRes] = await Promise.all([
+          fetch("/api/admin/products"),
+          fetch("/api/admin/orders"),
+        ]);
+        const pData = await pRes.json();
+        const oData = await oRes.json();
+        if (pData.success && Array.isArray(pData.products)) setProducts(pData.products);
+        if (oData.success && Array.isArray(oData.orders)) setOrders(oData.orders);
+      } catch {}
+    };
+
+    fetchLatest();
+    const onFocus = () => fetchLatest();
+    window.addEventListener("focus", onFocus);
+    const interval = setInterval(fetchLatest, 10000);
+    return () => {
+      window.removeEventListener("focus", onFocus);
+      clearInterval(interval);
+    };
+  }, [initialOrders, initialProducts]);
+
+  const paidOrders = useMemo(() => {
+    return orders.filter(o => {
+      const s = String(o.status || "").toLowerCase().trim();
+      return s === "pagado" || s === "preparando pedido" || s === "pedido entregado";
+    });
+  }, [orders]);
+
+  const totalRevenue = useMemo(() => {
+    if (paidOrders.length > 0) {
+      return paidOrders.reduce((acc, o) => acc + (Number(o.total) || 0), 0);
+    }
+    return products.reduce((acc, p) => acc + (p.sold * p.price), 0);
+  }, [paidOrders, products]);
+
+  const totalSold = useMemo(() => {
+    if (paidOrders.length > 0) {
+      return paidOrders.reduce((acc, o) => {
+        const qty = o.items?.reduce((sum, it) => sum + (Number(it.quantity) || 1), 0) || 1;
+        return acc + qty;
+      }, 0);
+    }
+    return products.reduce((acc, p) => acc + p.sold, 0);
+  }, [paidOrders, products]);
+
+  const totalStock = products.reduce((acc, p) => acc + p.stock, 0);
+  const lowStock = products.filter(p => p.stock > 0 && p.stock <= 2).length;
+  const outOfStock = products.filter(p => p.stock === 0).length;
 
   const formatter = new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP' });
 
   // Agrupar ventas por marca para un gráfico circular o de barras
   const salesByBrand = useMemo(() => {
     const brands: Record<string, number> = {};
-    initialProducts.forEach(p => {
+    products.forEach(p => {
       if (p.sold > 0) {
         brands[p.brand] = (brands[p.brand] || 0) + p.sold;
       }
@@ -37,7 +100,7 @@ export default function DashboardClient({ initialProducts }: { initialProducts: 
       .map(([name, sold]) => ({ name, sold }))
       .sort((a, b) => b.sold - a.sold)
       .slice(0, 5); // top 5 brands
-  }, [initialProducts]);
+  }, [products]);
 
   return (
     <div className={styles.dashboard}>

@@ -89,9 +89,10 @@ export async function getRealAnalytics(): Promise<RealAnalyticsMetrics> {
 
   // 8. Órdenes y ventas reales desde la tabla orders
   const { data: orders } = await sb.from("orders").select("id, total, status, items");
-  const validOrders = (orders || []).filter(
-    (o: any) => o.status === "paid" || o.status === "confirmed" || o.status === "completed"
-  );
+  const validOrders = (orders || []).filter((o: any) => {
+    const s = String(o.status || "").toLowerCase().trim();
+    return s === "pagado" || s === "paid" || s === "preparando pedido" || s === "pedido entregado" || s === "confirmed" || s === "completed";
+  });
   const totalSoldUnits = products.reduce((acc, p) => acc + (p.sold || 0), 0);
   const totalRevenue = validOrders.reduce((acc: number, o: any) => acc + (Number(o.total) || 0), 0);
 

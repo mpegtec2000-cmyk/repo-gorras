@@ -75,6 +75,15 @@
   background-color: #f9fafb;
 }
 
+.spinning {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 .metricsGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

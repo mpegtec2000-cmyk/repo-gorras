@@ -2,13 +2,14 @@
 
 import React, { useState, useMemo } from "react";
 import Image from "next/image";
-import { Download, Eye, Calendar, DollarSign, ShoppingBag, CheckCircle, Clock, X, Package, TrendingUp } from "lucide-react";
+import { Download, Eye, Calendar, DollarSign, ShoppingBag, CheckCircle, Clock, X, Package, TrendingUp, RefreshCw } from "lucide-react";
 import { Order, OrderStatus } from "@/lib/orders";
 import { Product, displayImages, formatCLP } from "@/lib/products";
 import styles from "./Ventas.module.css";
 
 export default function VentasClient({ initialOrders, products }: { initialOrders: Order[], products: Product[] }) {
   const [orders, setOrders] = useState<Order[]>(initialOrders);
+  const [loading, setLoading] = useState(false);
   
   // Rango de fechas por defecto: últimos 30 días
   const defaultEnd = new Date();
@@ -20,12 +21,51 @@ export default function VentasClient({ initialOrders, products }: { initialOrder
   
   const [selectedOrder, setSelectedOrder] = useState<Order | null>(null);
 
-  // Filtrado de órdenes
+  const fetchOrders = async () => {
+    try {
+      setLoading(true);
+      const res = await fetch("/api/admin/orders");
+      const data = await res.json();
+      if (data.success && Array.isArray(data.orders)) {
+        setOrders(data.orders);
+      }
+    } catch (e) {
+      console.error("Error refreshing orders:", e);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  React.useEffect(() => {
+    if (initialOrders && initialOrders.length > 0) {
+      setOrders(initialOrders);
+    }
+    fetchOrders();
+
+    const onFocus = () => fetchOrders();
+    window.addEventListener("focus", onFocus);
+    const interval = setInterval(fetchOrders, 10000);
+    return () => {
+      window.removeEventListener("focus", onFocus);
+      clearInterval(interval);
+    };
+  }, [initialOrders]);
+
+  // Filtrado de órdenes con rango seguro local
   const filteredOrders = useMemo(() => {
     return orders.filter(o => {
+      if (!startDate && !endDate) return true;
       const oDate = new Date(o.date).getTime();
-      const sDate = new Date(startDate).getTime();
-      const eDate = new Date(endDate).getTime() + 86400000; // Add 1 day to include end date fully
+      let sDate = 0;
+      let eDate = Infinity;
+      if (startDate) {
+        const parts = startDate.split("-").map(Number);
+        sDate = new Date(parts[0], parts[1] - 1, parts[2], 0, 0, 0, 0).getTime();
+      }
+      if (endDate) {
+        const parts = endDate.split("-").map(Number);
+        eDate = new Date(parts[0], parts[1] - 1, parts[2], 23, 59, 59, 999).getTime();
+      }
       return oDate >= sDate && oDate <= eDate;
     });
   }, [orders, startDate, endDate]);
@@ -84,6 +124,15 @@ export default function VentasClient({ initialOrders, products }: { initialOrder
           </p>
         </div>
         <div className={styles.headerActions}>
+          <button 
+            className={styles.btnSecondary} 
+            onClick={fetchOrders} 
+            disabled={loading}
+            title="Refrescar órdenes en vivo"
+          >
+            <RefreshCw size={16} className={loading ? styles.spinning : ""} /> 
+            {loading ? "Cargando..." : "Actualizar"}
+          </button>
           <div className={styles.dateFilter}>
             <Calendar size={16} className={styles.dateIcon} />
             <input 

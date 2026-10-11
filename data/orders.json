@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "spm_1791680151941",
+    "order_number": "#SPM-0151822",
+    "date": "2026-10-11T00:55:51.941+00:00",
+    "client_name": "Matias Espinoza",
+    "client_rut": "20.483.954-9",
+    "client_email": "mpeg.logistica@gmail.com",
+    "client_phone": "+56 9 929645522",
+    "client_address": "manuel guerrero 371-b, Depto/Casa casa 2 pisos roja",
+    "client_city": "Viña del Mar",
+    "client_region": "Región de Valparaíso",
+    "shipping_method": "Envío Express a Domicilio (Starken / Blue Express)",
+    "shipping_cost": 0,
+    "status": "Pagado",
+    "items": [
+      {
+        "name": "LA DODGERS CRYSTAL WHITE",
+        "size": "Única · Ajustable",
+        "brand": "Icon Hats",
+        "image": "/products/gorra-icon-hats-la-dodgers-crystal-white-1.webp",
+        "price": 350,
+        "quantity": 1,
+        "productId": "prod_81"
+      }
+    ],
+    "subtotal": 350,
+    "total": 350,
+    "flow_order": 184592459,
+    "flow_token": "076142FEAF8E9E1EFC33781D7F7607F3EB1AE90F",
+    "payment_method": "Webpay Plus / Flow",
+    "paid_at": "2026-10-10T21:56:56+00:00",
+    "payment_media": "Webpay",
+    "created_at": "2026-10-11T00:55:51.941+00:00",
+    "updated_at": "2026-10-11T00:56:58.332+00:00"
+  }
+]

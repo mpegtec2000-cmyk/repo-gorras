@@ -41,6 +41,7 @@ const BRAND_LINKS = [
   { name: "31 Hats", slug: "31-hats", count: 24 },
   { name: "Cash Only", slug: "cash-only", count: 22 },
   { name: "Rebel Hats", slug: "rebel-hats", count: 14 },
+  { name: "Icon Hats", slug: "icon-hats", count: 7 },
   { name: "Dreamer Hats", slug: "dreamer-hats", count: 6 },
   { name: "Barbas Hats", slug: "barbas-hats", count: 4 },
   { name: "Fame Club", slug: "fame-club", count: 4 },

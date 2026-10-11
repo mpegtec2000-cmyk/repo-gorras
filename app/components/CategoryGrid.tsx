@@ -11,6 +11,7 @@ const BRAND_LIST = [
   { slug: "31-hats", name: "31 HATS", count: 24, desc: "24 modelos streetwear de edición limitada.", image: "/brands/thirty-one.png" },
   { slug: "cash-only", name: "CASH ONLY", count: 22, desc: "22 gorras exclusivas bordadas en relieve 3D.", image: "/brands/cash-only.png" },
   { slug: "rebel-hats", name: "REBEL HATS", count: 14, desc: "14 modelos urbanos con diseño subterráneo.", image: "/brands/rebel-hats-v2.png" },
+  { slug: "icon-hats", name: "ICON HATS", count: 7, desc: "7 gorras Crystal Edition con pedrería y cristales.", image: "/brands/icon-hats.png" },
   { slug: "dreamer-hats", name: "DREAMER HATS", count: 6, desc: "6 piezas icónicas japonesas y streetwear.", image: "/brands/dreamer-hats-v2.png" },
   { slug: "barbas-hats", name: "BARBAS HATS", count: 4, desc: "4 gorras premium con acabados de alta costura.", image: "/brands/barbas-hats.png" },
   { slug: "fame-club", name: "FAME CLUB", count: 4, desc: "4 drops exclusivos Samantha Universe.", image: "/brands/fame-club.png" },

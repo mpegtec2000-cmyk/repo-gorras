@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, Package, Tag, Users, Settings, TrendingUp, Store, UserCheck, Layers, Award } from "lucide-react";
+import { LayoutDashboard, Package, Tag, Users, Settings, TrendingUp, Store, UserCheck, Layers, Award, LogOut } from "lucide-react";
 import styles from "./layout.module.css";
 
 interface SidebarNavProps {
@@ -112,6 +112,10 @@ export default function SidebarNav({ initialProductCount = 81, initialBrandCount
           <Settings size={18} />
           <span>Base de Datos Supabase</span>
         </Link>
+        <a href="/api/admin/auth/logout" className={styles.navLink} style={{ color: "#ef4444" }}>
+          <LogOut size={18} />
+          <span>Cerrar Sesión</span>
+        </a>
       </div>
     </nav>
   );

@@ -58,7 +58,7 @@ export default async function Home() {
               </span>
               <h2 className={styles.sectionTitle}>NUEVOS DROPS 2026</h2>
             </div>
-            <Link href="/drops" className={styles.linkBtn}>
+            <Link href="/drops" prefetch={false} className={styles.linkBtn}>
               VER DROPS & LOOKBOOK <ArrowRight size={16} />
             </Link>
           </div>
@@ -102,7 +102,7 @@ export default async function Home() {
               <br />
               Descubre más de las colecciones de SPM.
             </p>
-            <Link href="/tienda" className={styles.editorialBtn}>
+            <Link href="/tienda" prefetch={false} className={styles.editorialBtn}>
               DESCUBRIR COLECCIÓN
             </Link>
           </div>
@@ -121,7 +121,7 @@ export default async function Home() {
               </span>
               <h2 className={styles.sectionTitle}>FAVORITOS DE LA CALLE</h2>
             </div>
-            <Link href="/tienda" className={styles.linkBtn}>
+            <Link href="/tienda" prefetch={false} className={styles.linkBtn}>
               IR A LA TIENDA <ArrowRight size={16} />
             </Link>
           </div>

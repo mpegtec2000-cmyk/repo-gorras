@@ -17,17 +17,22 @@ export default function AdminLogin({ onBack }: { onBack: () => void }) {
     setError("");
     setLoading(true);
 
-    // Hardcoded admin validation
-    if (username === "Admin" && password === "Admin123") {
-      try {
-        // Set secure cookie for admin session
-        document.cookie = `spm_session=admin; path=/; max-age=86400`;
+    try {
+      const res = await fetch("/api/admin/auth/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ username, password }),
+      });
+
+      const data = await res.json();
+      if (res.ok && data.success) {
         router.push("/admin");
-      } catch (e) {
-        setError("Error de sesión local");
+      } else {
+        setError(data.error || "Usuario o contraseña incorrectos");
+        setLoading(false);
       }
-    } else {
-      setError("Usuario o contraseña incorrectos");
+    } catch {
+      setError("Error de conexión con el servidor de autenticación");
       setLoading(false);
     }
   };

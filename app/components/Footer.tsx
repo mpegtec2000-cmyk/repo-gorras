@@ -113,7 +113,7 @@ export default function Footer() {
         <div className={styles.mainGrid}>
           {/* Brand Col */}
           <div className={styles.brandCol}>
-            <Link href="/" className={styles.logoLink}>
+            <Link href="/" prefetch={false} className={styles.logoLink}>
               <Image
                 src="/brand/spm-logo-black.png"
                 alt="SPM Streetwear Logo"
@@ -146,11 +146,11 @@ export default function Footer() {
           <div className={styles.linksCol}>
             <h4 className={styles.colTitle}>NAVEGACIÓN</h4>
             <ul className={styles.linkList}>
-              <li><Link href="/">Inicio</Link></li>
-              <li><Link href="/tienda">Tienda Oficial</Link></li>
-              <li><Link href="/drops">Drops & Lookbook IG</Link></li>
-              <li><Link href="/tienda?orden=precio-desc">Colección Limitada</Link></li>
-              <li><Link href="/#nosotros">Sobre SPM Store</Link></li>
+              <li><Link href="/" prefetch={false}>Inicio</Link></li>
+              <li><Link href="/tienda" prefetch={false}>Tienda Oficial</Link></li>
+              <li><Link href="/drops" prefetch={false}>Drops & Lookbook IG</Link></li>
+              <li><Link href="/tienda?orden=precio-desc" prefetch={false}>Colección Limitada</Link></li>
+              <li><Link href="/#nosotros" prefetch={false}>Sobre SPM Store</Link></li>
             </ul>
           </div>
 
@@ -160,7 +160,7 @@ export default function Footer() {
             <ul className={styles.linkList}>
               {BRAND_LINKS.map((b) => (
                 <li key={b.slug}>
-                  <Link href={`/tienda?marca=${b.slug}`} className={styles.brandLinkItem}>
+                  <Link href={`/tienda?marca=${b.slug}`} prefetch={false} className={styles.brandLinkItem}>
                     <span>{b.name}</span>
                     <span className={styles.brandCount}>({b.count})</span>
                   </Link>
@@ -236,13 +236,13 @@ export default function Footer() {
           </p>
 
           <div className={styles.bottomLegalLinks}>
-            <Link href="/politicas-de-envio">Envíos y Despacho</Link>
+            <Link href="/politicas-de-envio" prefetch={false}>Envíos y Despacho</Link>
             <span>•</span>
-            <Link href="/cambios-y-devoluciones">Garantía SERNAC</Link>
+            <Link href="/cambios-y-devoluciones" prefetch={false}>Garantía SERNAC</Link>
             <span>•</span>
-            <Link href="/terminos">Términos</Link>
+            <Link href="/terminos" prefetch={false}>Términos</Link>
             <span>•</span>
-            <Link href="/faq">Preguntas Frecuentes</Link>
+            <Link href="/faq" prefetch={false}>Preguntas Frecuentes</Link>
           </div>
 
           <p className={styles.legalNotice}>

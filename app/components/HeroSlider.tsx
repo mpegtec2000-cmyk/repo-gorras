@@ -123,10 +123,10 @@ export default function HeroSlider() {
                 )}
                 <p className={styles.subtitle}>{slide.subtitle}</p>
                 <div className={styles.actions}>
-                  <Link href={slide.link} className={styles.primaryBtn}>
+                  <Link href={slide.link} prefetch={false} className={styles.primaryBtn}>
                     VER COLECCIÓN <ArrowRight size={18} />
                   </Link>
-                  <Link href="/tienda" className={styles.secondaryBtn}>
+                  <Link href="/tienda" prefetch={false} className={styles.secondaryBtn}>
                     EXPLORAR TIENDA
                   </Link>
                 </div>

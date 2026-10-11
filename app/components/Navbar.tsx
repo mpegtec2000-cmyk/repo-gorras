@@ -106,13 +106,13 @@ export default function Navbar() {
             >
               <Menu size={24} />
             </button>
-            <Link href="/tienda" className={styles.mobileSearchBtn} aria-label="Buscar productos">
+            <Link href="/tienda" className={styles.mobileSearchBtn} prefetch={false} aria-label="Buscar productos">
               <Search size={20} />
             </Link>
           </div>
 
           {/* Logo Oficial SPM (Centrado en móvil, a la izquierda en desktop) */}
-          <Link href="/" className={styles.logoLink} onClick={() => setMenuOpen(false)}>
+          <Link href="/" className={styles.logoLink} prefetch={false} onClick={() => setMenuOpen(false)}>
             <Image
               src="/brand/spm-logo-white.png"
               alt="SPM Streetwear Logo"
@@ -131,6 +131,7 @@ export default function Navbar() {
                 <Link
                   key={link.href}
                   href={link.href}
+                  prefetch={false}
                   className={`${styles.navLink} ${isActive ? styles.activeLink : ""}`}
                 >
                   {link.label}
@@ -142,15 +143,15 @@ export default function Navbar() {
           {/* Acciones Derecha */}
           <div className={styles.actions}>
             {/* Búsqueda en Desktop */}
-            <Link href="/tienda" className={`${styles.iconBtn} ${styles.desktopOnly}`} aria-label="Buscar productos">
+            <Link href="/tienda" prefetch={false} className={`${styles.iconBtn} ${styles.desktopOnly}`} aria-label="Buscar productos">
               <Search size={20} />
             </Link>
 
             {/* Accesos en Desktop (Ocultos en barra móvil para no apretar el diseño) */}
-            <Link href="/login?type=customer" className={`${styles.navAuthBtn} ${styles.desktopOnly}`}>
+            <Link href="/login?type=customer" prefetch={false} className={`${styles.navAuthBtn} ${styles.desktopOnly}`}>
               MI CUENTA
             </Link>
-            <Link href="/login?type=admin" className={`${styles.navAuthBtn} ${styles.desktopOnly}`}>
+            <Link href="/login?type=admin" prefetch={false} className={`${styles.navAuthBtn} ${styles.desktopOnly}`}>
               COLABORADOR
             </Link>
 
@@ -198,6 +199,7 @@ export default function Navbar() {
             <div className={styles.drawerAuthGrid}>
               <Link
                 href="/login?type=customer"
+                prefetch={false}
                 onClick={() => setMenuOpen(false)}
                 className={styles.drawerAuthBtn}
               >
@@ -206,6 +208,7 @@ export default function Navbar() {
               </Link>
               <Link
                 href="/login?type=admin"
+                prefetch={false}
                 onClick={() => setMenuOpen(false)}
                 className={`${styles.drawerAuthBtn} ${styles.drawerAuthBtnAdmin}`}
               >
@@ -221,6 +224,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
+                prefetch={false}
                 onClick={() => handleNavClick(link.href)}
                 className={styles.mobileNavLink}
               >
@@ -238,6 +242,7 @@ export default function Navbar() {
                 <Link
                   key={b.slug}
                   href={`/tienda?marca=${b.slug}`}
+                  prefetch={false}
                   onClick={() => setMenuOpen(false)}
                   className={styles.brandPill}
                 >
@@ -251,16 +256,16 @@ export default function Navbar() {
           <div className={styles.drawerHelpSection}>
             <p className={styles.drawerSectionTitle}>INFORMACIÓN & AYUDA</p>
             <div className={styles.drawerHelpLinks}>
-              <Link href="/politicas-de-envio" onClick={() => setMenuOpen(false)}>
+              <Link href="/politicas-de-envio" prefetch={false} onClick={() => setMenuOpen(false)}>
                 Envíos Starken / Blue Express
               </Link>
-              <Link href="/cambios-y-devoluciones" onClick={() => setMenuOpen(false)}>
+              <Link href="/cambios-y-devoluciones" prefetch={false} onClick={() => setMenuOpen(false)}>
                 Garantía Legal SERNAC (6 meses)
               </Link>
-              <Link href="/terminos" onClick={() => setMenuOpen(false)}>
+              <Link href="/terminos" prefetch={false} onClick={() => setMenuOpen(false)}>
                 Términos y Condiciones
               </Link>
-              <Link href="/faq" onClick={() => setMenuOpen(false)}>
+              <Link href="/faq" prefetch={false} onClick={() => setMenuOpen(false)}>
                 Preguntas Frecuentes (FAQ)
               </Link>
             </div>

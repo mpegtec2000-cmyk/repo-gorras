@@ -47,6 +47,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         href={`/producto/${product.slug}`}
         className={styles.imageLink}
         aria-label={product.name}
+        prefetch={false}
         onClick={() => {
           try {
             fetch("/api/analytics/click", {
@@ -96,7 +97,7 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
 
         <h3 className={styles.title}>
-          <Link href={`/producto/${product.slug}`}>{product.name}</Link>
+          <Link href={`/producto/${product.slug}`} prefetch={false}>{product.name}</Link>
         </h3>
 
         {/* Price & Action Row */}

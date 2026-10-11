@@ -26,7 +26,7 @@ export default function CategoryGrid() {
             <span className={styles.tag}>MARCAS & COLECCIONES</span>
             <h2 className={styles.title}>EXPLORA POR MARCA</h2>
           </div>
-          <Link href="/tienda" className={styles.viewAllBtn}>
+          <Link href="/tienda" className={styles.viewAllBtn} prefetch={false}>
             VER TODO EL CATÁLOGO <ArrowUpRight size={18} />
           </Link>
         </div>
@@ -37,6 +37,7 @@ export default function CategoryGrid() {
               key={brand.slug}
               href={`/tienda?marca=${brand.slug}`}
               className={styles.card}
+              prefetch={false}
             >
               <div className={styles.imageContainer}>
                 <Image

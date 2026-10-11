@@ -1,5 +1,481 @@
 [
   {
+    "id": "prod_75",
+    "slug": "icon-hats-ny-yankees-crystal-black",
+    "name": "NY YANKEES CRYSTAL BLACK",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats NY YANKEES CRYSTAL BLACK | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo NY YANKEES CRYSTAL BLACK. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": 85000,
+    "color": {
+      "name": "Negro / Cristales Black",
+      "hex": "#0b0b0b"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-black-1.webp",
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL BLACK\" - Vista 1 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-black-2.webp",
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL BLACK\" - Vista 2 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-black-3.webp",
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL BLACK\" - Vista 3 original SPM Store Chile"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Icon Hats modelo NY YANKEES CRYSTAL BLACK. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Icon Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY YANKEES CRYSTAL BLACK"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-10T23:43:43.315Z",
+    "updatedAt": "2026-10-10T23:43:43.315Z"
+  },
+  {
+    "id": "prod_76",
+    "slug": "icon-hats-la-dodgers-crystal-black",
+    "name": "LA DODGERS CRYSTAL BLACK",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats LA DODGERS CRYSTAL BLACK | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo LA DODGERS CRYSTAL BLACK. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": 85000,
+    "color": {
+      "name": "Negro / Cristales Black",
+      "hex": "#0b0b0b"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-black-1.webp",
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL BLACK\" - Vista 1 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-black-2.webp",
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL BLACK\" - Vista 2 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-black-3.webp",
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL BLACK\" - Vista 3 original SPM Store Chile"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Icon Hats modelo LA DODGERS CRYSTAL BLACK. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Icon Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA DODGERS CRYSTAL BLACK"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-10T23:43:45.186Z",
+    "updatedAt": "2026-10-10T23:43:45.186Z"
+  },
+  {
+    "id": "prod_77",
+    "slug": "icon-hats-ny-yankees-crystal-white",
+    "name": "NY YANKEES CRYSTAL WHITE",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats NY YANKEES CRYSTAL WHITE | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo NY YANKEES CRYSTAL WHITE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": 85000,
+    "color": {
+      "name": "Negro / Cristales White",
+      "hex": "#1a1a1a"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-white-1.webp",
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL WHITE\" - Vista 1 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-white-2.webp",
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL WHITE\" - Vista 2 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-white-3.webp",
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL WHITE\" - Vista 3 original SPM Store Chile"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Icon Hats modelo NY YANKEES CRYSTAL WHITE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Icon Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY YANKEES CRYSTAL WHITE"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-10T23:43:47.105Z",
+    "updatedAt": "2026-10-10T23:43:47.105Z"
+  },
+  {
+    "id": "prod_78",
+    "slug": "icon-hats-los-angeles-stars",
+    "name": "LOS ANGELES STARS",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats LOS ANGELES STARS | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo LOS ANGELES STARS. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": 85000,
+    "color": {
+      "name": "Negro / Estrellas 3D",
+      "hex": "#0a0a0a"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-icon-hats-los-angeles-stars-1.webp",
+        "alt": "Gorra Icon Hats \"LOS ANGELES STARS\" - Vista 1 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-los-angeles-stars-2.webp",
+        "alt": "Gorra Icon Hats \"LOS ANGELES STARS\" - Vista 2 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-los-angeles-stars-3.webp",
+        "alt": "Gorra Icon Hats \"LOS ANGELES STARS\" - Vista 3 original SPM Store Chile"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Icon Hats modelo LOS ANGELES STARS. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Icon Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LOS ANGELES STARS"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-10T23:43:49.096Z",
+    "updatedAt": "2026-10-10T23:43:49.096Z"
+  },
+  {
+    "id": "prod_79",
+    "slug": "icon-hats-la-dodgers-crystal-sky-blue",
+    "name": "LA DODGERS CRYSTAL SKY BLUE",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats LA DODGERS CRYSTAL SKY BLUE | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo LA DODGERS CRYSTAL SKY BLUE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": 85000,
+    "color": {
+      "name": "Celeste / Sky Blue",
+      "hex": "#5b9bd5"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-sky-blue-1.webp",
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL SKY BLUE\" - Vista 1 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-sky-blue-2.webp",
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL SKY BLUE\" - Vista 2 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-sky-blue-3.webp",
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL SKY BLUE\" - Vista 3 original SPM Store Chile"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Icon Hats modelo LA DODGERS CRYSTAL SKY BLUE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Icon Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA DODGERS CRYSTAL SKY BLUE"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-10T23:43:50.879Z",
+    "updatedAt": "2026-10-10T23:43:50.879Z"
+  },
+  {
+    "id": "prod_80",
+    "slug": "icon-hats-ny-yankees-crystal-sky-blue",
+    "name": "NY YANKEES CRYSTAL SKY BLUE",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats NY YANKEES CRYSTAL SKY BLUE | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo NY YANKEES CRYSTAL SKY BLUE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": 85000,
+    "color": {
+      "name": "Celeste / Sky Blue",
+      "hex": "#5b9bd5"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-sky-blue-1.webp",
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL SKY BLUE\" - Vista 1 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-sky-blue-2.webp",
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL SKY BLUE\" - Vista 2 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-ny-yankees-crystal-sky-blue-3.webp",
+        "alt": "Gorra Icon Hats \"NY YANKEES CRYSTAL SKY BLUE\" - Vista 3 original SPM Store Chile"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Icon Hats modelo NY YANKEES CRYSTAL SKY BLUE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Icon Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "NY YANKEES CRYSTAL SKY BLUE"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-10T23:43:52.840Z",
+    "updatedAt": "2026-10-10T23:43:52.840Z"
+  },
+  {
+    "id": "prod_81",
+    "slug": "icon-hats-la-dodgers-crystal-white",
+    "name": "LA DODGERS CRYSTAL WHITE",
+    "brand": "Icon Hats",
+    "brandSlug": "icon-hats",
+    "seoTitle": "Gorra Icon Hats LA DODGERS CRYSTAL WHITE | SPM Store Chile",
+    "seoDescription": "Gorra streetwear original Icon Hats modelo LA DODGERS CRYSTAL WHITE. Confección de alta calidad con cristales y bordados exclusivos. Envíos express a todo Chile en SPM Store.",
+    "price": 70000,
+    "compareAtPrice": 85000,
+    "color": {
+      "name": "Negro / Cristales White",
+      "hex": "#1a1a1a"
+    },
+    "sizes": [
+      "Única · Ajustable"
+    ],
+    "images": [
+      {
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-white-1.webp",
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL WHITE\" - Vista 1 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-white-2.webp",
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL WHITE\" - Vista 2 original SPM Store Chile"
+      },
+      {
+        "src": "/products/gorra-icon-hats-la-dodgers-crystal-white-3.webp",
+        "alt": "Gorra Icon Hats \"LA DODGERS CRYSTAL WHITE\" - Vista 3 original SPM Store Chile"
+      }
+    ],
+    "initialStock": 1,
+    "sold": 0,
+    "stock": 1,
+    "clicks": 0,
+    "isNew": true,
+    "isFeatured": false,
+    "isActive": true,
+    "description": "Gorra streetwear 100% original Icon Hats modelo LA DODGERS CRYSTAL WHITE. Confección premium con cristales incrustados, bordados en alto relieve y broche ajustable. Disponible en SPM Store con despacho a todo Chile.",
+    "specs": [
+      {
+        "label": "Marca",
+        "value": "Icon Hats"
+      },
+      {
+        "label": "Modelo",
+        "value": "LA DODGERS CRYSTAL WHITE"
+      },
+      {
+        "label": "Colección",
+        "value": "Icon Los Angeles Crystal Edition"
+      },
+      {
+        "label": "Tipo",
+        "value": "Gorra / Jockey Streetwear"
+      },
+      {
+        "label": "Talla",
+        "value": "Unitalla Ajustable (Snapback / Strapback)"
+      },
+      {
+        "label": "Condición",
+        "value": "Nuevo con etiquetas / 100% Original"
+      }
+    ],
+    "createdAt": "2026-10-10T23:43:55.012Z",
+    "updatedAt": "2026-10-10T23:43:55.012Z"
+  },
+  {
     "id": "prod_71",
     "slug": "31-hats-gorra-31-hats-la-mochila-preventa",
     "name": "LA MOCHILA",

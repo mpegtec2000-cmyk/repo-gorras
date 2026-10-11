@@ -11,7 +11,7 @@ interface SidebarNavProps {
   initialBrandCount?: number;
 }
 
-export default function SidebarNav({ initialProductCount = 74, initialBrandCount = 6 }: SidebarNavProps) {
+export default function SidebarNav({ initialProductCount = 81, initialBrandCount = 7 }: SidebarNavProps) {
   const pathname = usePathname();
   const [productCount, setProductCount] = useState<number>(initialProductCount);
   const [brandCount, setBrandCount] = useState<number>(initialBrandCount);

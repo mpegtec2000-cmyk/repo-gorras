@@ -17,8 +17,7 @@ export const site = {
   country: "CL",
   instagram: "https://www.instagram.com/spm_store.cl/",
   instagramHandle: "@spm_store.cl",
-  // TODO: completar cuando estén disponibles
-  email: "contacto@spm-store.cl",
+  email: "",
   whatsapp: "",
   freeShippingFrom: 50000,
   keywords: [

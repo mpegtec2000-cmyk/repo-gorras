@@ -125,7 +125,7 @@ export default function CambiosDevolucionesPage() {
             </h2>
             <ol className={styles.list} style={{ listStyleType: "decimal" }}>
               <li className={styles.listItem}>
-                Envía un correo a nuestro canal de soporte o contáctanos por WhatsApp indicando tu número de pedido (#SPM-XXXX) y el motivo de la solicitud.
+                Contáctanos a través de nuestro canal de soporte por Instagram oficial (<strong>@spm_store.cl</strong>) indicando tu número de pedido (#SPM-XXXX) y el motivo de la solicitud.
               </li>
               <li className={styles.listItem}>
                 Adjunta fotografías claras del producto y del detalle de la falla si se trata de garantía.

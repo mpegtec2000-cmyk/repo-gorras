@@ -3,6 +3,9 @@ import { notFound } from "next/navigation";
 import { getOrder } from "@/lib/orders";
 import OrderDetailClient from "./OrderDetailClient";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export const metadata = {
   title: "Comprobante de Compra | SPM Streetwear",
   description: "Detalle y comprobante de compra oficial en SPM Streetwear.",

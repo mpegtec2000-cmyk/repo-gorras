@@ -6,6 +6,7 @@ import { getRelated, displayImages } from "@/lib/products";
 import { ProductJsonLd, ProductBreadcrumbJsonLd } from "@/app/components/JsonLd";
 import { site } from "@/lib/site";
 
+export const dynamic = "force-dynamic";
 export const revalidate = 0; // Dynamic rendering for catalog updates
 
 interface PageProps {

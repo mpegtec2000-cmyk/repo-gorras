@@ -146,8 +146,8 @@ export default function CheckoutClient() {
     }
   };
 
-  // Shipping
-  const shippingCost = subtotal >= 50000 ? 0 : 3990;
+  // Shipping (temporalmente en $0 para pruebas de compra)
+  const shippingCost = 0; // ORIGINAL: subtotal >= 50000 ? 0 : 3990;
   const finalTotal = subtotal + shippingCost;
 
   const handleSubmit = async (e: React.FormEvent) => {

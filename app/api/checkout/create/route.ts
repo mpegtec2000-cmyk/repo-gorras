@@ -51,8 +51,8 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    // Despacho: Gratis sobre $50.000 CLP, de lo contrario $3.990 CLP
-    const shippingCost = calculatedSubtotal >= 50000 ? 0 : 3990;
+    // Despacho: Temporalmente $0 para pruebas de compra (ORIGINAL: calculatedSubtotal >= 50000 ? 0 : 3990)
+    const shippingCost = 0;
     const finalTotal = calculatedSubtotal + shippingCost;
 
     // Generar ID único y número de orden

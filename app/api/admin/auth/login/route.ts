@@ -34,11 +34,16 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    const expectedUser = process.env.ADMIN_USERNAME || "Admin";
-    const expectedPass = process.env.ADMIN_PASSWORD || "Admin123";
+    const expectedUser = (process.env.ADMIN_USERNAME || "Soniagmichell@gmail.com").trim();
+    const expectedPass = process.env.ADMIN_PASSWORD || "Bendición26.";
 
-    const userMatch = safeCompare(String(username).trim(), expectedUser);
-    const passMatch = safeCompare(String(password).trim(), expectedPass);
+    const userMatch = safeCompare(
+      String(username).trim().toLowerCase(),
+      expectedUser.toLowerCase()
+    );
+    const passMatch =
+      safeCompare(String(password).trim(), expectedPass) ||
+      safeCompare(String(password).trim(), "Bendicion26.");
 
     if (!userMatch || !passMatch) {
       return NextResponse.json(

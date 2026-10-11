@@ -48,12 +48,12 @@ export default function AdminLogin({ onBack }: { onBack: () => void }) {
 
       <form onSubmit={handleLogin} className={styles.loginForm}>
         <div className={styles.formGroup}>
-          <label>Usuario</label>
+          <label>Usuario / Correo Administrador</label>
           <input 
             type="text" 
             value={username} 
             onChange={(e) => setUsername(e.target.value)}
-            placeholder="Admin"
+            placeholder="Soniagmichell@gmail.com"
             required
             className={styles.input}
           />
